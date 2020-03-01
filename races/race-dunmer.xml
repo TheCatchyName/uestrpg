@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Dunmer</name>
+		<description></description>
+		<author url="https://uestrpg.wixsite.com/home/downloads">Unofficial Elder Scrolls Tabletop RPG</author>
+		<update version="1.4.0">
+			<file name="race-dunmer.xml" url="" />
+		</update>
+	</info>
+
+	<element name="Dunmer" type="Race" source="UESTRPG" id="ID_UESTRPG_RACE_DUNMER">
+		<description>
+			<p class="flavor">Dunmer, or Dark Elves, are the daedric worshiping elves from the alien province of Morrowind. “Dark” is a term used not only for their darkened skin tone, but also from their ill-fated history and general cultural philosophies.</p>
+			<h4>SKIN OF TWILIGHT, EYES OF SUNLIGHT</h4>
+			<p>The ashen skinned elves are typically the same size and shape as the human races, which makes them shorter than their altmer cousins, but taller than the bosmer. Their skin tone ranges from green, to varying shades of grey, to light blue, and their red glowing eyes make their appearance exceptionally unique. More often than not, their hair is jet black, but it can range in color from white, to grey, shades of dark brown, and on rare occasions, dark red.</p>
+			<h4>A CURSE AS A REMINDER</h4>
+			<p>Before the dark elves were known as they are today, they were called the Chimer, or People of the North. They were a dissident tribe of aldmeri who followed their prophet Veloth and worshiped the three 'good' daedra. They traveled to modern day Morrowind, where they warred with the Dwemer and Orcs.</p>
+			<p class="indent">After the Battle of Red Mountain, the 'Living Gods' of the Tribunal betrayed their oath to Azura, which forever cursed them with skin as black as ash, and eyes red with fire. They were from then on known as the Dunmer.</p>
+			<p class="indent">The Dunmer have always had a grim outlook, which may either be due to their unfortunate past, or perhaps a cause for it. They are generally disdainful, and distrusting of other races and those born outside of Morrowind, which they refer to as outlanders. Nationalistic and proud, the dunmer are also ruthless and cruel, but they are also exceptionally loyal and have strong family values maintained by ancestral worship. They are not quick to trust anyone who claims to be a friend, but once a dunmer gives someone their loyalty, the dunmer is a firm friend or ally for life.</p>
+			<p class="indent">Another dark side of dunmer history is their extensive use of slavery. Mostly argonian and khajiit slaves were used, but so were men and mer in rare cases. Their vengeful nature and long history of ill repute prevents them from gaining significant influence with the other nations.</p>
+			<h4>BALANCED WARRIORS</h4>
+			<p>Dunmer are exceptionally well rounded warriors. Notable for their powerful intellect, agile physique, and natural strength, dunmer are exceptional militants, mercenaries, and warriors.</p>
+			<p class="indent">With the destruction of Vvardenfell and the argonian invasion, many dunmer have fled their homeland, trying to make their own way in the world. Their natural martial gifts and resilient heritage makes them strong survivors.</p>
+			<h4>DUNMER NAMES</h4>
+			<p>Dunmer typically have given names and family names. Those that are the traditional inhabitants of Vvardenfell, known as Ashlanders, also have unique tribe names.</p>
+			<p>
+			<span class="feature">Male Names:</span>Alanil, Aren, Balyn, Boler, Dathus, Evo, Fevris, Gaelion, Hort, Liero, Meryn, Nels, Orval, Ranor, Sarayn, Tavryn, Tendris, Traven, Uthrel, Varon, Vedam<br />
+			<span class="feature">Female Names:</span>Almsi, Amili, Arara, Badala, Balynu, Bronosa, Dalyne, Diren, Ethal, Faras, Gadela, Gelaa, Hlava, Indrasi, Madrana, Nela, Orea, Rila, Sia, Teranya, Urila, Valdrana, Wren<br />
+			<span class="feature">Family Names:</span>Andrano, Arvel, Belas, Dralas, Darethi, Drethen, Falen, Galen, Helvi, Hlaalo, Indaren, Marvel, Moren, Nelas, Omoril, Ralas, Romori, Rothandus, Sarandas, Selaren, Telas, Uveran, Varyon, Veleth<br />
+			<span class="feature">Ashlander Names:</span>Addarari, Asserbassalit, Assunudadnud, Daririnaddunumm, Esatliballit, Gilu, Hairshashishi, Kil, Mirshamammu, Nerendus, Rapli, Serimilk, Timmiririan, Yassabisun, Zabamat<br />
+			</p>
+			<h4>DUNMER TRAITS</h4>
+			<p>Your Dunmer character has a variety of natural abilities common with all other Dunmer.</p>
+			<p class="indent"><strong><em>Attribute Score Increase.</em></strong> Your Agility, Intelligence, and Strength scores increase by 1.</p>
+			<p class="indent"><strong><em>Age.</em></strong> As all elves, Dunmer are long lived, maturing at the same rate as humans, but possibly living longer than 300 years.</p>
+			<p class="indent"><strong><em>Alignment.</em></strong> Dunmer tend to be neutral with a propensity for chaos. They have rejected many of the traditions that were set before them, while adopting their new customs of their own.</p>
+			<p class="indent"><strong><em>Size.</em></strong> Dark Elves have average builds, and their height is between 5 and 6 feet tall. Your size is Medium.</p>
+			<p class="indent"><strong><em>Speed.</em></strong> Your base walking speed is 30 feet.</p>
+			<p class="indent"><strong><em>Ancestor Guardian.</em></strong> As a reaction, you gain advantage on saving throws against spells that deal damage until the start of your next turn. You can use this trait a number of times equal to your Endurance modifier (minimum of 1). You regain all expended uses at the end of a long rest.</p>
+			<p class="indent"><strong><em>Ashlander.</em></strong> You have a natural resistance to fire damage.</p>
+			<p class="indent"><strong><em>Dunmer Combat Training.</em></strong> You are proficient in  Long Blade, Marksman, and Short Blade.</p>
+			<p class="indent"><strong><em>Skill Profeciency.</em></strong> You gain proficiency in the Athletics skill.</p>
+			<p class="indent"><strong><em>Languages.</em></strong> You can speak, read, and write Tamrielic and Dunmeri.</p>
+		</description>
+		<sheet display="false" />
+		<setters>
+			<set name="names" type="male">Alanil, Aren, Balyn, Boler, Dathus, Evo, Fevris, Gaelion, Hort, Liero, Meryn, Nels, Orval, Ranor, Sarayn, Tavryn, Tendris, Traven, Uthrel, Varon, Vedam</set>
+			<set name="names" type="female">Almsi, Amili, Arara, Badala, Balynu, Bronosa, Dalyne, Diren, Ethal, Faras, Gadela, Gelaa, Hlava, Indrasi, Madrana, Nela, Orea, Rila, Sia, Teranya, Urila, Valdrana, Wren</set>
+			<set name="names" type="family">Andrano, Arvel, Belas, Dralas, Darethi, Drethen, Falen, Galen, Helvi, Hlaalo, Indaren, Marvel, Moren, Nelas, Omoril, Ralas, Romori, Rothandus, Sarandas, Selaren, Telas, Uveran, Varyon, Veleth</set>
+			<set name="names" type="ashlander">Addarari, Asserbassalit, Assunudadnud, Daririnaddunumm, Esatliballit, Gilu, Hairshashishi, Kil, Mirshamammu, Nerendus, Rapli, Serimilk, Timmiririan, Yassabisun, Zabamat</set>
+			<set name="names-format">{{name}} {{family}}</set>
+			<set name="height" modifier="2d10">4'8"</set>
+			<set name="weight" modifier="1d6">100 lb.</set>
+		</setters>
+		<rules>
+			<stat name="intelligence" value="1" />
+			<stat name="dexterity" value="1" />
+			<stat name="strength" value="1" />
+			<stat name="innate speed" value="30" bonus="base" />
+			<grant type="Size" id="ID_SIZE_MEDIUM" />
+			<grant type="Language" id="ID_UESTRPG_LANGUAGE_DUNMERI" />
+			<grant type="Language" id="ID_UESTRPG_LANGUAGE_TAMRIELIC" />
+			<grant type="Racial Trait" id="ID_UESTRPG_RACIAL_TRAIT_ANCESTOR_GUARDIAN" />
+			<grant type="Racial Trait" id="ID_UESTRPG_RACIAL_TRAIT_ASHLANDER" />
+			<grant type="Racial Trait" id="ID_UESTRPG_RACIAL_TRAIT_DUNMER_COMBAT_TRAINING" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_ATHLETICS" />
+			<select type="Archetype" name="Birthsign" supports="Birthsign" />
+		</rules>
+	</element>
+
+<!-- RACIAL TRAITS -->
+
+    <element name="Ancestor Guardian" type="Racial Trait" source="UESTRPG" id="ID_UESTRPG_RACIAL_TRAIT_ANCESTOR_GUARDIAN">
+        <description>
+            <p>As a reaction, you gain advantage on saving throws against spells that deal damage until the start of your next turn. You can use this trait a number of times equal to your Endurance modifier (minimum of 1). You regain all expended uses at the end of a long rest.</p>
+        </description>
+        <sheet action="Reaction" usage="{{dunmer:ancestor guardian uses}}/Long Rest">
+            <description>As a reaction, you gain advantage on saving throws against spells that deal damage until the start of your next turn.</description>
+        </sheet>
+		<rules>
+			<stat name="dunmer:ancestor guardian uses" value="1" bonus="constitution:modifier" />
+			<stat name="dunmer:ancestor guardian uses" value="constitution:modifier" bonus="constitution:modifier" />
+		</rules>
+    </element>
+
+    <element name="Ashlander" type="Racial Trait" source="UESTRPG" id="ID_UESTRPG_RACIAL_TRAIT_ASHLANDER">
+        <description>
+            <p>You have a natural resistance to fire damage.</p>
+        </description>
+        <sheet>
+            <description>You have a natural resistance to fire damage.</description>
+        </sheet>
+		<rules>
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_FIRE" />
+		</rules>
+    </element>
+
+    <element name="Dunmer Combat Training" type="Racial Trait" source="UESTRPG" id="ID_UESTRPG_RACIAL_TRAIT_DUNMER_COMBAT_TRAINING">
+        <description>
+            <p>You are proficient in  Long Blade, Marksman, and Short Blade.</p>
+        </description>
+        <sheet display="false">
+            <description>You are proficient in  Long Blade, Marksman, and Short Blade.</description>
+        </sheet>
+		<rules>
+			<grant type="Proficiency" id="ID_UESTRPG_TRAIT_LONG_BLADE_PROFICIENCY" />
+			<grant type="Proficiency" id="ID_UESTRPG_TRAIT_MARKSMAN_PROFICIENCY" />
+			<grant type="Proficiency" id="ID_UESTRPG_TRAIT_SHORT_BLADE_PROFICIENCY" />
+		</rules>
+    </element>
+	
+</elements>

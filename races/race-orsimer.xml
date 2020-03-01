@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Orsimer</name>
+		<description></description>
+		<author url="https://uestrpg.wixsite.com/home/downloads">Unofficial Elder Scrolls Tabletop RPG</author>
+		<update version="1.4.0">
+			<file name="race-template.xml" url="" />
+		</update>
+	</info>
+
+	<element name="Orsimer" type="Race" source="UESTRPG" id="ID_UESTRPG_RACE_ORSIMER">
+		<description>
+			<p class="flavor">It is said that the Orcs came to be when the Aldmeri god, Trinimac, was devoured by the Daedric Prince Boethiah. As the myth goes, Boethiah excreted Trinimac's remains, and those Aldmer who followed Trinimac rubbed that excrement on themselves to become Orcs. Perhaps it's just a myth, but the imagery is appropriate: repugnant, ridiculous, and a little comical, like the Orcs themselves.</p>
+			<p class="indent">-Coristir, Sage Sojourner, Civility and Etiquette</p>
+			<p>Orcs, also called Orsimer, or "Pariah Folk" in ancient times, are considered sophisticated barbarian beast peoples, despite being a type of Mer. They are from the Wrothgarian and Dragontail Mountains and are noted for their unshakable courage in war and their unflinching endurance of hardships. In the past, Orcs have been widely feared and hated by the other nations and races of Tamriel, but they have slowly won acceptance in the Empire, in particular for their distinguished service in the Emperor's Legions.</p>
+			<h4>ORIGINS OF THE PARIAH FOLK</h4>
+			<p>Orcs were born during the latter days of the Dawn Era. History has mislabeled them beastfolk, related to the goblin races, but the Orcs are actually the children of Trinimac, strongest of the Aldmeri ancestor spirits. When Trinimac was eaten by the Daedric Prince Boethiah, and transformed in that foul god's insides, the Orcs were transformed as well. The ancient name for the 'Orsimer,' which means 'The Pariah Folk.' They now follow Malauch, better known as Malacath, the remains of Trinimac.</p>
+			<h4>STRENGTH AND STEEL</h4>
+			<p>Orcish armorers are prized for their craftsmanship, and Orc warriors in heavy armor are among the finest front-line troops in the Empire. Most Imperial citizens regard Orc society as rough and cruel, but there is much to admire in their fierce tribal loyalties and generous equality of rank and respect among the sexes.</p>
+			<h4>THE MOVING CITY</h4>
+			<p>Orsinium, which literally translates to "Orc-Town" in Aldmeris, is the city of the Orsimer and the provincial seat of what was called Wrothgar, or in the late Third Era, the Orsinium Area. It has a history of being sacked and rebuilt, as Orcs are often at odds with their neighbors. In the Second Era, it was located in the eastern part of the Wrothgar region of High Rock. In the late Third Era, it was located between Wayrest, Menevia, and the Wrothgarian Mountains, but it was sacked in the early Fourth Era. It reemerged in between Hammerfell and Skyrim later on in the era.</p>
+			<h4>A CULTURE OF CONFLICT</h4>
+			<p>Most people consider their society as rough and cruel, but it's been a lifestyle of necessity. With their cities and strongholds being under constant attack throughout their history, every tribe member is trained at birth for battle and war.</p>
+			<p class="indent">The strongest of warriors becomes chief of their stronghold. The women are either wives of the chief, or his daughters, with the only exception of the shaman, who takes care of spiritual matters. Only the strongest males are allowed to mate to keep the tribe strong.</p>
+			<p class="indent">The Orcs do not follow the laws of man, but they follow the code of Malacath, which states: Do not steal, do not kill your kin, do not attack without cause. Those who break these rules must pay the Blood Price.</p>
+			<h4>ORSIMER NAMES</h4>
+			<p>An orc has a given name and a family name. Orc family names are always prefixed depending on gender. “Gro-” for males and “Gra-” for females. A child will take the fathers name if male, or the mothers name if female. Some orcs take the family name of their stronghold where they are born.</p>
+			<p>
+			<span class="feature">Male Names:</span>Agronak, Bazur, Bogrum, Dubok, Dul, Gaturn, Ghorub, Gogron, Grommok, Hanz, Krognak, Kurz, Lumdum, Luronk, Magra, Magub, Maknok, Orok, Rugdumph, Shagol, Ulmug, Urbul, Ushnar<br />
+			<span class="feature">Female Names:</span>Batul, Borba, Bumph, Homraz, Mazoga, Mog, Mor, Oghash, Orag, Rogbut, Rogmesh, Snak, Ugak, Umar, Umog<br />
+			<span class="feature">Family Names:</span>Agamph, Barak, Buglump, Bura, Cromgog, Dragol, Galash, Gharz, Glurzog, Hubrag, Khash, Murgak, Muzgol, Naybek, Orkul, Orkulg, Rugdush, Shadborgob, Shura, Ugdub, Uzgash, Yarug<br />
+			</p>
+			<h4>ORSIMER TRAITS</h4>
+			<p>Your orc character has certain traits deriving from your orc ancestry.</p>
+			<p class="indent"><strong><em>Attribute Score Increase.</em></strong> Your Endurance and Willpower scores increase by 1.</p>
+			<p class="indent"><strong><em>Age.</em></strong> While they are Mer, Orcs do not live as long as their distant cousins. They could live up to 80 years old, but the Code of Malacath demands that an old Orc should end his life before he becomes weak and a burden to his clan. They rarely live longer than 50 years. They reach adulthood at age 16.</p>
+			<p class="indent"><strong><em>Alignment.</em></strong> The orsimer are mostly lawful neutral. Orcs follow a code and are often extremely beholden to their traditions. They are dedicated to the strength of their clan over individuals.</p>
+			<p class="indent"><strong><em>Size.</em></strong> Orcs are broad and hardy, they are usually around 6 feet tall and weigh around 200 pounds. Your size in medium.</p>
+			<p class="indent"><strong><em>Speed.</em></strong> Your base walking speed is 25 feet.</p>
+			<p class="indent"><strong><em>Aggressive.</em></strong> As a bonus action, you can move up to your speed toward an enemy of your choice that you can see or hear. You must end this move closer to the enemy than you started.</p>
+			<p class="indent"><strong><em>Berserk.</em></strong> As an action, for the next minute you gain temporary hit points equal to twice your character level. Additionally, you gain advantage on one attack on each of your turns. Once you use this trait, you can't use it again until you finish a long rest.</p>
+			<p class="indent"><strong><em>Blood-Kin.</em></strong>  You share kindred blood with all of your orc brothers and sisters. Using Honor or Strength, you may be able to avoid conflict with other orcs.</p>
+			<p class="indent"><strong><em>Menacing.</em></strong> You have proficiency in the Intimidation skill.</p>
+			<p class="indent"><strong><em>Tool Profeciency.</em></strong> You gain proficiency with artisan's tools (smith's tools).</p>
+			<p class="indent"><strong><em>Languages.</em></strong> You can speak, read, and write Tamrielic and Orcish. Orcish is a harsh, grating language with had consonants.</p>
+			<p class="indent"><strong><em>Subraces.</em></strong> Three main subraces of orcs populate the continent of Tamriel: City Orcs, Wild Orcs, and Wood Orcs.</p>
+		</description>
+		<sheet display="false" />
+		<setters>
+			<set name="names" type="male">Agronak, Bazur, Bogrum, Dubok, Dul, Gaturn, Ghorub, Gogron, Grommok, Hanz, Krognak, Kurz, Lumdum, Luronk, Magra, Magub, Maknok, Orok, Rugdumph, Shagol, Ulmug, Urbul, Ushnar</set>
+			<set name="names" type="female">Batul, Borba, Bumph, Homraz, Mazoga, Mog, Mor, Oghash, Orag, Rogbut, Rogmesh, Snak, Ugak, Umar, Umog</set>
+			<set name="names" type="family">Agamph, Barak, Buglump, Bura, Cromgog, Dragol, Galash, Gharz, Glurzog, Hubrag, Khash, Murgak, Muzgol, Naybek, Orkul, Orkulg, Rugdush, Shadborgob, Shura, Ugdub, Uzgash, Yarug</set>
+			<set name="names-format">{{name}} {{family}}</set>
+			<set name="height" modifier="2d10">4'10"</set>
+			<set name="weight" modifier="2d6">120 lb.</set>
+		</setters>
+		<rules>
+			<stat name="Constitution" value="1" />
+			<stat name="wisdom" value="1" />
+			<stat name="innate speed" value="25" bonus="base" />
+			<grant type="Size" id="ID_SIZE_MEDIUM" />
+			<grant type="Language" id="ID_UESTRPG_LANGUAGE_ORCISH" />
+			<grant type="Language" id="ID_UESTRPG_LANGUAGE_TAMRIELIC" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_SMITHS_TOOLS" />
+			<grant type="Racial Trait" id="ID_UESTRPG_RACIAL_TRAIT_AGGRESSIVE" />
+			<grant type="Racial Trait" id="ID_UESTRPG_RACIAL_TRAIT_BERSERK" />
+			<grant type="Racial Trait" id="ID_UESTRPG_RACIAL_TRAIT_BLOOD_KIN" />
+			<grant type="Racial Trait" id="ID_UESTRPG_RACIAL_TRAIT_MENACING" />
+			<grant type="Racial Trait" id="ID_UESTRPG_RACIAL_TRAIT_ORSIMER_SUBRACE" />
+			<select type="Archetype" name="Birthsign" supports="Birthsign" />
+		</rules>
+	</element>
+
+<!-- RACIAL TRAITS -->
+
+	<element name="Orsimer Subrace" type="Racial Trait" source="UESTRPG" id="ID_UESTRPG_RACIAL_TRAIT_ORSIMER_SUBRACE">
+		<description>
+			<p>There are many subraces of the Khajiit. Many of the subraces are humanoid in shape, but there are others, such as the Alfiq, that more resemble a house cat, or the senche, which are tiger-like battle cats.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Sub Race" name="Orsimer Subrace" supports="Orsimer" />
+		</rules>
+	</element>
+
+	<element name="Aggressive" type="Racial Trait" source="UESTRPG" id="ID_UESTRPG_RACIAL_TRAIT_AGGRESSIVE">
+		<description>
+			<p>As a bonus action, you can move up to your speed toward an enemy of your choice that you can see or hear. You must end this move closer to the enemy than you started.</p>
+		</description>
+		<sheet action="Bonus Action" usage="1/Long Rest">
+			<description>As a bonus action, you can move up to your speed toward an enemy of your choice that you can see or hear. You must end this move closer to the enemy than you started.</description>
+		</sheet>
+	</element>
+
+	<element name="Berserk" type="Racial Trait" source="UESTRPG" id="ID_UESTRPG_RACIAL_TRAIT_BERSERK">
+		<description>
+			<p>As an action, for the next minute you gain temporary hit points equal to twice your character level. Additionally, you gain advantage on one attack on each of your turns. Once you use this trait, you can't use it again until you finish a long rest.</p>
+		</description>
+		<sheet action="Action" usage="1/Long Rest">
+			<description>As an action, for the next minute you gain temporary hit points equal to twice your character level. Additionally, you gain advantage on one attack on each of your turns.</description>
+		</sheet>
+	</element>
+
+	<element name="Blood-Kin" type="Racial Trait" source="UESTRPG" id="ID_UESTRPG_RACIAL_TRAIT_BLOOD_KIN">
+		<description>
+			<p>You share kindred blood with all of your orc brothers and sisters. Using Honor or Strength, you may be able to avoid conflict with other orcs.</p>
+		</description>
+		<sheet>
+			<description>You share kindred blood with all of your orc brothers and sisters. Using Honor or Strength, you may be able to avoid conflict with other orcs.</description>
+		</sheet>
+	</element>
+
+	<element name="Menacing" type="Racial Trait" source="UESTRPG" id="ID_UESTRPG_RACIAL_TRAIT_MENACING">
+		<description>
+			<p>You have proficiency in the Intimidation skill.</p>
+		</description>
+		<sheet>
+			<description>You have proficiency in the Intimidation skill.</description>
+		</sheet>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_INTIMIDATION" />
+		</rules>
+	</element>
+
+<!-- SUBRACES -->
+
+	<element name="City Orc" type="Sub Race" source="UESTRPG" id="ID_UESTRPG_SUB_RACE_CITY_ORC">
+		<supports>Orsimer</supports>
+		<description>
+			<p>Not all orcs choose to live in the strongholds. Those that choose to live in the cities live a much more cosmopolitan life, but they are derided by other orcs for doing so.</p>
+			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Intelligence score increases by 1.</p>
+			<p class="indent"><strong><em>Orcish Reslience.</em></strong> Your tough mind and body grants you resistance to force damage.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="intelligence" value="1" />
+			<grant type="Racial Trait" id="ID_UESTRPG_RACIAL_TRAIT_ORCISH_RESILIENCE" />
+		</rules>
+	</element>
+
+	<element name="Orcish Reslience" type="Racial Trait" source="UESTRPG" id="ID_UESTRPG_RACIAL_TRAIT_ORCISH_RESILIENCE">
+		<description>
+			<p>Your tough mind and body grants you resistance to force damage.</p>
+		</description>
+		<sheet>
+			<description>Your tough mind and body grants you resistance to force damage.</description>
+		</sheet>
+		<rules>
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_FORCE" />
+		</rules>
+	</element>
+
+	<element name="Wild Orc" type="Sub Race" source="UESTRPG" id="ID_UESTRPG_SUB_RACE_WILD_ORC">
+		<supports>Orsimer</supports>
+		<description>
+			<p>Traditional orc society is centered around living in stronghold settlements. These independent villages follow the Code of Malacath, and the strength of each tribe depends on their strongest warrior.</p>
+			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Strength score increases by 1.</p>
+			<p class="indent"><strong><em>Powerful Build.</em></strong> You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="strength" value="1" />
+			<grant type="Racial Trait" id="ID_UESTRPG_RACIAL_TRAIT_POWERFUL_BUILD" />
+		</rules>
+	</element>
+
+	<element name="Wood Orc" type="Sub Race" source="UESTRPG" id="ID_UESTRPG_SUB_RACE_WOOD_ORC">
+		<supports>Orsimer</supports>
+		<description>
+			<p>Valenwood is typically home to the Bosmer, but many tribes of orcs have made this forested province their home. Like other orcs, they prize strength and honor, but to the wood orcs this means having agility and mobility as much as it does muscular power and endurance.</p>
+			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Agility score increases by 1.</p>
+			<p class="indent"><strong><em>Keen Hearing and Smell.</em></strong> You have advantage on Willpower (Perception) checks that rely on hearing or smell.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="dexterity" value="1" />
+			<grant type="Racial Trait" id="ID_UESTRPG_RACIAL_TRAIT_KEEN_HEARING_AND_SMELL" />
+		</rules>
+	</element>
+
+	<element name="Keen Hearing and Smell" type="Racial Trait" source="UESTRPG" id="ID_UESTRPG_RACIAL_TRAIT_KEEN_HEARING_AND_SMELL">
+		<description>
+			<p>You have advantage on Willpower (Perception) checks that rely on hearing or smell.</p>
+		</description>
+		<sheet>
+			<description>You have advantage on Willpower (Perception) checks that rely on hearing or smell.</description>
+		</sheet>
+	</element>
+
+</elements>

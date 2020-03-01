@@ -1,0 +1,646 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name>Constellations</name>
+        <update version="0.0.1">
+            <file name="constellations.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/constellations.xml" />
+        </update>
+    </info>
+
+<!-- THE SERPENT -->
+
+    <element name="The Serpent" type="Archetype" source="UESTRPG" id="ID_UESTRPG_ARCHETYPE_BIRTHSIGN_SERPENT">
+		<supports>Birthsign</supports>
+		<description>
+			<p>You were born under the Birthsign of the Serpent and gain the Serpent power.</p>
+            <p class="indent"><strong><em>Serpent.</em></strong> The power of the serpent can protect yourself from destruction or allow you to bring destruction to others. Once each day, you can use the power to create one of the following effects:</p>
+            <ul>
+				<li>As an action, you cure yourself from one non-magical disease and dispel one magical effect from yourself.</li>
+				<li>As an action, you touch a creature and infect them with a slow but potent poison, You instantly deal 1d4 poison damage, and an additional 1d4 poison damage at the start of each turn of your turns for the next minute. This damage ignores resistance. This damage increases by 1d4 when you reach 5th level (2d4). 11th level (3d4), and 17th level (4d4).</li>
+			</ul>
+            <p>Once you use this ability, you can't use it again until the next dawn.</p>
+        </description>
+		<sheet>
+        <description>
+			<p>The power of the serpent can protect yourself from destruction or allow you to bring destruction to others. Once each day, you can use the power to create one of the following effects: 
+				(1) As an action, you cure yourself from one non-magical disease and dispel one magical effect from yourself. 
+				(2) As an action, you touch a creature and infect them with a slow but potent poison, You instantly deal {{serpent:dice}}d4 poison damage, and an additional {{serpent:dice}}d4 poison damage at the start of each turn of your turns for the next minute. This damage ignores resistance. 
+                Once you use this ability, you can't use it again until the next dawn.</p>
+        </description>
+		</sheet>
+		<rules>
+			<stat name="serpent:dice" value="1" level="1" />
+			<stat name="serpent:dice" value="1" level="5" />
+			<stat name="serpent:dice" value="1" level="11" />
+			<stat name="serpent:dice" value="1" level="17" />
+		</rules>
+	</element>
+    
+<!-- THE RITUAL -->
+
+    <element name="The Ritual" type="Archetype" source="UESTRPG" id="ID_UESTRPG_ARCHETYPE_BIRTHSIGN_RITUAL">
+        <supports>Birthsign</supports>
+        <description>
+            <p class="flavor">Morning Star</p>
+            <p>You were born under the Birthsign of the Ritual and gain the Mara's Gift power and the Blessed Word power.</p>
+            <div element="ID_UESTRPG_ARCHETYPE_FEATURE_BIRTHSIGN_MARAS_GIFT" />
+            <div element="ID_UESTRPG_ARCHETYPE_FEATURE_BIRTHSIGN_BLESSED_WORD" />
+        </description>
+        <sheet display="false">
+            <description>You were born under the Birthsign of the Ritual and gain the Mara's Gift power and the Blessed Word power.</description>
+        </sheet>
+        <rules>
+            <grant type="Archetype Feature" id="ID_UESTRPG_ARCHETYPE_FEATURE_BIRTHSIGN_MARAS_GIFT" />
+            <grant type="Archetype Feature" id="ID_UESTRPG_ARCHETYPE_FEATURE_BIRTHSIGN_BLESSED_WORD" />
+        </rules>
+    </element>
+
+    <element name="Mara's Gift" type="Archetype Feature" source="UESTRPG" id="ID_UESTRPG_ARCHETYPE_FEATURE_BIRTHSIGN_MARAS_GIFT">
+        <description>
+            <p>As an action, you regain hit points equal to 1d8 + your Endurance modifier.</p>
+            <p class="indent">This power's healing increases by 1d8 when you reach 5th level (2d8). 11th level (3d8), and 17th level (4d8).</p>
+            <p class="indent">Once you use this ability, you can't use it again until the next dawn.</p>
+        </description>
+        <sheet>
+            <description>As an action, you regain {{maras gift:dice}}d8+{{maras gift:mod}} hit points. Once you use this ability, you can't use it again until the next dawn.
+            </description>
+        </sheet>
+		<rules>
+			<stat name="maras gift:mod" value="constitution:modifier" />
+            <stat name="maras gift:dice" value="1" level="1" />
+            <stat name="maras gift:dice" value="1" level="5" />
+            <stat name="maras gift:dice" value="1" level="11" />
+            <stat name="maras gift:dice" value="1" level="17" />
+		</rules>
+    </element>
+
+    <element name="Blessed Word" type="Archetype Feature" source="UESTRPG" id="ID_UESTRPG_ARCHETYPE_FEATURE_BIRTHSIGN_BLESSED_WORD">
+        <description>
+            <p>As an action, you speak a prayer censuring the undead. Choose one undead creature within 30 feet of you to make a Willpower saving throw. The DC for this saving throw equals 8 + your proficiency bonus + your Willpower or Personality modifier (your choice). If the creature fails its saving throw, it is turned for 1 minute or until it takes any damage.</p>
+            <p class="indent">A turned creature must spend its turn trying to move as far away from you as it can, and it can't willingly move to a space within 30 feet of you. It also can't take reactions. For its action, it can use only the Dash action or try to escape from an effect that prevents it from moving. If there's nowhere to move, the creature can use the Dodge action.</p>
+            <p class="indent">Once you use this ability, you can't use it again until the next dawn.</p>
+        </description>
+        <sheet>
+            <description>As an action, you speak a prayer censuring the undead. Choose one undead creature within 30 feet of you to make a Willpower saving throw. The DC for this saving is {{blessed word:dc}}. If the creature fails its saving throw, it is turned for 1 minute or until it takes any damage.
+            A turned creature must spend its turn trying to move as far away from you as it can, and it can't willingly move to a space within 30 feet of you. It also can't take reactions. For its action, it can use only the Dash action or try to escape from an effect that prevents it from moving. If there's nowhere to move, the creature can use the Dodge action.
+            Once you use this ability, you can't use it again until the next dawn.
+            </description>
+        </sheet>
+		<rules>
+			<stat name="blessed word:dc" value="8" />
+			<stat name="blessed word:dc" value="proficiency" />
+			<stat name="blessed word:dc" value="wisdom:modifier" bonus="ability" />
+			<stat name="blessed word:dc" value="charisma:modifier" bonus="ability"/>
+		</rules>
+    </element>
+    
+<!-- THE LOVER -->
+
+    <element name="The Lover" type="Archetype" source="UESTRPG" id="ID_UESTRPG_ARCHETYPE_BIRTHSIGN_LOVER">
+        <supports>Birthsign</supports>
+        <description>
+            <p class="flavor">Sun's Dawn</p>
+            <p>You were born under the Birthsign of the Lover and gain the Lover's Kiss power.</p>
+            <div element="ID_UESTRPG_ARCHETYPE_FEATURE_BIRTHSIGN_LOVERS_KISS" />
+        </description>
+        <sheet display="false">
+            <description>You were born under the Birthsign of the Lover and gain the Lover's Kiss power.</description>
+        </sheet>
+        <rules>
+            <grant type="Archetype Feature" id="ID_UESTRPG_ARCHETYPE_FEATURE_BIRTHSIGN_LOVERS_KISS" />
+        </rules>
+    </element>
+
+    <element name="Lover's Kiss" type="Archetype Feature" source="UESTRPG" id="ID_UESTRPG_ARCHETYPE_FEATURE_BIRTHSIGN_LOVERS_KISS">
+        <description>
+            <p>As an action, you touch a humanoid in an attempt to paralyze them. The target must make a Willpower saving throw or be paralyzed for 1 minute. The DC is determined by 8 + your proficiency bonus + your Endurance or Willpower modifier (your choice). The paralysis ends early if the target takes damage. At the end of each of its turns, the target can make another Willpower saving throw. On a success, the spell ends on the target.</p>
+            <p class="indent">Once you use this ability, you can't use it again until the next dawn.</p>
+        </description>
+        <sheet>
+            <description>As an action, you touch a humanoid in an attempt to paralyze them. The target must make a Willpower saving throw or be paralyzed for 1 minute. The DC is {{lovers kiss:dc}}. The paralysis ends early if the target takes damage. At the end of each of its turns, the target can make another Willpower saving throw. On a success, the spell ends on the target.
+            Once you use this ability, you can't use it again until the next dawn.
+            </description>
+        </sheet>
+        <rules>
+            <stat name="lovers kiss:dc" value="8" />
+            <stat name="lovers kiss:dc" value="proficiency" />
+            <stat name="lovers kiss:dc" value="wisdom:modifier" bonus="ability" />
+            <stat name="lovers kiss:dc" value="constitution:modifier" bonus="ability" />
+        </rules>
+    </element>
+
+<!-- THE LORD -->
+
+    <element name="The Lord" type="Archetype" source="UESTRPG" id="ID_UESTRPG_ARCHETYPE_BIRTHSIGN_LORD">
+        <supports>Birthsign</supports>
+        <description>
+            <p class="flavor">First Seed</p>
+            <p>You were born under the Birthsign of the Lord and gain the Blood of the North power and the Trollkin curse.</p>
+            <div element="ID_UESTRPG_ARCHETYPE_FEATURE_BIRTHSIGN_BLOOD_OF_THE_NORTH" />
+            <div element="ID_UESTRPG_ARCHETYPE_FEATURE_BIRTHSIGN_TROLLKIN" />
+        </description>
+        <sheet display="false">
+            <description>You were born under the Birthsign of the Lord and gain the Blood of the North power and the Trollkin curse.</description>
+        </sheet>
+        <rules>
+            <grant type="Archetype Feature" id="ID_UESTRPG_ARCHETYPE_FEATURE_BIRTHSIGN_BLOOD_OF_THE_NORTH" />
+            <grant type="Archetype Feature" id="ID_UESTRPG_ARCHETYPE_FEATURE_BIRTHSIGN_TROLLKIN" />
+        </rules>
+    </element>
+
+    <element name="Blood of the North" type="Archetype Feature" source="UESTRPG" id="ID_UESTRPG_ARCHETYPE_FEATURE_BIRTHSIGN_BLOOD_OF_THE_NORTH">
+        <description>
+            <p>As an action, you regain hit points equal to twice your level + your Endurance modifier. If the amount of hit points you gain exceeds your hit point maximum, you gain the remainder as temporary hit points which last for up to 1 hour.</p>
+            <p class="indent">Once you use this ability, you can't use it again until the next dawn.</p>
+        </description>
+        <sheet>
+            <description>As an action, you regain {{blood of the north:hp}} hit points.If the amount of hit points you gain exceeds your hit point maximum, you gain the remainder as temporary hit points which last for up to 1 hour.
+            Once you use this ability, you can't use it again until the next dawn.
+            </description>
+        </sheet>
+		<rules>
+			<stat name="blood of the north:hp" value="level" />
+			<stat name="blood of the north:hp" value="level" />
+			<stat name="blood of the north:hp" value="constitution:modifier" />
+		</rules>
+    </element>
+
+    <element name="Trollkin" type="Archetype Feature" source="UESTRPG" id="ID_UESTRPG_ARCHETYPE_FEATURE_BIRTHSIGN_TROLLKIN">
+        <description>
+            <p>You are cursed with a natural weakness to fire. Whenever you take fire damage, the damage is increased by an amount equal to half your level.</p>
+        </description>
+        <sheet>
+            <description>You are cursed with a natural weakness to fire. Whenever you take fire damage, the damage is increased by {{trollkin:damage}}.
+            </description>
+        </sheet>
+		<rules>
+			<stat name="trollkin:damage" value="level:half" />
+		</rules>
+    </element>
+
+<!-- THE MAGE -->
+
+    <element name="The Mage" type="Archetype" source="UESTRPG" id="ID_UESTRPG_ARCHETYPE_BIRTHSIGN_MAGE">
+		<supports>Birthsign</supports>
+		<description>
+            <p class="flavor">Rain's Hand</p>
+			<p>You were born under the Birthsign of The Mage and gain the following benefits:</p>
+            <ul>
+				<li>Your Intelligence or Willpower score increases by 1, to a maximum of 20.</li>
+				<li>You gain advantage on Endurance saving throws to maintain concentration on a spell.</li>
+			</ul>
+            <p>Additionally, you learn one cantrip and one 1st level spell of your choice from the mage spell list. Intelligence is your spellcasting ability for these spells. If you can cast spells, they are added to your spell list for you.</p>
+            <p>You can cast the 1st level spell once without expending magicka points each day, regaining the ability to do so again at the next dawn.</p>
+        </description>
+		<sheet>
+        <description>
+			<p>You learn one cantrip and one 1st level spell of your choice from the mage spell list. Intelligence is your spellcasting ability for these spells. If you can cast spells, they are added to your spell list for you. 
+            You can cast the 1st level spell once without expending magicka points each day, regaining the ability to do so again at the next dawn.</p>
+        </description>
+		</sheet>
+		<spellcasting name="The Mage" ability="Intelligence" prepare="false">
+			<list>Mage</list>
+		</spellcasting>
+		<rules>
+			<select type="Spell" name="The Mage (Cantrip)" supports="$(spellcasting:list), 0" level="1" number="1" spellcasting="The Mage" />
+			<select type="Spell" name="The Mage (1st Level Spell)" supports="$(spellcasting:list), 1" level="1" number="1" spellcasting="The Mage" />
+            <select type="Archetype Feature" name="Ability Score Improvement (The Mage)" supports="The Mage Ability Score Choice"/>
+		</rules>
+	</element>
+
+    <element name="Wisdom" type="Archetype Feature" source="UESTRPG" id="ID_UESTRPG_ARCHETYPE_FEATURE_BIRTHSIGN_MAGE_CHOICE_WISDOM">
+        <supports>The Mage Ability Score Choice</supports>
+        <description>
+            <p>Your Willpower score increases by 1, to a maximum of 20.</p>
+        </description>
+        <sheet display="false">
+            <description>Your Willpower score increases by 1, to a maximum of 20.
+            </description>
+        </sheet>
+		<rules>
+			<stat name="wisdom" value="1" alt="The Mage"/>
+		</rules>
+    </element>
+
+    <element name="Intelligence" type="Archetype Feature" source="UESTRPG" id="ID_UESTRPG_ARCHETYPE_FEATURE_BIRTHSIGN_MAGE_CHOICE_INTELLIGENCE">
+        <supports>The Mage Ability Score Choice</supports>
+        <description>
+            <p>Your Intelligence score increases by 1, to a maximum of 20.</p>
+        </description>
+        <sheet display="false">
+            <description>Your Intelligence score increases by 1, to a maximum of 20.
+            </description>
+        </sheet>
+		<rules>
+			<stat name="intelligence" value="1" alt="The Mage"/>
+		</rules>
+    </element>
+
+<!-- THE SHADOW -->
+
+    <element name="The Shadow" type="Archetype" source="UESTRPG" id="ID_UESTRPG_ARCHETYPE_BIRTHSIGN_SHADOW">
+		<supports>Birthsign</supports>
+		<description>
+            <p class="flavor">Second Seed</p>
+			<p>You were born under the Birthsign of the Shadow and gain the following benefits:</p>
+            <ul>
+				<li>Your Intelligence, Personality, or Willpower score increases by 1, to a maximum of 20.</li>
+				<li>You gain the Moonshadow power.</li>
+			</ul>
+            <div element="ID_UESTRPG_ARCHETYPE_FEATURE_BIRTHSIGN_MOONSHADOW" />
+        </description>
+		<sheet display="false">
+        <description>
+			<p>You gain the Moonshadow power.</p>
+        </description>
+		</sheet>
+		<rules>
+            <select type="Archetype Feature" name="Ability Score Improvement (The Shadow)" supports="The Shadow Ability Score Choice"/>
+            <grant type="Archetype Feature" id="ID_UESTRPG_ARCHETYPE_FEATURE_BIRTHSIGN_MOONSHADOW" />
+		</rules>
+	</element>
+
+    <element name="Intelligence" type="Archetype Feature" source="UESTRPG" id="ID_UESTRPG_ARCHETYPE_FEATURE_BIRTHSIGN_SHADOW_CHOICE_INTELLIGENCE">
+        <supports>The Shadow Ability Score Choice</supports>
+        <description>
+            <p>Your Intelligence score increases by 1, to a maximum of 20.</p>
+        </description>
+        <sheet display="false">
+            <description>Your Intelligence score increases by 1, to a maximum of 20.
+            </description>
+        </sheet>
+		<rules>
+			<stat name="intelligence" value="1" alt="The Shadow"/>
+		</rules>
+    </element>
+
+    <element name="Wisdom" type="Archetype Feature" source="UESTRPG" id="ID_UESTRPG_ARCHETYPE_FEATURE_BIRTHSIGN_SHADOW_CHOICE_WISDOM">
+        <supports>The Shadow Ability Score Choice</supports>
+        <description>
+            <p>Your Wisdom score increases by 1, to a maximum of 20.</p>
+        </description>
+        <sheet display="false">
+            <description>Your Wisdom score increases by 1, to a maximum of 20.
+            </description>
+        </sheet>
+		<rules>
+			<stat name="wisdom" value="1" alt="The Shadow"/>
+		</rules>
+    </element>
+
+    <element name="Charisma" type="Archetype Feature" source="UESTRPG" id="ID_UESTRPG_ARCHETYPE_FEATURE_BIRTHSIGN_SHADOW_CHOICE_CHARISMA">
+        <supports>The Shadow Ability Score Choice</supports>
+        <description>
+            <p>Your Charisma score increases by 1, to a maximum of 20.</p>
+        </description>
+        <sheet display="false">
+            <description>Your Charisma score increases by 1, to a maximum of 20.
+            </description>
+        </sheet>
+		<rules>
+			<stat name="charisma" value="1" alt="The Shadow"/>
+		</rules>
+    </element>
+
+    <element name="Moonshadow" type="Archetype Feature" source="UESTRPG" id="ID_UESTRPG_ARCHETYPE_FEATURE_BIRTHSIGN_MOONSHADOW">
+        <description>
+            <p>As an action, you can cast the spell Invisibility on yourself without expending magicka.</p>
+        </description>
+        <sheet>
+            <description>As an action, you can cast the spell Invisibility on yourself without expending magicka. Once you use this ability, you can't use it again until the next dawn.
+            </description>
+        </sheet>
+		<rules>
+            <grant type="Spell" id="ID_PHB_SPELL_INVISIBILITY"/>
+		</rules>
+    </element>
+
+<!-- THE STEED -->
+
+    <element name="The Steed" type="Archetype" source="UESTRPG" id="ID_UESTRPG_ARCHETYPE_BIRTHSIGN_STEED">
+		<supports>Birthsign</supports>
+		<description>
+            <p class="flavor">Mid Year</p>
+			<p>You were born under the Birthsign of the Steed and gain the following benefits:</p>
+            <ul>
+				<li>Your Endurance score increases by 1.</li>
+				<li>Your speed increases by 10 feet.</li>
+			</ul>
+        </description>
+		<sheet display="false">
+        <description>
+			<p>You were born under the Birthsign of the Steed and gain the following benefits:
+            Your Endurance score increases by 1.
+            Your speed increases by 10 feet.
+            </p>
+        </description>
+		</sheet>
+		<rules>
+			<stat name="constitution" value="1" />
+			<stat name="innate speed:misc" value="10" requirements="[innate speed:1]" />
+			<stat name="innate speed:climb:misc" value="10" requirements="[innate speed:climb:1]" />
+			<stat name="innate speed:fly:misc" value="10" requirements="[innate speed:fly:1]" />
+			<stat name="innate speed:swim:misc" value="10" requirements="[innate speed:swim:1]" />
+			<stat name="innate speed:burrow:misc" value="10" requirements="[innate speed:burrow:1]" />
+		</rules>
+	</element>
+
+<!-- THE APPRENTICE -->
+
+    <element name="The Apprentice" type="Archetype" source="UESTRPG" id="ID_UESTRPG_ARCHETYPE_BIRTHSIGN_APPRENTICE">
+		<supports>Birthsign</supports>
+		<description>
+            <p class="flavor">Sun's Height</p>
+			<p>You were born under the Birthsign of the Apprentice and gain the following effects:</p>
+            <ul>
+				<li>Your magicka point maximum increases by 1, and it increases by 1 every time you gain a level.</li>
+				<li>You are weakened to one type of magical damage determined by rolling on the table below. Whenever you take damage from your weakened damage type, the damage is increased by an amount equal to half your level.</li>
+			</ul>
+            <table>
+				<thead>
+					<tr><td class="col-20">d4</td><td>Weakness</td></tr>
+				</thead>
+				<tr><td>1</td><td>Cold</td></tr>
+				<tr><td>2</td><td>Fire</td></tr>
+				<tr><td>3</td><td>Poison</td></tr>
+				<tr><td>4</td><td>Lightning</td></tr>
+			</table>
+        </description>
+		<sheet display="false">
+        <description>
+			<p></p>
+        </description>
+		</sheet>
+		<rules>
+			<stat name="magicka" value="level"/>
+			<grant type="Trait" id="ID_UESTRPG_MAGICKA" />
+            <select type="Archetype Feature" name="Magic Weakness (The Apprentice)" supports="The Apprentice Magic Weakness"/>
+		</rules>
+	</element>
+
+    <element name="Cold Weakness" type="Archetype Feature" source="UESTRPG" id="ID_UESTRPG_ARCHETYPE_FEATURE_BIRTHSIGN_APPRENTICE_COLD_WEAKNESS">
+		<supports>The Apprentice Magic Weakness</supports>
+        <description>
+            <p>Whenever you take cold damage, the damage is increased by an amount equal to half your level.</p>
+        </description>
+        <sheet>
+            <description>Whenever you take cold damage, the damage is increased by {{apprentice weakness}}.
+            </description>
+        </sheet>
+		<rules>
+			<stat name="apprentice weakness" value="level:half" />
+		</rules>
+    </element>
+
+    <element name="Fire Weakness" type="Archetype Feature" source="UESTRPG" id="ID_UESTRPG_ARCHETYPE_FEATURE_BIRTHSIGN_APPRENTICE_FIRE_WEAKNESS">
+		<supports>The Apprentice Magic Weakness</supports>
+        <description>
+            <p>Whenever you take fire damage, the damage is increased by an amount equal to half your level.</p>
+        </description>
+        <sheet>
+            <description>Whenever you take fire damage, the damage is increased by {{apprentice weakness}}.
+            </description>
+        </sheet>
+		<rules>
+			<stat name="apprentice weakness" value="level:half" />
+		</rules>
+    </element>
+
+    <element name="Poison Weakness" type="Archetype Feature" source="UESTRPG" id="ID_UESTRPG_ARCHETYPE_FEATURE_BIRTHSIGN_APPRENTICE_POISON_WEAKNESS">
+		<supports>The Apprentice Magic Weakness</supports>
+        <description>
+            <p>Whenever you take poison damage, the damage is increased by an amount equal to half your level.</p>
+        </description>
+        <sheet>
+            <description>Whenever you take poison damage, the damage is increased by {{apprentice weakness}}.
+            </description>
+        </sheet>
+		<rules>
+			<stat name="apprentice weakness" value="level:half" />
+		</rules>
+    </element>
+
+    <element name="Lightning Weakness" type="Archetype Feature" source="UESTRPG" id="ID_UESTRPG_ARCHETYPE_FEATURE_BIRTHSIGN_APPRENTICE_LIGHTNING_WEAKNESS">
+		<supports>The Apprentice Magic Weakness</supports>
+        <description>
+            <p>Whenever you take lightning damage, the damage is increased by an amount equal to half your level.</p>
+        </description>
+        <sheet>
+            <description>Whenever you take lightning damage, the damage is increased by {{apprentice weakness}}.
+            </description>
+        </sheet>
+		<rules>
+			<stat name="apprentice weakness" value="level:half" />
+		</rules>
+    </element>
+
+<!-- THE WARRIOR -->
+
+    <element name="The Warrior" type="Archetype" source="UESTRPG" id="ID_UESTRPG_ARCHETYPE_BIRTHSIGN_WARRIOR">
+		<supports>Birthsign</supports>
+		<description>
+            <p class="flavor">Last Seed</p>
+			<p>You were born under the Birthsign of the Warrior and gain the following benefits:</p>
+            <p>Your Strength and Endurance attributes are increased by 1, to a maximum of 20.</p>
+        </description>
+		<sheet>
+        <description>
+			<p>Your Strength and Endurance attributes are increased by 1, to a maximum of 20.</p>
+        </description>
+		</sheet>
+		<rules>
+			<stat name="strength" value="1"/>
+			<stat name="constitution" value="1"/>
+		</rules>
+	</element>
+
+<!-- THE LADY -->
+
+    <element name="The Lady" type="Archetype" source="UESTRPG" id="ID_UESTRPG_ARCHETYPE_BIRTHSIGN_LADY">
+		<supports>Birthsign</supports>
+		<description>
+            <p class="flavor">Hearthfire</p>
+			<p>You were born under the Birthsign of the Lady and gain the following benefits:</p>
+            <p>Your Willpower and Endurance attributes are increased by 1, to a maximum of 20.</p>
+        </description>
+		<sheet>
+        <description>
+			<p>Your Willpower and Endurance attributes are increased by 1, to a maximum of 20.</p>
+        </description>
+		</sheet>
+		<rules>
+			<stat name="wisdom" value="1"/>
+			<stat name="constitution" value="1"/>
+		</rules>
+	</element>
+
+<!-- THE TOWER -->
+
+    <element name="The Tower" type="Archetype" source="UESTRPG" id="ID_UESTRPG_ARCHETYPE_BIRTHSIGN_TOWER">
+		<supports>Birthsign</supports>
+		<description>
+            <p class="flavor">Frostfall</p>
+			<p>You were born under the Birthsign of the Tower and gain the Tower Key power and the Tower Warden power.</p>
+            <div element="ID_UESTRPG_ARCHETYPE_FEATURE_BIRTHSIGN_TOWER_KEY" />
+            <div element="ID_UESTRPG_ARCHETYPE_FEATURE_BIRTHSIGN_TOWER_WARDEN" />
+        </description>
+		<sheet display="false">
+        <description>
+			<p>You were born under the Birthsign of the Tower and gain the Tower Key power and the Tower Warden power.</p>
+        </description>
+		</sheet>
+		<rules>
+            <grant type="Archetype Feature" id="ID_UESTRPG_ARCHETYPE_FEATURE_BIRTHSIGN_TOWER_KEY" />
+            <grant type="Archetype Feature" id="ID_UESTRPG_ARCHETYPE_FEATURE_BIRTHSIGN_TOWER_WARDEN" />
+		</rules>
+	</element>
+
+    <element name="Tower Key" type="Archetype Feature" source="UESTRPG" id="ID_UESTRPG_ARCHETYPE_FEATURE_BIRTHSIGN_TOWER_KEY">
+        <description>
+            <p>As an action you can cast the knock spell without expending magicka.</p>
+            <p>Once you use this ability, you can't use it again until the next dawn.</p>
+        </description>
+        <sheet>
+            <description>As an action you can cast the knock spell without expending magicka. Once you use this ability, you can't use it again until the next dawn.
+            </description>
+        </sheet>
+		<rules>
+            <grant type="Spell" id="ID_PHB_SPELL_KNOCK" />
+		</rules>
+    </element>
+
+    <element name="Tower Warden" type="Archetype Feature" source="UESTRPG" id="ID_UESTRPG_ARCHETYPE_FEATURE_BIRTHSIGN_TOWER_WARDEN">
+        <description>
+            <p>As a reaction, when you take damage from an attack, you can reflect some or all of the damage back to the attacker. The damage you can reflect is equal to 1d6.</p>
+            <p>This power's reflected damage increases by 1d6 when you reach 5th level (2d6). 11th level (3d6), and 17th level (4d6).</p>
+            <p>Once you use this ability, you can't use it again until the next dawn.</p>
+        </description>
+        <sheet>
+            <description>As a reaction, when you take damage from an attack, you can reflect some or all of the damage back to the attacker. You can reflect up to {{tower warden dice}}d6 damage. Once you use this ability, you can't use it again until the next dawn.
+            </description>
+        </sheet>
+		<rules>
+			<stat name="tower warden dice" value="1" level="1"/>
+			<stat name="tower warden dice" value="1" level="5"/>
+			<stat name="tower warden dice" value="1" level="11"/>
+			<stat name="tower warden dice" value="1" level="17"/>
+		</rules>
+    </element>
+
+<!-- THE ATRONACH -->
+
+    <element name="The Atronach" type="Archetype" source="UESTRPG" id="ID_UESTRPG_ARCHETYPE_BIRTHSIGN_ATRONACH">
+		<supports>Birthsign</supports>
+		<description>
+            <p class="flavor">Sun's Dusk</p>
+			<p>You were born under the Birthsign of the Atronach and gain the following effects:</p>
+            <ul>
+				<li>Your magicka point maximum increases by 2, and it increases by 2 every time you gain a level.</li>
+			</ul>
+            <div element="ID_UESTRPG_ARCHETYPE_FEATURE_BIRTHSIGN_STUNTED_MAGICKA" />
+            <div element="ID_UESTRPG_ARCHETYPE_FEATURE_BIRTHSIGN_CAPACITOR" />
+            <p></p>
+            <div class="sidebar">
+				<h4>ATRONACH-BORN SORCERERS</h4>
+				<p>Sorcerers who are born under the Atronach birthsign innately have access to an extraordinary amount of magicka that truly sets them apart from others on Tamriel. These exceptional gifts, however, come with an exceptional cost.</p>
+                <div element="ID_UESTRPG_ARCHETYPE_FEATURE_BIRTHSIGN_IMPEDED_MAGICKA" />
+                <div element="ID_UESTRPG_ARCHETYPE_FEATURE_BIRTHSIGN_SUPER_CAPACITOR" />
+            </div>
+        </description>
+		<sheet>
+        <description>
+			<p>Your magicka point maximum increases by 2, and it increases by 2 every time you gain a level.</p>
+        </description>
+		</sheet>
+		<rules>
+			<stat name="magicka" value="level"/>
+			<stat name="magicka" value="level"/>
+			<grant type="Trait" id="ID_UESTRPG_MAGICKA" />
+            <grant type="Archetype Feature" id="ID_UESTRPG_ARCHETYPE_FEATURE_BIRTHSIGN_STUNTED_MAGICKA" />
+            <grant type="Archetype Feature" id="ID_UESTRPG_ARCHETYPE_FEATURE_BIRTHSIGN_CAPACITOR" />
+            <grant type="Archetype Feature" id="ID_UESTRPG_ARCHETYPE_FEATURE_BIRTHSIGN_IMPEDED_MAGICKA" />
+            <grant type="Archetype Feature" id="ID_UESTRPG_ARCHETYPE_FEATURE_BIRTHSIGN_SUPER_CAPACITOR" />
+		</rules>
+	</element>
+
+    <element name="Stunted Magicka" type="Archetype Feature" source="UESTRPG" id="ID_UESTRPG_ARCHETYPE_FEATURE_BIRTHSIGN_STUNTED_MAGICKA">
+        <requirements>!ID_UESTRPG_CLASS_SORCERER</requirements>
+        <description>
+            <p>The Atronach birthsign has gifted you with a large pool of magicka, but your natural gift is stunted by reduced regeneration.</p>
+            <p class="indent">Unlike other spellcasters, you do not regain all of your magicka at the end of a long rest, instead, you only regain half of your expended magicka, rounding up (minimum of 1).</p>
+        </description>
+        <sheet>
+            <description>The Atronach birthsign has gifted you with a large pool of magicka, but your natural gift is stunted by reduced regeneration.
+        Unlike other spellcasters, you do not regain all of your magicka at the end of a long rest, instead, you only regain half of your expended magicka, rounding up (minimum of 1).
+            </description>
+        </sheet>
+    </element>
+
+    <element name="Capacitor" type="Archetype Feature" source="UESTRPG" id="ID_UESTRPG_ARCHETYPE_FEATURE_BIRTHSIGN_CAPACITOR">
+        <requirements>!ID_UESTRPG_CLASS_SORCERER</requirements>
+        <description>
+            <p>Whenever you are targeted by a spell that requires you to make a saving throw, you have a chance to absorb magicka, replenishing your magicka points. On a successful save you also absorb magicka equal to the level of the spell. On a failed save, you do not absorb any magicka and are effected by the spell as normal.</p>
+            <p class="indent">You cannot increase your magicka points beyond your maximum magicka point total through this feature.</p>
+        </description>
+        <sheet>
+            <description>Whenever you are targeted by a spell that requires you to make a saving throw, you have a chance to absorb magicka, replenishing your magicka points. On a successful save you also absorb magicka equal to the level of the spell. On a failed save, you do not absorb any magicka and are effected by the spell as normal.
+        You cannot increase your magicka points beyond your maximum magicka point total through this feature.
+            </description>
+        </sheet>
+    </element>
+
+	<element name="Impeded Magicka" type="Archetype Feature" source="UESTRPG" id="ID_UESTRPG_ARCHETYPE_FEATURE_BIRTHSIGN_IMPEDED_MAGICKA">
+		<requirements>ID_UESTRPG_CLASS_SORCERER</requirements>
+		<description>
+            <p>The natural magicka regeneration by a sorcerer born under any other sign is already significantly reduced from other spellcasters. Those born under the Atronach see that regeneration reduced even further.</p>
+            <p>Like other sorcerers, they do not regain all of their magicka at the end of a long rest. Instead, you only regain a quarter of your expended magicka, rounding up (minimum of 1).</p>
+		</description>
+		<sheet>
+			<description>The natural magicka regeneration by a sorcerer born under any other sign is already significantly reduced from other spellcasters. Those born under the Atronach see that regeneration reduced even further.
+            Like other sorcerers, you do not regain all of your magicka at the end of a long rest. Instead, you only regain a quarter of your expended magicka, rounding up (minimum of 1).
+			</description>
+		</sheet>
+	</element>
+
+    <element name="Super Capacitor" type="Archetype Feature" source="UESTRPG" id="ID_UESTRPG_ARCHETYPE_FEATURE_BIRTHSIGN_SUPER_CAPACITOR">
+        <requirements>ID_UESTRPG_CLASS_SORCERER</requirements>
+        <description>
+            <p>Whenever you are targeted by a spell that requires a saving throw, you absorb magicka equal to the cost of the spell.</p>
+        </description>
+        <sheet>
+            <description>Whenever you are targeted by a spell that requires a saving throw, you absorb magicka equal to the cost of the spell.
+            </description>
+        </sheet>
+    </element>
+
+<!-- THE THIEF -->
+
+    <element name="The Thief" type="Archetype" source="UESTRPG" id="ID_UESTRPG_ARCHETYPE_BIRTHSIGN_THIEF">
+		<supports>Birthsign</supports>
+		<description>
+            <p class="flavor">Evening Star</p>
+			<p>You were born under the Birthsign of the Thief and gain the following benefits:</p>
+            <ul>
+				<li>Your Agility score increases by 1, to a maximum of 20.</li>
+				<li>Your speed increases by 5 feet.</li>
+                <li>You gain one Luck Point. Your Luck Point is a d6. You can add your Luck Point to one ability check, attack roll, or saving throw you make. You can wait until after you roll the d20 before deciding to use the Luck Point, but must decided before the DM says whether the roll succeeds or fails. You regain your expended Luck Point at the next dawn, and you can never have more that one Luck Point from this feature at a time.</li>
+			</ul>
+        </description>
+		<sheet>
+        <description>You were born under the Birthsign of the Thief and gain the following benefits:
+			Your Agility score increases by 1, to a maximum of 20.
+			Your speed increases by 5 feet.
+            You gain one Luck Point. Your Luck Point is a d6. You can add your Luck Point to one ability check, attack roll, or saving throw you make. You can wait until after you roll the d20 before deciding to use the Luck Point, but must decided before the DM says whether the roll succeeds or fails. You regain your expended Luck Point at the next dawn, and you can never have more that one Luck Point from this feature at a time.
+        </description>
+		</sheet>
+		<rules>
+			<stat name="dexterity" value="1"/>
+			<stat name="innate speed:misc" value="5" requirements="[innate speed:1]" />
+			<stat name="innate speed:climb:misc" value="5" requirements="[innate speed:climb:1]" />
+			<stat name="innate speed:fly:misc" value="5" requirements="[innate speed:fly:1]" />
+			<stat name="innate speed:swim:misc" value="5" requirements="[innate speed:swim:1]" />
+			<stat name="innate speed:burrow:misc" value="5" requirements="[innate speed:burrow:1]" />
+		</rules>
+	</element>
+
+</elements>

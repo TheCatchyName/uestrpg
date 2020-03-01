@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<update version="0.0.1">
+			<file name="sources.xml" url="" />
+		</update>
+	</info>
+	<element name="UESTRPG" type="Source" source="UESTRPG" id="ID_UESTRPG_SOURCE_BASIC_RULES_V1.4">
+		<description>
+			<![CDATA[<p><strong>Everything a player needs to create heroic characters for the world’s greatest roleplaying game.</strong></p><p>The Player’s Handbook is the essential reference for every Dungeons &amp; Dragons roleplayer. It contains rules for character creation and advancement, backgrounds and skills, exploration and combat, equipment, spells, and much more. Use this book to create exciting characters from among the most iconic D&amp;D races and classes.</p><p>Dungeons &amp; Dragons immerses you in a world of adventure. Explore ancient ruins and deadly dungeons. Battle monsters while searching for legendary treasures. Gain experience and power as you trek across uncharted lands with your companions.</p><p>The world needs heroes. Will you answer the call?</p>]]>
+		</description>
+		<setters>
+			<set name="abbreviation">UESTRPG</set>
+			<set name="url">https://uestrpg.wixsite.com/home/downloads</set>
+			<set name="image">https://static.wixstatic.com/media/0b15a4_2d12ed81940a416bb47abefc10fc3c06~mv2.png/v1/fill/w_750,h_366,al_c,q_85,usm_0.66_1.00_0.01/PHC-002.webp</set>
+			<set name="author" abbreviation="UESTRPG" url="https://uestrpg.wixsite.com/home/">Unofficial Elder Scrolls Tabletop RPG</set>
+			<set name="homebrew">true</set>
+			<set name="release">20181230</set>
+		</setters>
+	</element>
+
+</elements>

@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Imperial</name>
+		<description></description>
+		<author url="https://uestrpg.wixsite.com/home/downloads">Unofficial Elder Scrolls Tabletop RPG</author>
+		<update version="1.4.0">
+			<file name="race-imperial.xml" url="" />
+		</update>
+	</info>
+
+	<element name="Imperial" type="Race" source="UESTRPG" id="ID_UESTRPG_RACE_IMPERIAL">
+		<description>
+			<p class="flavor">Imperials are the well educated and civilized men of the cosmopolitan province of Cyrodiil. Although not as physically impressive as some of the other races, the Imperials have a confident authority about them that they have been able to use to their advantage with the surrounding nations.</p>
+			<h4>FROM SLAVE TO MASTER</h4>
+			<p>When the Imperial race emerged from the original Nibenese tribesman and the Nedic immigrants, they were subjugated by the Ayleids, or Wild Elves of Cyrodiil. They remained as slaves for decades before creating a rebellion that overthrew their elven masters, creating the first human empire. Although short lived, this early empire was disrupted through civil war, splitting Cyrodiil into two distinct cultures: the Eastern Nibenese and the Western Colovians. Since then, the Imperials and their ever changing Empire have had some part in the birth of each Era.</p>
+			<h4>DIPLOMATS AND SOLDIERS</h4>
+			<p>Known for their impressive citizen armies, the Imperials are exceptionally disciplined and treat the law with the utmost respect. Banners of the Imperial Empire can be found in nearly every province of Tamriel, although recent years have proven to be a struggle to maintain their power.</p>
+			<p class="indent">As shrewd diplomats and remarkable negotiators, the Imperials have had great success subduing other nations, bringing peace and prosperity to many societies. When their authority is questioned, their martial prowess and extraordinary organization of their military usually makes quick work of any dissenters.</p>
+			<h4>IMPERIAL NAMES</h4>
+			<p>Imperials have both given names and family names.</p>
+			<p>
+			<span class="feature">Male Names:</span>Aventus, Baro, Caius, Decentius, Ennodius, Floretius, Gaius, Helvius, Iniel, Janus, Kastav, Luther, Mallus, Nermus, Octavius, Pelagius, Rallus, Sergio, Titus, Valgus, Xander, Zedrick<br />
+			<span class="feature">Female Names:</span>Alexia, Astria, Britta, Cania, Dynari, Ettiene, Faustina, Gemma, Herminia, Isobel, Julitta, Lyra, Mariana, Nebia, Peregrina, Rona, Selena, Tertia, Una, Viera, Vitrroia, Ysabel<br />
+			<span class="feature">Family Names:</span>Aerius, Amatius, Berne, Caro, Deltian, Felannus, Gratius, Herennius, Jannus, Loran, Mallius, Nuccius, Rian, Silver, Tunifus, Urgelian, Valga, Wavrick<br />
+			</p>
+			<h4>IMPERIAL TRAITS</h4>
+			<p>Your Imperial character has certain characteristics in common with other Imperials.</p>
+			<p class="indent"><strong><em>Attribute Score Increase.</em></strong> Your Personality score increases by 2.</p>
+			<p class="indent"><strong><em>Age.</em></strong> As a human race, Imperials live to an average age of 100.</p>
+			<p class="indent"><strong><em>Alignment.</em></strong> The militant Imperials are often lawful good, but sometimes lean towards neutral, given their stringent laws and institutions.</p>
+			<p class="indent"><strong><em>Size.</em></strong> Imperials range from 5 to 6 feet tall, and vary in build. Your size is medium.</p>
+			<p class="indent"><strong><em>Speed.</em></strong> Your base walking speed is 30 feet.</p>
+			<p class="indent"><strong><em>Diplomat.</em></strong> You gain proficiency in the Persuasion skill.</p>
+			<p class="indent"><strong><em>Imperial Cunning.</em></strong> When you make an Intelligence, Personality, or Wisdom saving throw, you can use your reaction to gain advantage on the roll. Once you use this trait, you must complete a long rest before you are able to use it again.</p>
+			<p class="indent"><strong><em>Imperial Luck.</em></strong> You gain two Luck Dice, which is a d6. You can expend one Luck Dice to add it to an ability check, attack roll, or saving throw you make. You can wait until after you roll the d20 before deciding to use the Luck Dice, but must decide before the DM determines whether the roll succeeds or fails.</p>
+			<p class="indent">You regain your expended Luck Dice when you finish a long rest. You can never have more than two Luck Dice from this trait at a time.</p>
+			<p class="indent"><strong><em>Legion Combat Training.</em></strong> You are proficient in Blunt, Hand-to-Hand, and Long Blade.</p>
+			<p class="indent"><strong><em>Languages.</em></strong> You can speak, read, and write Tamrielic and two standard languages of your choice. Imperials typically learn the languages of other peoples they deal with.</p>
+			<p class="indent"><strong><em>Subraces.</em></strong> Two subraces are found within Cyrodiil: Colovians and Nibenese. Choose one of these subraces.</p>
+		</description>
+		<sheet display="false" />
+		<setters>
+			<set name="names" type="male">Aventus, Baro, Caius, Decentius, Ennodius, Floretius, Gaius, Helvius, Iniel, Janus, Kastav, Luther, Mallus, Nermus, Octavius, Pelagius, Rallus, Sergio, Titus, Valgus, Xander, Zedrick</set>
+			<set name="names" type="female">Alexia, Astria, Britta, Cania, Dynari, Ettiene, Faustina, Gemma, Herminia, Isobel, Julitta, Lyra, Mariana, Nebia, Peregrina, Rona, Selena, Tertia, Una, Viera, Vitrroia, Ysabel</set>
+			<set name="names" type="family">Aerius, Amatius, Berne, Caro, Deltian, Felannus, Gratius, Herennius, Jannus, Loran, Mallius, Nuccius, Rian, Silver, Tunifus, Urgelian, Valga, Wavrick</set>
+			<set name="names-format">{{name}} {{family}}</set>
+			<set name="height" modifier="2d10">4'8"</set>
+			<set name="weight" modifier="1d6">110 lb.</set>
+		</setters>
+		<rules>
+			<stat name="charisma" value="2" />
+			<stat name="innate speed" value="30" bonus="base" />
+			<grant type="Size" id="ID_SIZE_MEDIUM" />
+			<grant type="Language" id="ID_UESTRPG_LANGUAGE_TAMRIELIC" />
+			<select type="Language" name="Language (Imperial)" number="2" supports="Standard" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERSUASION" />
+			<grant type="Racial Trait" id="ID_UESTRPG_RACIAL_TRAIT_IMPERIAL_CUNNING" />
+			<grant type="Racial Trait" id="ID_UESTRPG_RACIAL_TRAIT_IMPERIAL_LUCK" />
+			<grant type="Racial Trait" id="ID_UESTRPG_RACIAL_TRAIT_LEGION_COMBAT_TRAINING" />
+			<grant type="Racial Trait" id="ID_UESTRPG_RACIAL_TRAIT_IMPERIAL_SUBRACE" />
+			<select type="Archetype" name="Birthsign" supports="Birthsign" />
+		</rules>
+	</element>
+
+<!-- RACIAL TRAITS -->
+
+	<element name="Imperial Cunning" type="Racial Trait" source="UESTRPG" id="ID_UESTRPG_RACIAL_TRAIT_IMPERIAL_CUNNING">
+		<description>
+			<p>When you make an Intelligence, Personality, or Wisdom saving throw, you can use your reaction to gain advantage on the roll. Once you use this trait, you must complete a long rest before you are able to use it again.</p>
+		</description>
+        <sheet action="Reaction" usage="1/Long Rest">
+			<description>When you make an Intelligence, Personality, or Wisdom saving throw, you can use your reaction to gain advantage on the roll.</description>
+		</sheet>
+	</element>
+
+	<element name="Imperial Luck" type="Racial Trait" source="UESTRPG" id="ID_UESTRPG_RACIAL_TRAIT_IMPERIAL_LUCK">
+		<description>
+			<p>You gain two Luck Dice, which is a d6. You can expend one Luck Dice to add it to an ability check, attack roll, or saving throw you make. You can wait until after you roll the d20 before deciding to use the Luck Dice, but must decide before the DM determines whether the roll succeeds or fails.</p>
+			<p class="indent">You regain your expended Luck Dice when you finish a long rest. You can never have more than two Luck Dice from this trait at a time.</p>
+		</description>
+		<sheet usage="2/Long Rest">
+			<description>You gain two Luck Dice, which is a d6. You can expend one Luck Dice to add it to an ability check, attack roll, or saving throw you make. You can wait until after you roll the d20 before deciding to use the Luck Dice, but must decide before the DM determines whether the roll succeeds or fails.
+			</description>
+		</sheet>
+	</element>
+
+	<element name="Legion Combat Training" type="Racial Trait" source="UESTRPG" id="ID_UESTRPG_RACIAL_TRAIT_LEGION_COMBAT_TRAINING">
+		<description>
+			<p>You are proficient in Blunt, Hand-to-Hand, and Long Blade.</p>
+		</description>
+		<sheet display="false">
+			<description>You are proficient in Blunt, Hand-to-Hand, and Long Blade.</description>
+		</sheet>
+		<rules>
+			<grant type="Proficiency" id="ID_UESTRPG_TRAIT_LONG_BLADE_PROFICIENCY" />
+			<grant type="Proficiency" id="ID_UESTRPG_TRAIT_BLUNT_PROFICIENCY" />
+			<grant type="Proficiency" id="ID_UESTRPG_TRAIT_HAND_TO_HAND_PROFICIENCY" />
+		</rules>
+	</element>
+
+<!-- SUB RACES -->
+
+	<element name="Imperial Subrace" type="Racial Trait" source="UESTRPG" id="ID_UESTRPG_RACIAL_TRAIT_IMPERIAL_SUBRACE">
+		<description>
+			<p>Two subraces are found within Cyrodiil: Colovians and Nibenese. Choose one of these subraces.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Sub Race" name="Imperial Subrace" supports="Imperial" />
+		</rules>
+	</element>
+
+	<element name="Colovian" type="Sub Race" source="UESTRPG" id="ID_UESTRPG_SUB_RACE_COLOVIAN">
+		<supports>Imperial</supports>
+		<description>
+			<p>The Cyro-Nords that settled in the west created the Colovian Estates, and in turn call themselves Colovians. They are typically more rugged and hardy than their Nibenese counterparts. They are uncomplicated, self-sufficient, and extremely loyal to other Colovians.</p>
+			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Strength score increases by 1.</p>
+			<p class="indent"><strong><em>Star of the West.</em></strong> Your hardy upbringing lets you push past the normal boundaries of exhaustion. When you are exhausted, you suffer the effects of one level less than your current level of exhaustion. For example, at 1st level, you suffer no adverse effects.</p>
+		</description>
+		<sheet display="false" />
+		<setters>
+			<set name="height" modifier="2d10">4'8"</set>
+			<set name="weight" modifier="2d4">115 lb.</set>
+		</setters>
+		<rules>
+			<stat name="strength" value="1" />
+			<grant type="Racial Trait" id="ID__UESTRPG_RACIAL_TRAIT_STAR_OF_THE_WEST" />
+		</rules>
+	</element> 	
+
+	<element name="Star of the West" type="Racial Trait" source="UESTRPG" id="ID__UESTRPG_RACIAL_TRAIT_STAR_OF_THE_WEST">
+		<description>
+			<p>Your hardy upbringing lets you push past the normal boundaries of exhaustion. When you are exhausted, you suffer the effects of one level less than your current level of exhaustion. For example, at 1st level, you suffer no adverse effects.</p>
+		</description>
+		<sheet>
+			<description>Your hardy upbringing lets you push past the normal boundaries of exhaustion. When you are exhausted, you suffer the effects of one level less than your current level of exhaustion. For example, at 1st level, you suffer no adverse effects.</description>
+		</sheet>
+	</element>
+
+	<element name="Nibenese" type="Sub Race" source="UESTRPG" id="ID_UESTRPG_SUB_RACE_NIBENESE">
+		<supports>Imperial</supports>
+		<description>
+			<p>The Imperials that settled in the East, by the Nibenay, became the Nibenese. This area was brought together by the Alessian order and maintains strong merchant guilds. Nibenese are proud cosmopolitan people who maintain strong relationships with the other provinces through merchant guilds. They are more given to the studies of magic, philosophy, and the evolution of ancient tradition. Many outfit themselves in garish clothing, tattoos, and brandings.</p>
+			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Intelligence score increases by 1.</p>
+			<p class="indent"><strong><em>Voice of the Emperor.</em></strong> You know the friends cantrip. Additionally, once between long rests, you are able to use this cantrip without your target knowing it was cast on them.</p>
+		</description>
+		<sheet display="false" />
+		<setters>
+			<set name="height" modifier="2d8">4'6"</set>
+			<set name="weight" modifier="1d6">110 lb.</set>
+		</setters>
+		<rules>
+			<stat name="intelligence" value="1" />
+			<grant type="Racial Trait" id="ID__UESTRPG_RACIAL_TRAIT_VOICE_OF_THE_EMPEROR" />
+		</rules>
+	</element>
+
+	<element name="Imperial Cunning" type="Racial Trait" source="UESTRPG" id="ID__UESTRPG_RACIAL_TRAIT_VOICE_OF_THE_EMPEROR">
+		<description>
+			<p>You know the friends cantrip. Additionally, once between long rests, you are able to use this cantrip without your target knowing it was cast on them.</p>
+		</description>
+		<sheet action="Action" usage="1/Long rest">
+			<description>You can cast the Friends cantrip without your target knowing it was cast on them.</description>
+		</sheet>
+		<rules>
+			<grant type="spell" id="ID_PHB_SPELL_FRIENDS"/>
+		</rules>
+	</element>
+
+</elements>

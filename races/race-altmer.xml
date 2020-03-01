@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Altmer</name>
+		<description></description>
+		<author url="https://uestrpg.wixsite.com/home/downloads">Unofficial Elder Scrolls Tabletop RPG</author>
+		<update version="1.4.0">
+			<file name="race-altmer.xml" url="" />
+		</update>
+	</info>
+
+	<element name="Altmer" type="Race" source="UESTRPG" id="ID_UESTRPG_RACE_ALTMER">
+		<description>
+			<p class="flavor">Altmer (High Elves) are proud and graceful people who consider themselves to be the highest echelon of society. Their cities celebrate an enlightened culture filled with a love for art, magic, music, and beauty. They are known as High Elves to the human races, which altmer consider an adage to their culture, while humans understand it to mean proud or snobbish.</p>
+			<h4>SLENDER AND GRACEFUL</h4>
+			<p>With their elegant stature and beauty, high elves typically have healthy gaunt features. They are the tallest of all the races, usually well over 6 feet tall and sometimes above 7 feet. They are more slender than humans, weighing between 140 and 180 pounds. Males and females are about the same height, and males are only marginally heavier than females.</p>
+			<p class="indent">Altmer have physical colorations that are very homogeneous in their nature. Their golden skin ranges from pale yellow tones to bronze, while their hair and eyes come in similar shades, which sometimes makes it difficult to distinguish from long distances. Their hair colour ranges from nearly white to blonde, to golden brown, while their almond shaped eyes are like pools of liquid gold. Altmer rarely have facial hair, either from genetics or from their favored cultured aesthetic. They favor elegant clothing and jewelry, usually in fabrics and materials that compliment their natural appearance.</p>
+			<h4>A TIMELESS PERSPECTIVE</h4>
+			<p>Altmer, much like the other elves, can live for exceptional lengths of time, usually of spans two to three times as long as humans. An elf is considered old at 300 years of age, and typically reaches 400 years. Their natural resistance to disease allows them to live longer than the other races. It is even rumored that there are elves well over 4,000 year old, extending their lifespans by avoiding violence or mastering powerful restorative magic.</p>
+			<p class="indent">Their extended lifespan allows altmer to consider time as a luxury, mastering skills over long periods of research that their human counterparts would never be able to fathom. Societies of altmer have been known to avoid war and violence, choosing to study their enemies, confident that they can easily wait for the most opportune time to strike quickly, or simply just outlive their nuisance.</p>
+			<h4>DIVINE DESCENDANTS</h4>
+			<p>Altmer consider themselves to be the most direct descendants of the original Aldmer elves, the first elves of the Merethic Era. The Altmer believe that they resemble their Aldmer ancestors and take great pride in keeping a pure lineage, striving to emulate their ways with great reverence.</p>
+			<p class="indent">Most altmer live in beautifully appointed cities and towns that are populated mostly with other altmer. Their architecture is strong and graceful, with pointed steeples to emphasize height, proudly reaching upwards towards the heavens. Truly, an visual echo to the High Elves themselves. Altmer are talented artisans, utilizing their long lifespans and mythic ancestry to hone their sophisticated crafts.</p>
+			<p class="indent">Their societies are strongly regimented with deep discipline and are separated by a rigid hierarchy of classes. Teachers and priests are regarded as the highest rank, followed by artists, princes, warriors, landowners, merchants, workers, and finally their slaves.</p>
+			<p class="indent">Outside of the Summerset Isles, the homeland of the altmer, they are commonly scholars, artists, or sages. Human nobles compete for the services of altmer to become court wizards, or as instructors of magic.</p>
+			<h4>EXPLORATION AND ADVENTURE</h4>
+			<p>Altmer that take up a life of adventure usually do so for the sake of discovery and exploration. Always curious and passionate for a deeper understanding of their interests, altmer will commonly seek out careers that allow them to travel and study at their own pace. Naturally the most magically-inclined races of Tamriel, they enjoy gaining greater power, which adventuring allows them to do. Some might join with rebels fighting for social reform, while others might join militant groups that champion their moral cause.</p>
+			<h4>ALTMER NAMES</h4>
+			<p>The Altmer have only a single given name. They choose names that have the same elegance and nobility they see fit for their kind.</p>
+			<p>
+			<span class="feature">Male Adult Names:</span>Aesmer, Arondil, Calanor, Cinnar, Cornor, Dandos, Eanor, Earran, Elikar, Erymil, Falion, Heldil, Iramo, Lermion, Miratar, Naarwe, Naemon, Ocando, Pircalmo, Quaranon, Rolancano, Sanyon, Tholbor, Valtir, Yancol<br />
+			<span class="feature">Female Adult Names:</span>Alwaen, Areldur, Astorne, Cariel, Curwe, Earrona, Elanwe, Erille, Falen, Fistalle, Gathewen, Hildara, Inare, Karinnarre, Kirstar, Lamoline, Linwin, Malanie, Minique, Naire, Quen, Ruma, Sorcalin, Telandil, Valla, Vilva<br />
+			</p>
+			<h4>ALTMER TRAITS</h4>
+			<p>Your Altmer character has a variety of natural abilities, the result of thousands of years of elven refinement.</p>
+			<p class="indent"><strong><em>Attribute Score Increase.</em></strong>Your Intelligence score increases by 2 and Willpower scores increase by 1.</p>
+			<p class="indent"><strong><em>Age.</em></strong> The average Altmer can live for over 400 years, although they are known to be able to live for thousands of years. It is rumored that some Altmer on the Summerset Isles who are over 4000 years old. They reach puberty at 18 years old and are considered an adult at 30. They mature similar to humans, but their advanced age means that they are still considered young until the age of 60.</p>
+			<p class="indent"><strong><em>Alignment.</em></strong> Altmer set themselves on a higher standard and tend to be lawful neutral. They are very orderly and follow the traditions of their ancestors, while having a less generous attitude towards other races.</p>
+			<p class="indent"><strong><em>Size.</em></strong> High Elves are the tallest of the races of Tamriel, sometimes as tall as 7 feet, but they have slender, thin builds. Your size is Medium.</p>
+			<p class="indent"><strong><em>Speed.</em></strong> Your base walking speed is 30 feet.</p>
+			<p class="indent"><strong><em>Altmer Blood.</em></strong> You gain advantage on saving throws to resist diseases.</p>
+			<p class="indent"><strong><em>Highborn.</em></strong> You have an innate well of magicka within you. You have 2 magicka points that you can use to cast spells. Additionally, you know one cantrip and one 1st level spell from the mage spell list.</p>
+			<p class="indent">You gain an additional magicka point when you reach 3rd level (3), 6th level, (4), and 10th level (5). Additionally, when you reach 3rd level, you learn a 2nd level spell of your choice from the mage spell list.</p>
+			<p class="indent">Intelligence is your spellcasting ability for these spells, you must expend magicka to cast them, and you can only cast them at their base level. You regain all expended magicka when you finish a long rest.</p>
+			<p class="indent"><strong><em>Studious Nature.</em></strong> You gain proficiency with two skills of your choice from arcana, history, nature, or religion.</p>
+			<p class="indent"><strong><em>Tool Profeciency.</em></strong> You gain proficiency with one artisan's tools of your choice from alchemist's supplies, calligrapher's supplies, or the jeweler's tools.</p>
+			<p class="indent"><strong><em>Languages.</em></strong> You can speak, read, and write Tamrielic and two other standard languages of your choice.</p>
+		</description>
+		<sheet display="false" />
+		<setters>
+			<set name="names" type="male">Aesmer, Arondil, Calanor, Cinnar, Cornor, Dandos, Eanor, Earran, Elikar, Erymil, Falion, Heldil, Iramo, Lermion, Miratar, Naarwe, Naemon, Ocando, Pircalmo, Quaranon, Rolancano, Sanyon, Tholbor, Valtir, Yancol</set>
+			<set name="names" type="female">Alwaen, Areldur, Astorne, Cariel, Curwe, Earrona, Elanwe, Erille, Falen, Fistalle, Gathewen, Hildara, Inare, Karinnarre, Kirstar, Lamoline, Linwin, Malanie, Minique, Naire, Quen, Ruma, Sorcalin, Telandil, Valla, Vilva</set>
+			<set name="names-format">{{name}}</set>
+			<set name="height" modifier="2d8">5'10"</set>
+			<set name="weight" modifier="1d4">110 lb.</set>
+		</setters>
+		<rules>
+			<stat name="intelligence" value="2" />
+			<stat name="wisdom" value="1" />
+			<stat name="innate speed" value="30" bonus="base" />
+			<grant type="Trait" id="ID_UESTRPG_MAGICKA" />
+			<grant type="Size" id="ID_SIZE_MEDIUM" />
+			<grant type="Language" id="ID_UESTRPG_LANGUAGE_ALTMERIS" />
+			<grant type="Language" id="ID_UESTRPG_LANGUAGE_TAMRIELIC" />
+			<grant type="Racial Trait" id="ID_UESTRPG_RACIAL_TRAIT_ALTMER_BLOOD" />
+			<grant type="Racial Trait" id="ID_UESTRPG_RACIAL_TRAIT_HIGHBORN" />
+            <select type="Proficiency" name="Skill Proficiency (Altmer)" number = "2" supports="ID_PROFICIENCY_SKILL_ARCANA|ID_PROFICIENCY_SKILL_HISTORY|ID_PROFICIENCY_SKILL_NATURE|ID_PROFICIENCY_SKILL_RELIGION" />
+            <!-- <select type="Proficiency" name="Skill Proficiency (Altmer)" supports="ID_PROFICIENCY_SKILL_ARCANA|ID_PROFICIENCY_SKILL_HISTORY|ID_PROFICIENCY_SKILL_NATURE|ID_PROFICIENCY_SKILL_RELIGION" /> -->
+			<select type="Proficiency" name="Tool Proficiency (Altmer)" supports="ID_PROFICIENCY_TOOL_PROFICIENCY_ALCHEMISTS_SUPPLIES" />
+			<select type="Language" name="Language (Altmer)" number="2" supports="Standard" />
+			<select type="Archetype" name="Birthsign" supports="Birthsign" />
+		</rules>
+	</element>
+
+<!-- RACIAL TRAITS -->
+
+    <element name="Altmer Blood" type="Racial Trait" source="UESTRPG" id="ID_UESTRPG_RACIAL_TRAIT_ALTMER_BLOOD">
+        <description>
+            <p>You gain advantage on saving throws to resist diseases.</p>
+        </description>
+        <sheet>
+            <description>You gain advantage on saving throws to resist diseases.</description>
+        </sheet>
+    </element>
+
+    <element name="Highborn" type="Racial Trait" source="UESTRPG" id="ID_UESTRPG_RACIAL_TRAIT_HIGHBORN">
+        <description>
+            <p>You have an innate well of magicka within you. You have 2 magicka points that you can use to cast spells. Additionally, you know one cantrip and one 1st level spell from the mage spell list.</p>
+        	<p class="indent">You gain an additional magicka point when you reach 3rd level (3), 6th level, (4), and 10th level (5). Additionally, when you reach 3rd level, you learn a 2nd level spell of your choice from the mage spell list.</p>
+			<p class="indent">Intelligence is your spellcasting ability for these spells, you must expend magicka to cast them, and you can only cast them at their base level. You regain all expended magicka when you finish a long rest.</p>
+		</description>
+        <sheet>
+            <description>You have {{magicka:altmer}} magicka points that you can use to cast spells. Additionally, you know one cantrip and one 1st level spell from the mage spell list. When you reach 3rd level, you learn a 2nd level spell of your choice from the mage spell list.</description>
+        </sheet>
+		<spellcasting name="Altmer" ability="Intelligence" prepare="false">
+			<list>Mage</list>
+		</spellcasting>
+		<rules>
+			<stat name="magicka:altmer" value ="2" level="1" />
+			<stat name="magicka:altmer" value ="1" level="3" />
+			<stat name="magicka:altmer" value ="1" level="6" />
+			<stat name="magicka:altmer" value ="1" level="10" />
+			<stat name="magicka" value ="magicka:altmer" />
+
+
+			<select type="Spell" name="Cantrip (Altmer Highborn)" supports="$(spellcasting:list), 0, Mage" level="1" number="1" spellcasting="Altmer" />
+			<select type="Spell" name="Spell (Altmer Highborn)" supports="$(spellcasting:list), 1, Mage" level="1" number="1" spellcasting="Altmer" />
+			<select type="Spell" name="Spell (Altmer Highborn)" supports="$(spellcasting:list), 2, Mage" level="3" number="1" spellcasting="Altmer" />
+		</rules>
+    </element>
+
+</elements>

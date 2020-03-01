@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Nord</name>
+		<description></description>
+		<author url="https://uestrpg.wixsite.com/home/downloads">Unofficial Elder Scrolls Tabletop RPG</author>
+		<update version="1.4.0">
+			<file name="race-template.xml" url="" />
+		</update>
+	</info>
+
+	<element name="Nord" type="Race" source="UESTRPG" id="ID_UESTRPG_RACE_NORD">
+		<description>
+			<p class="flavor">Children of the Sky, Nords are the tall and hardy humans from the northern province of Skyrim. The harsh environments of Skyrim have hardened Nords. Even those who have been born in easier civilizations have this ingrained toughness. You will most likely find Nords working in fields that prove their robustness. A good nord knows the value of hard work. The second most likely place to find a nord is inside the local watering hole. Mead and music go hand in hand with nordic culture.</p>
+			<h4>STRONG WILLED AND STRONG ARMED</h4>
+			<p>Nords are the tallest of the human races and have fair skin and fair colored hair. They are known for their powerful physique and modest intellect.</p>
+			<p class="indent">Nords are fierce competitors and strongly believe in fighting for status and for sport. Favoring brute strength over wit, the nords are suspicious of mages and don't believe in using social status or wealth to garner favor. It is very common for nords to have scars and bruises, or be seen walking out of a tavern with a bloody nose and a flagon of ale.</p>
+			<h4>BORN FOR BATTLE</h4>
+			<p>Fierce warriors, and enthusiastic soldiers, Nords can be found throughout Tamriel offering their talents as mercenaries and sellswords. Proving oneself in battle is a way for any nord to increase their status. Raised from birth, they are always searching for new ways to increase their martial skills.</p>
+			<p class="indent">Nords are also talented sailors. They are known to have dominated warring nations with their natural talent at sea, and have been vanguards of nautical trade.</p>
+			<h4>NORD NAMES</h4>
+			<p>Every Nord has a given name, but only some Nords have clan names. Sometimes, a Nord will be given a title, which can be used before or after their given name. A title is usually a description of a great feat or a personality trait. Such as Heinrich the Ugly or Lyra Wolf-Child.</p>
+			<p>
+			<span class="feature">Male Names:</span>Arnbjorn, Balbus, Carsten, Daglin, Erik, Fjol, Gunder, Hans, Iver, Jayred, Keld, Larthjar, Manheim, Nels, Olav, Regner, Sten, Torbal, Ulfgar, Valdemar, Wilmuth, Yngvar<br />
+			<span class="feature">Female Names:</span>Aeta, Bergritte, Dagny, Elda, Fryssa, Greidil, Hilde, Igna, Jala, Katria, Lillith, Margret, Nura, Olga, Ruki, Svenja, Temba, Una, Vori, Ysolda<br />
+			<span class="feature">Family Names:</span>Blackthorn, Ebonhand, Firebeard, Hairy-Breeks, Ironhand, Long-Tooth, Ravencrone, Stonearm, Twice-Killed, War-Bear, Windcaller<br />
+			</p>
+			<h4>NORD TRAITS</h4>
+			<p>Your Nord character has certain characteristics in common with other Nords.</p>
+			<p class="indent"><strong><em>Attribute Score Increase.</em></strong> Your Endurance score increases by 2 and your Strength scores increase by 1.</p>
+			<p class="indent"><strong><em>Age.</em></strong> Nords, like most men are not particularly long lived, and they mature at a normal rate, and almost never live longer than a century.</p>
+			<p class="indent"><strong><em>Alignment.</em></strong> Most nords are hardworking and good-hearted. They take comfort in their traditions and are distrusting of outsiders. They tend toward the good alingments.</p>
+			<p class="indent"><strong><em>Size.</em></strong> Nords are the largest of men, ranging from 6 to 6 ½ feet tall.</p>
+			<p class="indent"><strong><em>Speed.</em></strong> Your base walking speed is 30 feet.</p>
+			<p class="indent"><strong><em>Atmoran Ancestry.</em></strong> Your ancestral history of living in harsh, northern climates has given you resistance to cold damage.</p>
+			<p class="indent"><strong><em>Battlecry.</em></strong> As an action, you shout a battle cry that strikes fear into an enemy. Choose one creature that is within 60 feet of you than can see and hear you. That target must succeed on a Willpower saving throw or become frightened of you. The difficulty check of this save is equal to 8 + your Endurance modifier + your proficiency modifier. The frightened target can repeat the saving throw at the end of each of it's turns, ending the effect on itself on a success.</p>
+			<p class="indent">Once you use this trait, you can't use it again until you finish a short or long rest.</p>
+			<p class="indent"><strong><em>Toughness.</em></strong> Your hit point maximum is increased by 1, and it increases by 1 every time you level.</p>
+			<p class="indent"><strong><em>Weapon Profeciency.</em></strong> You are proficient with Axes and Spears.</p>
+			<p class="indent"><strong><em>Languages.</em></strong> You can speak, read, and write Nordic and Tamrielic.</p>
+		</description>
+		<sheet display="false" />
+		<setters>
+			<set name="names" type="male">Arnbjorn, Balbus, Carsten, Daglin, Erik, Fjol, Gunder, Hans, Iver, Jayred, Keld, Larthjar, Manheim, Nels, Olav, Regner, Sten, Torbal, Ulfgar, Valdemar, Wilmuth, Yngvar</set>
+			<set name="names" type="female">Aeta, Bergritte, Dagny, Elda, Fryssa, Greidil, Hilde, Igna, Jala, Katria, Lillith, Margret, Nura, Olga, Ruki, Svenja, Temba, Una, Vori, Ysolda</set>
+			<set name="names" type="family">Blackthorn, Ebonhand, Firebeard, Hairy-Breeks, Ironhand, Long-Tooth, Ravencrone, Stonearm, Twice-Killed, War-Bear, Windcaller</set>
+			<set name="names-format">{{name}} {{family}}</set>
+			<set name="height" modifier="2d10">4'10"</set>
+			<set name="weight" modifier="2d6">120 lb.</set>
+		</setters>
+		<rules>
+			<stat name="constitution" value="2" />
+			<stat name="strength" value="1" />
+			<stat name="innate speed" value="30" bonus="base" />
+			<grant type="Size" id="ID_SIZE_MEDIUM" />
+			<grant type="Language" id="ID_UESTRPG_LANGUAGE_NORDIC" />
+			<grant type="Language" id="ID_UESTRPG_LANGUAGE_TAMRIELIC" />
+			<grant type="Racial Trait" id="ID_UESTRPG_RACIAL_TRAIT_ATMORAN_ANCESTRY" />
+			<grant type="Racial Trait" id="ID_UESTRPG_RACIAL_TRAIT_BATTLECRY" />
+			<grant type="Racial Trait" id="ID_UESTRPG_RACIAL_TRAIT_TOUGHNESS" />
+			<grant type="Racial Trait" id="ID_UESTRPG_RACIAL_TRAIT_NORD_WEAPON_TRAINING" />
+			<select type="Archetype" name="Birthsign" supports="Birthsign" />
+		</rules>
+	</element>
+
+<!-- RACIAL TRAITS -->
+
+	<element name="Atmoran Ancestry" type="Racial Trait" source="UESTRPG" id="ID_UESTRPG_RACIAL_TRAIT_ATMORAN_ANCESTRY">
+		<description>
+			<p>Your ancestral history of living in harsh, northern climates has given you resistance to cold damage.</p>
+		</description>
+		<sheet>
+			<description>Your ancestral history of living in harsh, northern climates has given you resistance to cold damage.</description>
+		</sheet>
+		<rules>
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_COLD" />
+		</rules>
+	</element>
+
+	<element name="Battlecry" type="Racial Trait" source="UESTRPG" id="ID_UESTRPG_RACIAL_TRAIT_BATTLECRY">
+		<description>
+			<p>As an action, you shout a battle cry that strikes fear into an enemy. Choose one creature that is within 60 feet of you than can see and hear you. That target must succeed on a Willpower saving throw or become frightened of you. The difficulty check of this save is equal to 8 + your Endurance modifier + your proficiency modifier. The frightened target can repeat the saving throw at the end of each of it's turns, ending the effect on itself on a success. Once you use this trait, you can't use it again until you finish a short or long rest.</p>
+		</description>	
+		<sheet action="Action" usage="1/Short Rest">
+			<description>As an action, you shout a battle cry that strikes fear into an enemy. Choose one creature that is within 60 feet of you than can see and hear you. That target must succeed against DC {{battlecry:dc}}. The frightened target can repeat the saving throw at the end of each of it's turns, ending the effect on itself on a success.</description>
+		</sheet>
+		<rules>
+			<stat name="battlecry:dc" value="8" />
+			<stat name="battlecry:dc" value="constitution:modifier" />
+			<stat name="battlecry:dc" value="proficiency" />
+		</rules>
+	</element>
+
+	<element name="Toughness" type="Racial Trait" source="UESTRPG" id="ID_UESTRPG_RACIAL_TRAIT_TOUGHNESS">
+		<description>
+			<p>Your hit point maximum is increased by 1, and it increases by 1 every time you level.</p>
+		</description>
+		<sheet>
+			<description>Your hit point maximum is increased by {{level}}</description>
+		</sheet>
+		<rules>
+			<stat name="hp" value="level"/>
+		</rules>
+	</element>
+
+	<element name="Nord Weapon Training" type="Racial Trait" source="UESTRPG" id="ID_UESTRPG_RACIAL_TRAIT_NORD_WEAPON_TRAINING">
+		<description>
+			<p>You are proficient in Axes and Spears.</p>
+		</description>
+		<sheet display="false">
+			<description>You are proficient in Axes and Spears</description>
+		</sheet>
+		<rules>
+			<grant type="Proficiency" id="ID_UESTRPG_TRAIT_AXE_PROFICIENCY" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SPEAR" />
+		</rules>
+	</element>
+
+</elements>

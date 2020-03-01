@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Nightblade</name>
+		<description></description>
+		<author url="https://uestrpg.wixsite.com/home/downloads">Unofficial Elder Scrolls Tabletop RPG</author>
+		<update version="1.4.0">
+			<file name="class-nightblade.xml" url="" />
+		</update>
+	</info>
+
+	<element name="Nightblade" type="Class"  source="UESTRPG" id="ID_UESTRPG_CLASS_NIGHTBLADE">
+		<description>
+			<p>Unexpectedly, the viscount blurts out the location of the missing dauphin, when moments earlier he seemed disinterested in helping. With a wave of her hand, an altmer smiles slyly, thanks the aid, and confidently leaves the castle.</p>
+			<p class="indent">Suppressing a giggle, a breton waggles her fingers and magically lifts the key ring from the guard’s belt. In a moment, the keys are in her hand, the cell door is open, and she and her companions are free to make their escape.</p>
+            <p class="indent">Navigating the dark alleys in near silence, an argonian dressed in black dyed leather heads towards the back side of the mayor's villa. Noticing an open window on the second-story, he fades into the shadows and with a puff of black smoke reappears in the unlit room.</p>
+            <p class="indent">Every nightblade has given themselves to the shadow, exploiting the ancient magic found within the darkness. They use the arcane arts to enhance their skills of stealth and to manipulate the minds of others.</p>
+            <h4>MISCHIEVOUS OPPORTUNISTS</h4>
+			<p>Whichever path they choose, nightblades have a sinister reputation that follows. They are known to be clever pickpockets and burglars, but also pranksters and mischief-makers. Not all nightblades are scoundrels, however. Many use their talents to become incredibly successful investigators, undercover operatives, or royal inquisitors.</p>
+			<p class="indent">When it comes to getting in and out unnoticed, nightblades are unrivaled. They're natural talent with stealth, combined with magical concealment means a capable nightblade is hardly ever seen. Unlike studious mages, nightblades supplement their magic with their skillful blade and light armor.</p>
+			<h4>CONFLICT AND MISFORTUNE</h4>
+            <p>The life of a nightblade is a dangerous one. Whatever their motivations, slinking through alleyways, spying on suspects, and liberating goods is a risky business. Sometimes considered agents of misery, most nightblades have become inured to the woe's of others, but that doesn't necessarily mean that they are unaffected by their actions.</p>
+            <p class="indent">Typically driven by the need to learn more about the dark arts of shadow magic, or to discover the inner workings of black markets, nightblades often find themselves flirting on the edge of morality to get what they want.</p>
+			<h4>CREATING A NIGHTBLADE</h4>
+			<p>As you create your nightblade character, consider it's relationship with the shadow. Have you completely given in to the darkness are do you skirt around the edges, taking only what you need? Do you struggle with the harmful magic, or have you learned to balance the dangerous power? Perhaps you believe that light shines brightest in the darkness and use this gift to fend off the forces of evil.</p>
+			<p class="indent">What was your life like before you started your adventure? Were you a lowly thief or an esteemed agent of the Empire? Or maybe you started out as a illusionist and realized you can use your magic prowess to take what you want. How did you learn about the obscure shadow magic? Were you selected by a mentor who noticed your talents or did you happen across a mystic tome during a heist?</p>
+            <p class="indent">Consider why you've joined a group of adventurers. Are you in search of more powerful knowledge that you can't manage on your own? Does your greed drive you, are you interested in honing your skills, or are you investigating nefarious villains.</p>
+            <h5>QUICK BUILD</h5>
+			<p>You can make a nightblade quickly by following these suggestions. First, Personality should be your highest attribute score, followed by Endurance. Second, use the charlatan background. Third, choose the <i>chill touch</i> and <i>eldritch blast</i> cantrips, along with with 1st level spells <i>charm person</i> and <i>witch bolt</i>.</p>
+            <h3>CLASS FEATURES</h3>
+			<p>As a nightblade, you gain the following class features.</p>
+			<h5>HIT POINTS</h5>
+			<ul class="unstyled">
+				<li><strong>Hit Dice:</strong> 1d8 per nightblade level</li>
+				<li><strong>Hit Points at 1st Level:</strong> 8 + your Constitution modifier</li>
+				<li><strong>Hit Points at Higher Levels:</strong> 1d8 (or 5) + your Constitution modifier per nightblade level after 1st</li>
+			</ul>
+			<h5>PROFICIENCIES</h5>
+			<ul class="unstyled mb">
+				<li><strong>Armor:</strong> Light Armor</li>
+				<li><strong>Weapons:</strong> Marksman, Short Blade and Long Blade</li>
+				<li><strong>Tools:</strong> Choose one from disguise kit, forgery kit, poisoner's kit or thieves' tools.</li>
+			</ul>
+			<ul class="unstyled">
+				<li><strong>Saving Throws:</strong> Dexterity, Intelligence</li>
+				<li><strong>Skills:</strong> Choose three from Acrobatics, Arcana, Athletics, Deception, Insight, Investigation, History, Perception, Sleight of Hand, and Stealth</li>
+			</ul>
+			<!-- <h5>EQUIPMENT</h5>
+			<p>You start with the following equipment, in addition to the equipment granted by your background:</p>
+			<ul>
+				<li>(a) a quarterstaff or (b) a dagger</li>
+				<li>(a) a component pouch or (b) an arcane focus</li>
+				<li>(a) a light crossbow and 20 bolts or (b) any simple weapon</li>
+				<li>(a) a scholar’s pack or (b) an explorer’s pack</li>
+				<li>A spellbook</li>
+			</ul> -->
+			<!-- <h5 class="caption">THE </h5>
+			<table class="class-features">
+				<thead>
+					<tr><td class="col-5">Level</td><td class="left">Features</td><td class="col-10">Cantrips Known</td><td>1st</td><td>2nd</td><td>3rd</td><td>4th</td><td>5th</td><td>6th</td><td>7th</td><td>8th</td><td>9th</td></tr>
+				</thead>
+				<tr><td> 1st</td><td class="left">Spellcasting, Arcane Recovery</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 2nd</td><td class="left">Arcane Tradition</td><td>3</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 3rd</td><td class="left">—</td><td>3</td><td>4</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 4th</td><td class="left">Ability Score Improvement</td><td>4</td><td>4</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 5th</td><td class="left">—</td><td>4</td><td>4</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 6th</td><td class="left">Arcane Tradition feature</td><td>4</td><td>4</td><td>3</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 7th</td><td class="left">—</td><td>4</td><td>4</td><td>3</td><td>3</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 8th</td><td class="left">Ability Score Improvement</td><td>4</td><td>4</td><td>3</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 9th</td><td class="left">—</td><td>4</td><td>4</td><td>3</td><td>3</td><td>3</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td>10th</td><td class="left">Arcane Tradition feature</td><td>5</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td>11th</td><td class="left">—</td><td>5</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td>12th</td><td class="left">Ability Score Improvement</td><td>5</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td>13th</td><td class="left">—</td><td>5</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>—</td><td>—</td></tr>
+				<tr><td>14th</td><td class="left">Arcane Tradition feature</td><td>5</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>—</td><td>—</td></tr>
+				<tr><td>15th</td><td class="left">—</td><td>5</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td><td>—</td></tr>
+				<tr><td>16th</td><td class="left">Ability Score Improvement</td><td>5</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td><td>—</td></tr>
+				<tr><td>17th</td><td class="left">—</td><td>5</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td><td>1</td></tr>
+				<tr><td>18th</td><td class="left">Spell Mastery</td><td>5</td><td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>1</td><td>1</td><td>1</td><td>1</td></tr>
+				<tr><td>19th</td><td class="left">Ability Score Improvement</td><td>5</td><td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td></tr>
+				<tr><td>20th</td><td class="left">Signature Spell</td><td>5</td><td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>2</td><td>2</td><td>1</td><td>1</td></tr>
+			</table>
+			<div element="ID_UESTRPG_CLASS_FEATURE_NIGHTLBLADE_SPELLCASTING" />
+			<div element="ID_WOTC_PHB_CLASS_FEATURE_WIZARD_ARCANE_RECOVERY" />
+			<div element="ID_WOTC_PHB_CLASS_FEATURE_WIZARD_ARCANE_TRADITION" />
+			<div element="ID_WOTC_PHB_CLASS_FEATURE_WIZARD_ABILITYSCOREIMPROVEMENT_WIZARD" />
+			<div element="ID_WOTC_PHB_CLASS_FEATURE_WIZARD_SPELL_MASTERY" />
+			<div element="ID_WOTC_PHB_CLASS_FEATURE_WIZARD_SIGNATURE_SPELLS" /> -->
+		</description>
+		<sheet display="false">
+			<description>A scholarly magic-user capable of manipulating the structures of reality.</description>
+		</sheet>
+		<setters>
+			<set name="short">A scholarly magic-user capable of manipulating the structures of reality.</set>
+			<set name="hd">d6</set>
+		</setters>
+		<rules>
+			<!-- <grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS_SPELLCASTING_SLOTS_FULL" requirements="ID_INTERNAL_GRANT_MULTICLASS"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_DAGGER" requirements="!ID_WOTC_PHB_MULTICLASS_WIZARD"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_DART" requirements="!ID_WOTC_PHB_MULTICLASS_WIZARD"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SLING" requirements="!ID_WOTC_PHB_MULTICLASS_WIZARD"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_QUARTERSTAFF" requirements="!ID_WOTC_PHB_MULTICLASS_WIZARD"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_CROSSBOW_LIGHT" requirements="!ID_WOTC_PHB_MULTICLASS_WIZARD"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_INTELLIGENCE" requirements="!ID_WOTC_PHB_MULTICLASS_WIZARD"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_WISDOM" requirements="!ID_WOTC_PHB_MULTICLASS_WIZARD"/>
+			<select type="Proficiency" name="Skill Proficiency (Nightblade)" supports="Skill,Nightblade" number="2" requirements="!ID_WOTC_PHB_MULTICLASS_WIZARD"/> -->
+			<grant type="Class Feature" id="ID_UESTRPG_CLASS_FEATURE_NIGHTLBLADE_SPELLCASTING" level="1"/>
+			<!-- <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_WIZARD_ARCANE_RECOVERY" level="1" />
+			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_WIZARD_ARCANE_TRADITION" level="2" />
+			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_WIZARD_ABILITYSCOREIMPROVEMENT_WIZARD" level="4" />
+			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_WIZARD_SPELL_MASTERY" level="18" />
+			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_WIZARD_SIGNATURE_SPELLS" level="20" /> -->
+		</rules>
+		<!-- <multiclass id="ID_WOTC_PHB_MULTICLASS_WIZARD">
+			<prerequisite>Intelligence 13</prerequisite>
+			<requirements>[int:13]</requirements>
+			<setters>
+				<set name="multiclass proficiencies">—</set>
+			</setters>
+			<rules>
+				<grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS" />
+			</rules>
+		</multiclass> -->
+	</element>
+	<element name="Spellcasting" type="Class Feature" source="UESTRPG" id="ID_UESTRPG_CLASS_FEATURE_NIGHTLBLADE_SPELLCASTING">
+		<description>
+			<!-- <p>As a student of arcane magic, you have a spellbook containing spells that show the first glimmerings of your true power.</p>
+			<h5>CANTRIPS</h5>
+			<p>At 1st level, you know three cantrips of your choice from the nightblade spell list. You learn additional nightblade cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Nightblade table.</p>
+			<h5>SPELLBOOK</h5>
+			<p>At 1st level, you have a spellbook containing six 1st-­level nightblade spells of your choice. Your spellbook is the repository of the nightblade spells you know, except your cantrips, which are fixed in your mind.</p>
+			<h5>PREPARING AND CASTING SPELLS</h5>
+			<p>The Nightblade table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell’s level or higher. You regain all expended spell slots when you finish a long rest.</p>
+			<p class="indent">You prepare the list of nightblade spells that are available for you to cast. To do so, choose a number of nightblade spells from your spellbook equal to your Intelligence modifier + your nightblade level (minimum of one spell). The spells must be of a level for which you have spell slots.</p>
+			<p class="indent">For example, if you’re a 3rd-level nightblade, you have four 1st-level and two 2nd-level spell slots. With an Intelligence of 16, your list of prepared spells can include six spells of 1st or 2nd level, in any combination, chosen from your spellbook. If you prepare the 1st-level spell magic missile, you can cast it using a 1st-level or a 2nd-level slot. Casting the spell doesn’t remove it from your list of prepared spells.</p>
+			<p class="indent">You can change your list of prepared spells when you finish a long rest. Preparing a new list of nightblade spells requires time spent studying your spellbook and memorizing the incantations and gestures you must make to cast the spell: at least 1 minute per spell level for each spell on your list.</p>
+			<h5>SPELLCASTING ABILITY</h5>
+			<p>Intelligence is your spellcasting ability for your nightblade spells, since you learn your spells through dedicated study and memorization. You use your Intelligence whenever a spell refers to your spellcasting ability. In addition, you use your Intelligence modifier when setting the saving throw DC for a nightblade spell you cast and when making an attack roll with one.</p>
+			<center>
+				<p><strong>Spell save DC</strong> = 8 + your proficiency bonus + your Intelligence modifier</p>
+				<p><strong>Spell attack modifier</strong> = your proficiency bonus + your Intelligence modifier</p>
+			</center>
+			<h5>RITUAL CASTING</h5>
+			<p>You can cast a nightblade spell as a ritual if that spell has the ritual tag and you have the spell in your spellbook. You don’t need to have the spell prepared.</p>
+			<h5>SPELLCASTING FOCUS</h5>
+			<p>You can use an arcane focus as a spellcasting focus for your nightblade spells.</p>
+			<h5>LEARNING SPELLS OF 1ST LEVEL AND HIGHER</h5>
+			<p>Each time you gain a nightblade level, you can add two nightblade spells of your choice to your spellbook for free. Each of these spells must be of a level for which you have spell slots, as shown on the Nightblade table. On your adventures, you might find other spells that you can add to your spellbook (see the “Your Spellbook” sidebar).</p> -->
+		</description>
+		<sheet display="false">
+			<description>You can prepare {{nightblade:spellcasting:prepare}} spells from the your spellbook. You use an arcane focus to cast spells. and can also cast nightblade spells as a ritual.</description>
+		</sheet>
+		<spellcasting name="Nightblade" ability="Intelligence" prepare="true">
+			<list>Wizard</list>
+		</spellcasting>
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_RITUAL_CASTING" />
+			<grant type="Proficiency" id="ID_INTERNAL_PROFICIENCY_SPELLFOCUS_GROUP_ARCANE_FOCUS" />
+
+			<stat name="nightblade:spellcasting:slots:1" value="2" level="1" />
+			<stat name="nightblade:spellcasting:slots:1" value="1" level="2" />
+			<stat name="nightblade:spellcasting:slots:1" value="1" level="3" />
+
+			<stat name="nightblade:spellcasting:slots:2" value="2" level="3" />
+			<stat name="nightblade:spellcasting:slots:2" value="1" level="4" />
+			<stat name="nightblade:spellcasting:slots:3" value="2" level="5" />
+			<stat name="nightblade:spellcasting:slots:3" value="1" level="6" />
+			<stat name="nightblade:spellcasting:slots:4" value="1" level="7" />
+			<stat name="nightblade:spellcasting:slots:4" value="1" level="8" />
+			<stat name="nightblade:spellcasting:slots:4" value="1" level="9" />
+			<stat name="nightblade:spellcasting:slots:5" value="1" level="9" />
+			<stat name="nightblade:spellcasting:slots:5" value="1" level="10" />
+			<stat name="nightblade:spellcasting:slots:5" value="1" level="18" />
+			<stat name="nightblade:spellcasting:slots:6" value="1" level="11" />
+			<stat name="nightblade:spellcasting:slots:6" value="1" level="19" />
+			<stat name="nightblade:spellcasting:slots:7" value="1" level="13" />
+			<stat name="nightblade:spellcasting:slots:7" value="1" level="20" />
+			<stat name="nightblade:spellcasting:slots:8" value="1" level="15" />
+			<stat name="nightblade:spellcasting:slots:9" value="1" level="17" />
+
+			<stat name="nightblade:spellcasting:prepare" value="intelligence:modifier" />
+			<stat name="nightblade:spellcasting:prepare" value="level:nightblade" />
+
+			<select type="Spell" name="Cantrip (Nightblade)" supports="$(spellcasting:list), 0, Wizard" level="1" number="3" spellcasting="Nightblade" />
+			<select type="Spell" name="Cantrip (Nightblade)" supports="$(spellcasting:list), 0, Wizard" level="4" number="1" spellcasting="Nightblade" />
+			<select type="Spell" name="Cantrip (Nightblade)" supports="$(spellcasting:list), 0, Wizard" level="10" number="1" spellcasting="Nightblade" />
+
+			<select type="Spell" name="Spellbook (Nightblade)" supports="$(spellcasting:list), 1" level="1" number="6" spellcasting="Nightblade" />
+			<select type="Spell" name="Spellbook (Nightblade)" supports="$(spellcasting:list), $(spellcasting:slots)" level="2" number="2" spellcasting="Nightblade" />
+			<select type="Spell" name="Spellbook (Nightblade)" supports="$(spellcasting:list), $(spellcasting:slots)" level="3" number="2" spellcasting="Nightblade" />
+			<select type="Spell" name="Spellbook (Nightblade)" supports="$(spellcasting:list), $(spellcasting:slots)" level="4" number="2" spellcasting="Nightblade" />
+			<select type="Spell" name="Spellbook (Nightblade)" supports="$(spellcasting:list), $(spellcasting:slots)" level="5" number="2" spellcasting="Nightblade" />
+			<select type="Spell" name="Spellbook (Nightblade)" supports="$(spellcasting:list), $(spellcasting:slots)" level="6" number="2" spellcasting="Nightblade" />
+			<select type="Spell" name="Spellbook (Nightblade)" supports="$(spellcasting:list), $(spellcasting:slots)" level="7" number="2" spellcasting="Nightblade" />
+			<select type="Spell" name="Spellbook (Nightblade)" supports="$(spellcasting:list), $(spellcasting:slots)" level="8" number="2" spellcasting="Nightblade" />
+			<select type="Spell" name="Spellbook (Nightblade)" supports="$(spellcasting:list), $(spellcasting:slots)" level="9" number="2" spellcasting="Nightblade" />
+			<select type="Spell" name="Spellbook (Nightblade)" supports="$(spellcasting:list), $(spellcasting:slots)" level="10" number="2" spellcasting="Nightblade" />
+			<select type="Spell" name="Spellbook (Nightblade)" supports="$(spellcasting:list), $(spellcasting:slots)" level="11" number="2" spellcasting="Nightblade" />
+			<select type="Spell" name="Spellbook (Nightblade)" supports="$(spellcasting:list), $(spellcasting:slots)" level="12" number="2" spellcasting="Nightblade" />
+			<select type="Spell" name="Spellbook (Nightblade)" supports="$(spellcasting:list), $(spellcasting:slots)" level="13" number="2" spellcasting="Nightblade" />
+			<select type="Spell" name="Spellbook (Nightblade)" supports="$(spellcasting:list), $(spellcasting:slots)" level="14" number="2" spellcasting="Nightblade" />
+			<select type="Spell" name="Spellbook (Nightblade)" supports="$(spellcasting:list), $(spellcasting:slots)" level="15" number="2" spellcasting="Nightblade" />
+			<select type="Spell" name="Spellbook (Nightblade)" supports="$(spellcasting:list), $(spellcasting:slots)" level="16" number="2" spellcasting="Nightblade" />
+			<select type="Spell" name="Spellbook (Nightblade)" supports="$(spellcasting:list), $(spellcasting:slots)" level="17" number="2" spellcasting="Nightblade" />
+			<select type="Spell" name="Spellbook (Nightblade)" supports="$(spellcasting:list), $(spellcasting:slots)" level="18" number="2" spellcasting="Nightblade" />
+			<select type="Spell" name="Spellbook (Nightblade)" supports="$(spellcasting:list), $(spellcasting:slots)" level="19" number="2" spellcasting="Nightblade" />
+			<select type="Spell" name="Spellbook (Nightblade)" supports="$(spellcasting:list), $(spellcasting:slots)" level="20" number="2" spellcasting="Nightblade" />
+		</rules>
+	</element>
+</elements>

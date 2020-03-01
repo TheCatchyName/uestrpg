@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Name</name>
+		<description></description>
+		<author url="https://uestrpg.wixsite.com/home/downloads">Unofficial Elder Scrolls Tabletop RPG</author>
+		<update version="1.4.0">
+			<file name="race-template.xml" url="" />
+		</update>
+	</info>
+
+	<element name="Template" type="Race" source="UESTRPG" id="ID_UESTRPG_RACE_TEMPLATE" ignore="true">
+		<description>
+			<p class="flavor">FLAVOUR</p>
+			<h4>TITLE</h4>
+			<p>content</p>
+			<p class="indent">content</p>
+			<p class="indent">content</p>
+			<p class="indent">content</p>
+			<p class="indent">content</p>
+			<h4>TITLE</h4>
+			<p>content</p>
+			<p class="indent">content</p>
+			<p class="indent">content</p>
+			<p class="indent">content</p>
+			<p class="indent">content</p>
+			<p class="indent">content</p>
+			<h4>TITLE</h4>
+			<p>content</p>
+			<p class="indent">content</p>
+			<p class="indent">content</p>
+			<p class="indent">content</p>
+			<p class="indent">content</p>
+			<p class="indent">content</p>
+			<h4>TITLE</h4>
+			<p>content</p>
+			<p class="indent">content</p>
+			<p class="indent">content</p>
+			<p class="indent">content</p>
+			<p class="indent">content</p>
+			<p class="indent">content</p>
+			<h4>race NAMES</h4>
+			<p>namedescription</p>
+			<p>
+			<span class="feature">Male Names:</span>male<br />
+			<span class="feature">Female Names:</span>female<br />
+			<span class="feature">Family Names:</span>family<br />
+			</p>
+			<h4>race TRAITS</h4>
+			<p>flavour</p>
+			<p class="indent"><strong><em>Attribute Score Increase.</em></strong> </p>
+			<p class="indent"><strong><em>Age.</em></strong> </p>
+			<p class="indent"><strong><em>Alignment.</em></strong> </p>
+			<p class="indent"><strong><em>Size.</em></strong> </p>
+			<p class="indent"><strong><em>Speed.</em></strong> Your base walking speed is 30 feet.</p>
+			<p class="indent"><strong><em>NameOfTrait.</em></strong> </p>
+			<p class="indent"><strong><em>Tool Profeciency.</em></strong> </p>
+			<p class="indent"><strong><em>Languages.</em></strong> </p>
+		</description>
+		<sheet display="false" />
+		<setters>
+			<set name="names" type="male">namelist</set>
+			<set name="names" type="female">namelist</set>
+			<set name="names" type="family">namelist</set>
+			<set name="names-format">{{name}} {{family}}</set>
+			<set name="height" modifier="2d8">5'10"</set>
+			<set name="weight" modifier="1d4">110 lb.</set>
+		</setters>
+		<rules>
+			<stat name="intelligence" value="2" />
+			<stat name="wisdom" value="1" />
+			<stat name="innate speed" value="30" bonus="base" />
+			<grant type="Size" id="ID_SIZE_MEDIUM" />
+			<grant type="Language" id="ID_UESTRPG_LANGUAGE_ALTMERIS" />
+			<grant type="Language" id="ID_UESTRPG_LANGUAGE_TAMRIELIC" />
+			<grant type="Racial Trait" id="ID_UESTRPG_RACIAL_TRAIT_NAME" />
+			<grant type="Racial Trait" id="ID_UESTRPG_RACIAL_TRAIT_NAME" />
+			<grant type="Racial Trait" id="ID_UESTRPG_RACIAL_TRAIT_NAME" />
+			<grant type="Racial Trait" id="ID_UESTRPG_RACIAL_TRAIT_NAME" />
+			<grant type="Racial Trait" id="ID_UESTRPG_RACIAL_TRAIT_NAME" />
+		</rules>
+	</element>
+</elements>

@@ -1,0 +1,134 @@
+argonian and khajiit personality add to background
+append to all backgrounds with requirements khajiit
+
+put a magicka cost table on the sheet?
+
+description can have level also!
+
+		<sheet action="Action" usage="1/Short Rest"> !!!!!!!
+
+Argonian
+Skipped: Argonian Personality (add to background)
+
+Barbarian: skip war crier, or add it as option "non-immersive thu'um"?
+
+Add additional weapons give option to enable?
+
+change all item prices
+
+need to add supports of each spell for altmer lists and breton
+
+check all spell selections have valid lists
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------
+
+CUSTOM ABILITY LEVEL UP SELECTION
+
+<element name="Custom Feature" type="Class Feature" source="src" id="ID_src_CLASS_FEATURE_SORCERER_CUSTOM_FEATURE_4">
+    <supports>Improvement Option, Sorcerer, 4</supports>
+    <description>
+        <p>description</p>
+    </description>
+</element>
+change 4 to 16 for example for the level 16 improvement
+using these supports it will show up
+----------------------------------------------
+
+<append id="ID_OF_WEAPON">
+    <supports>ID_src_WEAPON_GROUP_SHORT_BLADES</supports>
+</append>
+
+<element name="Weapon Group (Short Blades)" type="Weapon Group" source="src" id="ID_src_WEAPON_GROUP_SHORT_BLADES" />
+
+	<element name="Reload" type="Weapon Property" source="Internal" id="ID_WOTC_DMG_WEAPON_PROPERTY_FIREARM_RELOAD">
+		<description>
+			<p>A limited number of shots can be made with a weapon that has the reload property. A character must then reload it using an action or a bonus action (the character's choice).</p>
+		</description>
+	</element>
+------------------------------------------------
+Weapon modifiers
+
+Generally speaking, iron and steel are standard items. 
+Elven, skyforge steel, vampire leathers, & dwemer are +1
+Ebony & glass are +2
+Dragonbone, stahlrim & daedric are +3
+
+I also give properties based on weapon material. Elven & glass make the item "light" even if it would otherwise not be, negating but not replacing "heavy"
+
+Orcish is somewhere between +1 and 2, so I treat it them as +1 "vicious" weapons.
+
+Any item made from Dwemer materials is instantly made "Heavy", but I make it so that a 1 on the damage die with a Dwemer weapon can be rerolled a single time.
+
+And so on. But this is just my personal Homebrew. I haven't come up with anything special for third tier just yet.
+Well... I allow Glass weapons to be given the "finesse" property as well, but meh.
+It's mostly because I enjoy the idea of the warrior in my game wanting to eventually dual wield greatswords, for which he will need exactly the right weapons, the right feats, and the minimum STR & AGI scores.
+
+
+------------------------------
+
+
+
+            <h5 class="caption">THE SORCERER</h5>
+			<table class="class-features">
+				<thead>
+					<tr><td class="col-5">Level</td><td class="col-10">Proficiency Bonus</td><td class="left">Features</td><td class="col-10">Cantrips Known</td><td class="col-10">Known Spells</td><td>Magicka</td><td>Spell Level</td></tr>
+				</thead>
+				<tr><td> 1st</td><td>+2</td><td class="left">Spell Casting, Sorcery Focus</td><td>4</td><td>4</td><td>5</td><td>1st</td></tr>
+				<tr><td> 2nd</td><td>+2</td><td class="left">—</td><td>4</td><td>3</td><td>3</td><td>—</td></tr>
+				<tr><td> 3rd</td><td>+2</td><td class="left">—</td><td>4</td><td>4</td><td>4</td><td>2</td></tr>
+				<tr><td> 4th</td><td>+2</td><td class="left">—</td><td>5</td><td>5</td><td>4</td><td>3</td></tr>
+				<tr><td> 5th</td><td>+3</td><td class="left">—</td><td>5</td><td>6</td><td>4</td><td>3</td></tr>
+				<tr><td> 6th</td><td>+3</td><td class="left">—</td><td>5</td><td>7</td><td>4</td><td>3</td></tr>
+				<tr><td> 7th</td><td>+3</td><td class="left">—</td><td>5</td><td>8</td><td>4</td><td>3</td></tr>
+				<tr><td> 8th</td><td>+3</td><td class="left">—</td><td>5</td><td>9</td><td>4</td><td>3</td></tr>
+				<tr><td> 9th</td><td>+4</td><td class="left">—</td><td>5</td><td>10</td><td>4</td><td>3</td></tr>
+				<tr><td>10th</td><td>+4</td><td class="left">—</td><td>6</td><td>11</td><td>4</td><td>3</td></tr>
+				<tr><td>11th</td><td>+4</td><td class="left">—</td><td>6</td><td>12</td><td>4</td><td>3</td></tr>
+				<tr><td>12th</td><td>+4</td><td class="left">—</td><td>6</td><td>12</td><td>4</td><td>3</td></tr>
+				<tr><td>13th</td><td>+5</td><td class="left">—</td><td>6</td><td>13</td><td>4</td><td>3</td></tr>
+				<tr><td>14th</td><td>+5</td><td class="left">—</td><td>6</td><td>13</td><td>4</td><td>3</td></tr>
+				<tr><td>15th</td><td>+5</td><td class="left">—</td><td>6</td><td>14</td><td>4</td><td>3</td></tr>
+				<tr><td>16th</td><td>+5</td><td class="left">—</td><td>6</td><td>14</td><td>4</td><td>3</td></tr>
+				<tr><td>17th</td><td>+6</td><td class="left">—</td><td>6</td><td>15</td><td>4</td><td>3</td></tr>
+				<tr><td>18th</td><td>+6</td><td class="left">—</td><td>6</td><td>15</td><td>4</td><td>3</td></tr>
+				<tr><td>19th</td><td>+6</td><td class="left">—</td><td>6</td><td>15</td><td>4</td><td>3</td></tr>
+				<tr><td>20th</td><td>+6</td><td class="left">—</td><td>6</td><td>15</td><td>4</td><td>3</td></tr>
+            </table>
+
+            <h5 class="caption">THE SORCERER</h5>
+			<table class="class-features">
+				<thead>
+					<tr><td class="col-5">Level</td><td class="col-10">Proficiency Bonus</td><td class="left">Features</td><td class="col-10">Cantrips Known</td><td class="col-10">Known Spells</td><td>Magicka</td><td>Spell Level</td></tr>
+				</thead>
+				<tr><td> 1st</td><td>+2</td><td class="left">-</td><td>4</td><td>4</td><td>5</td><td>1st</td></tr>
+				<tr><td> 2nd</td><td>+2</td><td class="left">-</td><td>4</td><td>5</td><td>8</td><td>1st</td></tr>
+				<tr><td> 3rd</td><td>+2</td><td class="left">—</td><td>4</td><td>6</td><td>17</td><td>2nd</td></tr>
+				<tr><td> 4th</td><td>+2</td><td class="left">—</td><td>5</td><td>7</td><td>21</td><td>2nd</td></tr>
+				<tr><td> 5th</td><td>+3</td><td class="left">—</td><td>5</td><td>8</td><td>32</td><td>3rd</td></tr>
+				<tr><td> 6th</td><td>+3</td><td class="left">—</td><td>5</td><td>9</td><td>40</td><td>3rd</td></tr>
+				<tr><td> 7th</td><td>+3</td><td class="left">—</td><td>5</td><td>10</td><td>47</td><td>4th</td></tr>
+				<tr><td> 8th</td><td>+3</td><td class="left">—</td><td>5</td><td>11</td><td>55</td><td>4th</td></tr>
+				<tr><td> 9th</td><td>+4</td><td class="left">—</td><td>5</td><td>12</td><td>71</td><td>5th</td></tr>
+				<tr><td>10th</td><td>+4</td><td class="left">—</td><td>6</td><td>13</td><td>80</td><td>5th</td></tr>
+				<tr><td>11th</td><td>+4</td><td class="left">—</td><td>6</td><td>14</td><td>91</td><td>6th</td></tr>
+				<tr><td>12th</td><td>+4</td><td class="left">—</td><td>6</td><td>14</td><td>91</td><td>6th</td></tr>
+				<tr><td>13th</td><td>+5</td><td class="left">—</td><td>6</td><td>15</td><td>103</td><td>7th</td></tr>
+				<tr><td>14th</td><td>+5</td><td class="left">—</td><td>6</td><td>15</td><td>103</td><td>7th</td></tr>
+				<tr><td>15th</td><td>+5</td><td class="left">—</td><td>6</td><td>16</td><td>117</td><td>8th</td></tr>
+				<tr><td>16th</td><td>+5</td><td class="left">—</td><td>6</td><td>16</td><td>117</td><td>8th</td></tr>
+				<tr><td>17th</td><td>+6</td><td class="left">—</td><td>6</td><td>17</td><td>133</td><td>9th</td></tr>
+				<tr><td>18th</td><td>+6</td><td class="left">—</td><td>6</td><td>17</td><td>142</td><td>9th</td></tr>
+				<tr><td>19th</td><td>+6</td><td class="left">—</td><td>6</td><td>17</td><td>153</td><td>9th</td></tr>
+				<tr><td>20th</td><td>+6</td><td class="left">—</td><td>6</td><td>17</td><td>166</td><td>9th</td></tr>
+            </table>

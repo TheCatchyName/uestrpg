@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+
+<!-- BLUNT WEAPONS -->
+
+    <element name="Blunt" type="Weapon Group" source="src" id="ID_UESTRPG_WEAPON_GROUP_BLUNT" />
+
+    <append id="ID_WOTC_PHB_WEAPON_CLUB">
+        <supports>ID_UESTRPG_WEAPON_GROUP_BLUNT</supports>
+    </append>
+
+    <append id="ID_WOTC_PHB_WEAPON_FLAIL">
+        <supports>ID_UESTRPG_WEAPON_GROUP_BLUNT</supports>
+    </append>
+
+    <append id="ID_WOTC_PHB_WEAPON_GREATCLUB">
+        <supports>ID_UESTRPG_WEAPON_GROUP_BLUNT</supports>
+    </append>
+
+    <append id="ID_WOTC_PHB_WEAPON_LIGHTHAMMER">
+        <supports>ID_UESTRPG_WEAPON_GROUP_BLUNT</supports>
+    </append>
+
+    <append id="ID_WOTC_PHB_WEAPON_MACE">
+        <supports>ID_UESTRPG_WEAPON_GROUP_BLUNT</supports>
+    </append>
+
+    <append id="ID_WOTC_PHB_WEAPON_MAUL">
+        <supports>ID_UESTRPG_WEAPON_GROUP_BLUNT</supports>
+    </append>
+
+    <append id="ID_WOTC_PHB_WEAPON_MORNINGSTAR">
+        <supports>ID_UESTRPG_WEAPON_GROUP_BLUNT</supports>
+    </append>
+
+    <append id="ID_WOTC_PHB_WEAPON_QUARTERSTAFF">
+        <supports>ID_UESTRPG_WEAPON_GROUP_BLUNT</supports>
+    </append>
+
+    <append id="ID_WOTC_PHB_WEAPON_WARHAMMER">
+        <supports>ID_UESTRPG_WEAPON_GROUP_BLUNT</supports>
+    </append>
+
+<!-- prof -->
+
+	<element name="Blunt Proficiency" type="Proficiency" source="UESTRPG" id="ID_UESTRPG_TRAIT_BLUNT_PROFICIENCY">
+		<description>
+			<p>You are proficient in Clubs, Flails, Greatclubs, Light Hammers, Maces, Mauls, Morningstars, Quarterstaffs and Warhammers</p>
+		</description>
+		<sheet>
+			<description>You are proficient in Clubs, Flails, Greatclubs, Light Hammers, Maces, Mauls, Morningstars, Quarterstaffs and Warhammers</description>
+		</sheet>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_CLUB" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_FLAIL" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_GREATCLUB" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_LIGHT_HAMMER" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MACE" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MAUL" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MORNINGSTAR" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_QUARTERSTAFF" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_WARHAMMER" />
+		</rules>
+	</element>
+
+
+<!-- SHORT BLADES -->
+
+    <element name="Short Blades" type="Weapon Group" source="src" id="ID_UESTRPG_WEAPON_GROUP_SHORT_BLADES" />
+
+    <append id="ID_WOTC_PHB_WEAPON_DAGGER">
+        <supports>ID_UESTRPG_WEAPON_GROUP_SHORT_BLADES</supports>
+    </append>
+
+    <append id="ID_WOTC_PHB_WEAPON_RAPIER">
+        <supports>ID_UESTRPG_WEAPON_GROUP_SHORT_BLADES</supports>
+    </append>
+
+    <append id="ID_WOTC_PHB_WEAPON_SCIMITAR">
+        <supports>ID_UESTRPG_WEAPON_GROUP_SHORT_BLADES</supports>
+    </append>
+
+    <append id="ID_WOTC_PHB_WEAPON_SHORTSWORD">
+        <supports>ID_UESTRPG_WEAPON_GROUP_SHORT_BLADES</supports>
+    </append>
+
+<!-- prof -->
+
+	<element name="Short Blade Proficiency" type="Proficiency" source="UESTRPG" id="ID_UESTRPG_TRAIT_SHORT_BLADE_PROFICIENCY">
+		<description>
+			<p>You are proficient in Daggers, Rapiers, Scimitars and Shortswords</p>
+		</description>
+		<sheet>
+			<description>You are proficient in Daggers, Rapiers, Scimitars and Shortswords</description>
+		</sheet>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_DAGGER" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_RAPIER" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SCIMITAR" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SHORTSWORD" />
+		</rules>
+	</element>
+
+<!-- LONG BLADES -->
+
+    <element name="Long Blades" type="Weapon Group" source="src" id="ID_UESTRPG_WEAPON_GROUP_LONG_BLADES" />
+
+    <append id="ID_WOTC_PHB_WEAPON_LONGSWORD">
+        <supports>ID_UESTRPG_WEAPON_GROUP_LONG_BLADES</supports>
+    </append>
+
+    <append id="ID_WOTC_PHB_WEAPON_GREATSWORD">
+        <supports>ID_UESTRPG_WEAPON_GROUP_LONG_BLADES</supports>
+    </append>
+
+<!-- prof -->
+
+	<element name="Long Blade Proficiency" type="Proficiency" source="UESTRPG" id="ID_UESTRPG_TRAIT_LONG_BLADE_PROFICIENCY">
+		<description>
+			<p>You are proficient in Greatswords and Longswords</p>
+		</description>
+		<sheet>
+			<description>You are proficient in Greatswords and Longswords</description>
+		</sheet>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_GREATSWORD" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_LONGSWORD" />
+		</rules>
+	</element>
+
+<!-- MARKSMAN -->
+
+    <element name="Marksman" type="Weapon Group" source="src" id="ID_UESTRPG_WEAPON_GROUP_MARKSMAN" />
+
+    <append id="ID_WOTC_PHB_WEAPON_BLOWGUN">
+        <supports>ID_UESTRPG_WEAPON_GROUP_MARKSMAN</supports>
+    </append>
+
+    <append id="ID_WOTC_PHB_WEAPON_CROSSBOW_HAND">
+        <supports>ID_UESTRPG_WEAPON_GROUP_MARKSMAN</supports>
+    </append>
+
+    <append id="ID_WOTC_PHB_WEAPON_CROSSBOW_HEAVY">
+        <supports>ID_UESTRPG_WEAPON_GROUP_MARKSMAN</supports>
+    </append>
+
+    <append id="ID_WOTC_PHB_WEAPON_CROSSBOW_LIGHT">
+        <supports>ID_UESTRPG_WEAPON_GROUP_MARKSMAN</supports>
+    </append>
+
+    <append id="ID_WOTC_PHB_WEAPON_DART">
+        <supports>ID_UESTRPG_WEAPON_GROUP_MARKSMAN</supports>
+    </append>
+
+    <append id="ID_WOTC_PHB_WEAPON_LONGBOW">
+        <supports>ID_UESTRPG_WEAPON_GROUP_MARKSMAN</supports>
+    </append>
+
+    <append id="ID_WOTC_PHB_WEAPON_NET">
+        <supports>ID_UESTRPG_WEAPON_GROUP_MARKSMAN</supports>
+    </append>
+
+    <append id="ID_WOTC_PHB_WEAPON_SHORTBOW">
+        <supports>ID_UESTRPG_WEAPON_GROUP_MARKSMAN</supports>
+    </append>
+
+    <append id="ID_WOTC_PHB_WEAPON_SLING">
+        <supports>ID_UESTRPG_WEAPON_GROUP_MARKSMAN</supports>
+    </append>
+
+<!-- prof -->
+
+	<element name="Marksman Proficiency" type="Proficiency" source="UESTRPG" id="ID_UESTRPG_TRAIT_MARKSMAN_PROFICIENCY">
+		<description>
+			<p>You are proficient in Blowguns, Crossbows, Darts, Longbows, Nets, Shortbows and Slings</p>
+		</description>
+		<sheet>
+			<description>You are proficient in Blowguns, Crossbows, Darts, Longbows, Nets, Shortbows and Slings</description>
+		</sheet>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_BLOWGUN" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_CROSSBOW_HAND" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_CROSSBOW_HEAVY" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_CROSSBOW_LIGHT" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_DART" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_LONGBOW" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_NET" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SHORTBOW" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SLING" />
+		</rules>
+	</element>
+
+<!-- AXE -->
+
+    <element name="Axe" type="Weapon Group" source="src" id="ID_UESTRPG_WEAPON_GROUP_AXE" />
+
+    <append id="ID_WOTC_PHB_WEAPON_BATTLEAXE">
+        <supports>ID_UESTRPG_WEAPON_GROUP_AXE</supports>
+    </append>
+
+    <append id="ID_WOTC_PHB_WEAPON_GREATAXE">
+        <supports>ID_UESTRPG_WEAPON_GROUP_AXE</supports>
+    </append>
+
+    <append id="ID_WOTC_PHB_WEAPON_HANDAXE">
+        <supports>ID_UESTRPG_WEAPON_GROUP_AXE</supports>
+    </append>
+
+    <append id="ID_WOTC_PHB_WEAPON_SICKLE">
+        <supports>ID_UESTRPG_WEAPON_GROUP_AXE</supports>
+    </append>
+
+    <append id="ID_WOTC_PHB_WEAPON_WAR_PICK">
+        <supports>ID_UESTRPG_WEAPON_GROUP_AXE</supports>
+    </append>
+
+<!-- prof -->
+
+	<element name="Axe Proficiency" type="Proficiency" source="UESTRPG" id="ID_UESTRPG_TRAIT_AXE_PROFICIENCY">
+		<description>
+			<p>You are proficient in Battleaxes, Greataxes, Handaxes, Sickle and War Picks</p>
+		</description>
+		<sheet>
+			<description>You are proficient in Battleaxes, Greataxes, Handaxes, Sickle and War Picks</description>
+		</sheet>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_BATTLEAXE" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_GREATAXE" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_HANDAXE" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SICKLE" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_WAR_PICK" />
+		</rules>
+	</element>
+
+<!-- POLEARM -->
+
+    <element name="Polearm" type="Weapon Group" source="src" id="ID_UESTRPG_WEAPON_GROUP_POLEARM" />
+
+    <append id="ID_WOTC_PHB_WEAPON_GLAIVE">
+        <supports>ID_UESTRPG_WEAPON_GROUP_POLEARM</supports>
+    </append>
+
+    <append id="ID_WOTC_PHB_WEAPON_HALBERD">
+        <supports>ID_UESTRPG_WEAPON_GROUP_POLEARM</supports>
+    </append>
+
+    <append id="ID_WOTC_PHB_WEAPON_JAVELIN">
+        <supports>ID_UESTRPG_WEAPON_GROUP_POLEARM</supports>
+    </append>
+
+    <append id="ID_WOTC_PHB_WEAPON_LANCE">
+        <supports>ID_UESTRPG_WEAPON_GROUP_POLEARM</supports>
+    </append>
+
+    <append id="ID_WOTC_PHB_WEAPON_PIKE">
+        <supports>ID_UESTRPG_WEAPON_GROUP_POLEARM</supports>
+    </append>
+
+    <append id="ID_WOTC_PHB_WEAPON_SPEAR">
+        <supports>ID_UESTRPG_WEAPON_GROUP_POLEARM</supports>
+    </append>
+
+    <append id="ID_WOTC_PHB_WEAPON_TRIDENT">
+        <supports>ID_UESTRPG_WEAPON_GROUP_POLEARM</supports>
+    </append>
+
+<!-- prof -->
+
+	<element name="Polearm Proficiency" type="Proficiency" source="UESTRPG" id="ID_UESTRPG_TRAIT_POLEARM_PROFICIENCY">
+		<description>
+			<p>You are proficient in Glaives, Halberds, Javelins, Lanes, Polearms, Spears and Tridents</p>
+		</description>
+		<sheet>
+			<description>You are proficient in Glaives, Halberds, Javelins, Lanes, Polearms, Spears and Tridents</description>
+		</sheet>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_GLAIVE" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_HALBERD" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_JAVELIN" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_LANCE" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_PIKE" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SPEAR" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_TRIDENT" />
+		</rules>
+	</element>
+
+<!-- HAND-TO-HAND -->
+
+    <element name="Hand-to-Hand" type="Weapon Group" source="src" id="ID_UESTRPG_WEAPON_GROUP_HAND_TO_HAND" />
+
+    <append id="ID_WOTC_PHB_WEAPON_WHIP">
+        <supports>ID_UESTRPG_WEAPON_GROUP_HAND_TO_HAND</supports>
+    </append>
+
+	<element name="Hand-to-Hand Proficiency" type="Proficiency" source="UESTRPG" id="ID_UESTRPG_TRAIT_HAND_TO_HAND_PROFICIENCY">
+		<description>
+			<p>You are proficient in Whips</p>
+		</description>
+		<sheet>
+			<description>You are proficient in Whips</description>
+		</sheet>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_WHIP" />
+		</rules>
+	</element>
+
+    
+</elements>

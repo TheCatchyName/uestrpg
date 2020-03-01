@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Bosmer</name>
+		<description></description>
+		<author url="https://uestrpg.wixsite.com/home/downloads">Unofficial Elder Scrolls Tabletop RPG</author>
+		<update version="1.4.0">
+			<file name="race-bosmer.xml" url="" />
+		</update>
+	</info>
+
+	<element name="Bosmer" type="Race" source="UESTRPG" id="ID_UESTRPG_RACE_BOSMER">
+		<description>
+			<p class="flavor">Bosmer are the Elven clan-folk from the forests of Valenwood. Known as Wood Elves among men, the Bosmer spend their days in harmony with nature and appreciate the wild beauty of the lands and it's creatures. This lifestyle lends themselves to become notable archers and scouts.</p>
+			<h4>MODEST AND NIMBLE</h4>
+			<p>Bosmer are one of the smallest races on Tamriel. They average around 5 feet tall and weigh between 100 and 130 pounds. This small frame grants the bosmer a natural proclivity for moving nimbly and stealthily. As with the other elves, they live two to three times as long as humans. Combined with their increased fertility and long lives, bosmer are known to have large families, and are one of the most populous races of Tamriel.</p>
+			<p class="indent">Wood Elves, or Tree-Sap People, have skin tones in copper and bronze, and sometimes have traces of light green. Their hair tends toward browns and blacks, but occasionally red and copper colored. Their eyes are golden, brown, and sometimes solid black with no visible white.</p>
+			<h4>TREATY OF FROND AND LEAF</h4>
+			<p>The ancestor's of the bosmer were some of the first to leave Old Ehlnofey, rejecting the formal traditions and high culture of the Aldmeri, instead preferring romantic ideas and a simple existence. They traveled to Valenwood to settle in the wild and untamed forests. Having to fight against lush jungles and savage creatures influenced the evolution of their society to make them who they are to this day.</p>
+			<p class="indent">It is said that the bosmer made a deal with Y'ffre, the God of Song and Forest, called the Green Pact. With this treaty,  the Green would aid the bosmer, providing them with shelter and safe passage, and in exchange, the bosmer are forbidden from destruction of the forests. This brings great challenges that the bosmer of Valenwood have adhered to for centuries. They are forbidden from eating any of the vegetation, so their diet is strictly meat, including some delicacies, such as  beverages made from fermented pigs milk, called jagga, or fermented meat seasoned with insect organs, called rotmeth.</p>
+			<p class="indent">The bosmer are also notable pacifists. They have never instigated any of the major wars of Tamriel and aim to keep peace between their tribes. This may have something to do with an ancient tradition from the Green Pact called the Meat Mandate, which required the bosmer to eat the bodies of their fallen enemies within three days. Before a great battle, the wood elves would prepare themselves by fasting. This cannibalistic ritual set the bosmer apart from the other races, but this practice diminished during the Second Era and is now only observed in remote tribal villages.</p>
+			<h4>HIDDEN WOODLAND REALMS</h4>
+			<p>Most Wood Elves of Valenwood live in small villages hidden among the trees. Although the Green Pact prevents the bosmer from using lumber or hollowing out trees for shelter, they have been blessed with the ability to grow their shelter. Trees, branches, and vines weave together to suit the needs of the faithful. Bridges of vines and boughs knit as one, sometimes right before your eyes, to provide passage between homes and villages.</p>
+			<p class="indent">Bone, resin, and sinew are also used in building construction, as well as for their art and weapons. Totems made from skulls and bones decorate many residences, and hides stretched across frames of bone create partitions for privacy. Bosmer bows, made from horns and sinew, are noted as the best bows in Tamriel. In fact, it is rumored that the bow was invented by the bosmer. These superior weapons, along with hides and bone charms are the main exports to the neighboring nations.</p>
+			<p class="indent">Many of the coastal villages, especially those founded by other races, are built on the forest floor, and are typically constructed from traditional construction materials, like timber and stone. The Green Pact allows bosmer to import timber to make their homes, and doesn't apply to the other races.</p>
+			<h4>SKILLED ADVENTURERS</h4>
+			<p>As some of the greatest hunters and scouts in all of Tamriel, many Bosmer leave their villages to seek out greater challenges. They are born warriors, excelling at martial combat, and they have a natural connection with beasts.</p>
+			<p class="indent">Those that have ignored the Pact and turned their back on Y'ffre are expelled from their tribe. An exiled bosmer usually has no other option than to seek out adventure elsewhere.</p>
+			<h4>BOSMER NAMES</h4>
+			<p>Most bosmer have only their given name, but it is not unheard of to have a family name, which is typically descriptive of their skills or ancestry.</p>
+			<p>
+			<span class="feature">Male Names:</span>Aengvir, Athragar, Baenlin, Brenor, Calthindor, Deros, Drinlin, Elseer, Faenir, Fangaril, Filalmoth, Firras, Gelin, Hadran, Inluin, Lenor, Malgoth, Niden, Ording, Rollin, Saldir, Thranor, Urunil<br />
+			<span class="feature">Female Names:</span>Aerin, Althel, Belwen, Candel, Distel, Elphinia, Erwin, Evelie, Fangil, Ganwen, Glaras, Herdor, Indanas, Laen, Miniel, Nara, Pishna, Ralion, Sednel, Thralin, Uunril, Zifri<br />
+			<span class="feature">Family Names:</span>Arrow-Catcher, Blood-Letter, Daintyfoot, Flameheart, Greenwood, Longshot, Many-Legs, the bold, Tree-Killer, Woodwalker<br />
+			</p>
+			<h4>BOSMER TRAITS</h4>
+			<p>Your Bosmer character has a variety of natural abilities common with all other Bosmer.</p>
+			<p class="indent"><strong><em>Attribute Score Increase.</em></strong> Your Agility score increases by 2, and your Willpower score increases by 1.</p>
+			<p class="indent"><strong><em>Age.</em></strong> Like the Altmer, Bosmer mature the same way as humans do, but they can live up to 300 years or more.</p>
+			<p class="indent"><strong><em>Alignment.</em></strong> Wood elves love their freedom from the more structured societies, but they also come from a history of strict tradition. Bosmer are neutral good more often than not, but those who ignore the pact might favor the gentler aspects of chaos.</p>
+			<p class="indent"><strong><em>Size.</em></strong> Bosmer are smaller and more delicate than other races, they are rarely over 5 and a half feet in height. Your size is Medium.</p>
+			<p class="indent"><strong><em>Speed.</em></strong> our base walking speed is 35 feet.</p>
+			<p class="indent"><strong><em>Beast Tongue.</em></strong> You know the spell Speak with Animals and can cast it once with this trait. You regain the ability to cast it again when you finish a long rest.</p>
+			<p class="indent"><strong><em>Bosmer Blood.</em></strong> content</p>
+			<p class="indent"><strong><em>Bosmer Combat Training.</em></strong> You are proficient in the Acrobatics skill and with Marksman weapons.</p>
+			<p class="indent"><strong><em>Y'ffre's Gift.</em></strong> You know one cantrip of your choice from the warden spell list. You also know the animal friendship spell and can cast it once with this trait. You regain the ability to cast it again when you finish a long rest. Willpower is your spellcasting attribute for these spells.</p>
+			<p class="indent"><strong><em>Languages.</em></strong> You can speak, read, and write Tamrielic and Bosmeri.</p>
+		</description>
+		<sheet display="false" />
+		<setters>
+			<set name="names" type="male">Aengvir, Athragar, Baenlin, Brenor, Calthindor, Deros, Drinlin, Elseer, Faenir, Fangaril, Filalmoth, Firras, Gelin, Hadran, Inluin, Lenor, Malgoth, Niden, Ording, Rollin, Saldir, Thranor, Urunil</set>
+			<set name="names" type="female">Aerin, Althel, Belwen, Candel, Distel, Elphinia, Erwin, Evelie, Fangil, Ganwen, Glaras, Herdor, Indanas, Laen, Miniel, Nara, Pishna, Ralion, Sednel, Thralin, Uunril, Zifri</set>
+			<set name="names" type="family">Arrow-Catcher, Blood-Letter, Daintyfoot, Flameheart, Greenwood, Longshot, Many-Legs, the bold, Tree-Killer, Woodwalker</set>
+			<set name="names-format">{{name}} {{family}}</set>
+			<set name="height" modifier="2d6">4'4"</set>
+			<set name="weight" modifier="1d4">80 lb.</set>
+		</setters>
+		<rules>
+			<stat name="dexterity" value="2" />
+			<stat name="wisdom" value="1" />
+			<stat name="innate speed" value="35" bonus="base" />
+			<grant type="Size" id="ID_SIZE_MEDIUM" />
+			<grant type="Language" id="ID_UESTRPG_LANGUAGE_BOSMERI" />
+			<grant type="Language" id="ID_UESTRPG_LANGUAGE_TAMRIELIC" />
+			<grant type="Racial Trait" id="ID_UESTRPG_RACIAL_TRAIT_BOSMER_COMBAT_TRAINING" />
+			<grant type="Racial Trait" id="ID_UESTRPG_RACIAL_TRAIT_BEAST_TONGUE" />
+			<grant type="Racial Trait" id="ID_UESTRPG_RACIAL_TRAIT_BOSMER_BLOOD" />
+			<grant type="Racial Trait" id="ID_UESTRPG_RACIAL_TRAIT_YFFRES_GIFT" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_ACROBATICS" />
+			<select type="Archetype" name="Birthsign" supports="Birthsign" />
+		</rules>
+	</element>
+
+<!-- RACIAL TRAITS -->
+
+    <element name="Beast Tongue" type="Racial Trait" source="UESTRPG" id="ID_UESTRPG_RACIAL_TRAIT_BEAST_TONGUE">
+		<description>
+			<p>You know the spell Speak with Animals and can cast it once with this trait. You regain the ability to cast it again when you finish a long rest.</p>
+		</description>
+		<sheet>
+			<description>You know the spell Speak with Animals and can cast it once after every long rest.
+			</description>
+		</sheet>
+		<rules>
+			<grant type="spell" id="ID_PHB_SPELL_SPEAK_WITH_ANIMALS"/>
+		</rules>
+	</element>
+
+    <element name="Bosmer Blood" type="Racial Trait" source="UESTRPG" id="ID_UESTRPG_RACIAL_TRAIT_BOSMER_BLOOD">
+		<description>
+			<p>Your Bosmer ancestry grants you advantage on saving throws against being poisoned or diseased, and you are resistant to poison damage.</p>
+		</description>
+		<sheet>
+			<description>You gain advantage on saving throws to resist disease and poison. You also have poison resistance.
+			</description>
+		</sheet>
+		<rules>
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_POISON" />
+		</rules>
+	</element>
+
+    <element name="Bosmer Combat Training" type="Racial Trait" source="UESTRPG" id="ID_UESTRPG_RACIAL_TRAIT_BOSMER_COMBAT_TRAINING">
+        <description>
+            <p>You have proficiency with Marksman (Blowgun, Crossbows, Dart, Bows, Net, Sling) weapons.</p>
+        </description>
+        <sheet display="false">
+            <description>You have proficiency with Marksman (Blowgun, Crossbows, Dart, Bows, Net, Sling) weapons.</description>
+        </sheet>
+		<rules>
+			<grant type="Proficiency" id="ID_UESTRPG_TRAIT_MARKSMAN_PROFICIENCY" />
+		</rules>
+    </element>
+
+    <element name="Yffre's Gift" type="Racial Trait" source="UESTRPG" id="ID_UESTRPG_RACIAL_TRAIT_YFFRES_GIFT">
+        <description>
+            <p>You know one cantrip of your choice from the warden spell list. You also know the animal friendship spell and can cast it once with this trait. You regain the ability to cast it again when you finish a long rest. Willpower is your spellcasting attribute for these spells.</p>
+		</description>
+        <sheet action="Action" usage="1/Long Rest">
+            <description>You can cast Animal Friendship without expending magicka points once, using Willpower as your spellcasting ability.</description>
+        </sheet>
+		<spellcasting name="Bosmer" ability="Wisdom" prepare="false">
+			<list>Bosmer</list>
+		</spellcasting>
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_ANIMAL_FRIENDSHIP" level="1" spellcasting="Bosmer" prepared="false" />
+			<select type="Spell" name="Cantrip (Yffre's Gift)" supports="$(spellcasting:list), 0, Warden" level="1" number="1" spellcasting="Bosmer" />
+		</rules>
+    </element>
+
+</elements>

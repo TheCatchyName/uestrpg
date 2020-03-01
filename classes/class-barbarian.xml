@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name>Barbarian</name>
+        <update version="0.0.1">
+            <file name="class-barbarian.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/barbarian-battleworn.xml" />
+        </update>
+    </info>
+
+	<element name="Barbarian" type="Class" source="Player's Handbook" id="ID_WOTC_PHB_CLASS_BARBARIAN">
+		<description>
+			<p>A tall nord tribesman strides through a blizzard, draped in fur and hefting his axe. He laughs as he charges toward the giant who dared poach his people’s elk herd. </p>
+      		<p class="indent">An orc snarls at the latest challenger to her authority over their savage tribe, ready to break his neck with her bare hands as she did to the last six rivals.</p>
+      		<p class="indent">Frothing at the mouth, a redguard slams his helmet into the face of his dunmer foe, then turns to drive his armored elbow into the gut of another.</p>
+      		<p class="indent">These barbarians, different as they might be, are defined by their rage: unbridled, unquenchable, and unthinking fury. More than a mere emotion, their anger is the ferocity of a cornered predator, the unrelenting assault of a storm, the churning turmoil of the sea.</p>
+      		<p class="indent">For some, their rage springs from a connection with ancient traditions. Others draw from a roiling reservoir of anger from memories of past battles. For every barbarian, rage is a power that fuels not just a battle frenzy but also uncanny reflexes, resilience, and feats of strength. </p>
+			<h4>PRIMAL INSTINCT</h4>
+			<p>People of towns and cities take pride in how their civilized ways set them apart from animals, as if denying one’s own nature was a mark of superiority. To a barbarian, though, civilization is no virtue, but a sign of weakness. The strong embrace their animal nature keen instincts, primal physicality, and ferocious rage. Barbarians are uncomfortable when hedged in by walls and crowds. They thrive in the wilds of their homelands: the tundra, jungle, or grasslands where their tribes live and hunt.</p>
+			<p class="indent">Barbarians come alive in the chaos of combat. They can enter a berserk state where rage takes over, giving them superhuman strength and resilience. A barbarian can draw on this reservoir of fury only a few times without resting, but those few rages are usually sufficient to defeat whatever threats arise.</p>
+			<h4>A LIFE OF DANGER</h4>
+			<p>Not every member of the tribes deemed “barbarians” by scions of civilized society has the barbarian class. A true barbarian among these people is as uncommon as a skilled fighter in a town, and he or she plays a similar role as a protector of the people and a leader in times of war. Life in the wild places of the world is fraught with peril: rival tribes, deadly weather, and terrifying monsters. Barbarians charge headlong into that danger so that their people don’t have to.</p>
+			<p class="indent">Their courage in the face of danger makes barbarians perfectly suited for adventuring. Wandering is often a way of life for their native tribes, and the rootless life of the adventurer is little hardship for a barbarian. Some barbarians miss the close-knit family structures of the tribe, but eventually find them replaced by the bonds formed among the members of their adventuring parties.</p>
+			<h4>CREATING A BARBARIAN</h4>
+			<p>When creating a barbarian character, think about where your character comes from and his or her place in the world. Talk with your DM about an appropriate origin for your barbarian. Did you come from a distant land, making you a stranger in the area of the campaign? Or is the campaign set in a rough-and-tumble frontier where barbarians are common?</p>
+			<p class="indent">What led you to take up the adventuring life? Were you lured to settled lands by the promise of riches? Did you join forces with soldiers of those lands to face a shared threat? Did monsters or an invading horde drive you out of your homeland, making you a rootless refugee? Perhaps you were a prisoner of war, brought in chains to “civilized” lands and only now able to win your freedom. Or you might have been cast out from your people because of a crime you committed, a taboo you violated, or a coup that removed you from a position of authority.</p>
+			<h5 class="caption">QUICK BUILD</h5>
+			<p>You can make a barbarian quickly by following these suggestions. First, put your highest ability score in Strength, followed by Constitution. Second, choose the outlander background.</p>
+			<h3>CLASS FEATURES</h3>
+			<p>As a barbarian, you gain the following class features.</p>
+			<h5 class="caption">HIT POINTS</h5>
+			<ul class="unstyled">
+				<li><strong>Hit Dice:</strong> 1d12 per barbarian level</li>
+				<li><strong>Hit Points at 1st Level:</strong> 12 + your Endurance modifier</li>
+				<li><strong>Hit Points at Higher Levels:</strong> 1d12 (or 7) + your Endurance modifier per barbarian level after 1st</li>
+			</ul>
+			<h5 class="caption">PROFICIENCIES</h5>
+			<ul class="unstyled mb">
+				<li><strong>Armor:</strong> Light armor, medium armor, shields</li>
+				<li><strong>Weapons:</strong> Axe, blunt, hand to hand, long blade, marksman, polearms, short blade</li>
+				<li><strong>Tools:</strong> None</li>
+			</ul>
+			<ul class="unstyled">
+				<li><strong>Saving Throws:</strong> Strength, Endurance</li>
+				<li><strong>Skills:</strong> Choose two from Animal Handling, Athletics, Intimidation, Nature, Perception, and Survival</li>
+			</ul>
+			<h5 class="caption">EQUIPMENT</h5>
+			<p>You start with the following equipment, in addition to the equipment granted by your background:</p>
+			<ul>
+				<li><i>(a)</i> any polearm or <i>(b)</i> any long blade</li>
+				<li><i>(a)</i> two handaxes or <i>(b)</i> any short blade</li>
+				<li>An explorer’s pack and four javelins</li>
+			</ul>
+			<h5 class="caption">THE BARBARIAN</h5>
+			<table class="class-features">
+				<thead>
+					<tr><td class="col-10">Level</td><td>Rages</td><td>Rage Damage</td><td class="col-60 left">Features</td></tr>
+				</thead>
+				<tr><td>1st</td><td>2</td><td>+2</td><td class="left">Rage, Unarmored Defense</td></tr>
+				<tr><td>2nd</td><td>2</td><td>+2</td><td class="left">Reckless Attack, Danger Sense</td></tr>
+				<tr><td>3rd</td><td>3</td><td>+2</td><td class="left">Primal Path</td></tr>
+				<tr><td>4th</td><td>3</td><td>+2</td><td class="left">Ability Score Improvement</td></tr>
+				<tr><td>5th</td><td>3</td><td>+2</td><td class="left">Extra Attack, Fast Movement</td></tr>
+				<tr><td>6th</td><td>4</td><td>+2</td><td class="left">Path feature</td></tr>
+				<tr><td>7th</td><td>4</td><td>+2</td><td class="left">Feral Instinct</td></tr>
+				<tr><td>8th</td><td>4</td><td>+2</td><td class="left">Ability Score Improvement</td></tr>
+				<tr><td>9th</td><td>4</td><td>+3</td><td class="left">Brutal Critical (1 die)</td></tr>
+				<tr><td>10th</td><td>4</td><td>+3</td><td class="left">Path feature</td></tr>
+				<tr><td>11th</td><td>4</td><td>+3</td><td class="left">Relentless Rage</td></tr>
+				<tr><td>12th</td><td>5</td><td>+3</td><td class="left">Ability Score Improvement</td></tr>
+				<tr><td>13th</td><td>5</td><td>+3</td><td class="left">Brutal Critical (2 dice)</td></tr>
+				<tr><td>14th</td><td>5</td><td>+3</td><td class="left">Path feature</td></tr>
+				<tr><td>15th</td><td>5</td><td>+3</td><td class="left">Persistent Rage</td></tr>
+				<tr><td>16th</td><td>5</td><td>+4</td><td class="left">Ability Score Improvement</td></tr>
+				<tr><td>17th</td><td>6</td><td>+4</td><td class="left">Brutal Critical (3 dice)</td></tr>
+				<tr><td>18th</td><td>6</td><td>+4</td><td class="left">Indomitable Might</td></tr>
+				<tr><td>19th</td><td>6</td><td>+4</td><td class="left">Ability Score Improvement</td></tr>
+				<tr><td>20th</td><td>Unlimited</td><td>+4</td><td class="left">Primal Champion</td></tr>
+			</table>
+			<div element="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_RAGE" />
+			<div element="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_UNARMORED_DEFENCE" />
+			<div element="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_RECKLESS_ATTACK" />
+			<div element="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_DANGER_SENSE" />
+			<div element="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_PRIMAL_PATH" />
+			<div element="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_ABILITYSCOREIMPROVEMENT" />
+			<div element="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_EXTRA_ATTACK" />
+			<div element="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_FAST_MOVEMENT" />
+			<div element="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_FERAL_INSTINCT" />
+			<div element="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_BRUTAL_CRITICAL" />
+			<div element="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_RELENTLESS_RAGE" />
+			<div element="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_PERSISTANT_RAGE"/>
+			<div element="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_INDOMITABLE_MIGHT" />
+			<div element="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_PRIMAL_CHAMPION" />
+		</description>
+		<sheet display="false">
+			<description>A fierce warrior of primitive background who can enter a battle rage.</description>
+		</sheet>
+		<setters>
+			<set name="short">A fierce warrior of primitive background who can enter a battle rage.</set>
+			<set name="hd">d12</set>
+		</setters>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" requirements="!ID_WOTC_PHB_MULTICLASS_BARBARIAN" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR" requirements="!ID_WOTC_PHB_MULTICLASS_BARBARIAN" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_SHIELDS" requirements="!ID_WOTC_PHB_MULTICLASS_BARBARIAN" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS" requirements="!ID_WOTC_PHB_MULTICLASS_BARBARIAN"/>			
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_WEAPONS" requirements="!ID_WOTC_PHB_MULTICLASS_BARBARIAN"/>	
+			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_STRENGTH" requirements="!ID_WOTC_PHB_MULTICLASS_BARBARIAN" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_CONSTITUTION" requirements="!ID_WOTC_PHB_MULTICLASS_BARBARIAN" />
+			<select type="Proficiency" name="Skill Proficiency (Barbarian)" number="2" supports="Skill,Barbarian" requirements="!ID_WOTC_PHB_MULTICLASS_BARBARIAN" />
+			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_RAGE" level="1" />
+			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_UNARMORED_DEFENCE" level="1" />
+			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_RECKLESS_ATTACK" level="2" />
+			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_DANGER_SENSE" level="2" />
+			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_PRIMAL_PATH" level="3" />
+			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_ABILITYSCOREIMPROVEMENT" level="4" />
+			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_EXTRA_ATTACK" level="5" />
+			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_FAST_MOVEMENT" level="5" />
+			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_FERAL_INSTINCT" level="7" />
+			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_BRUTAL_CRITICAL" level="9" />
+			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_RELENTLESS_RAGE" level="11" />
+			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_PERSISTANT_RAGE" level="15" />
+			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_INDOMITABLE_MIGHT" level="18" />
+			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_PRIMAL_CHAMPION" level="20" />
+		</rules>
+		<multiclass id="ID_WOTC_PHB_MULTICLASS_BARBARIAN">
+			<prerequisite>Strength 13</prerequisite>
+			<requirements>[str:13]</requirements>
+			<setters>
+				<set name="multiclass proficiencies">Shields, all weapons</set>
+			</setters>
+			<rules>
+				<grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS" />
+				<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_SHIELDS" />
+				<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS" />			
+				<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_WEAPONS" />
+			</rules>
+		</multiclass>
+	</element>
+
+<!-- PATH OF THE BATTLEWORN -->
+
+	<element name="Path of the Battleworn" type="Archetype" source="UESTRPG" id="ID_UESTRPG_ARCHETYPE_PATH_OF_THE_BATTLEWORN">
+		<supports>Primal Path</supports>
+		<description>
+			<p>For some barbarians, they are measured through battles won and they wear their scars with pride. The Path of the Battleworn is path paved with patience, pain, and perseverance.</p>
+            <p class="indent">Whether an veteran legion soldier or the dedicated kin of orsimer clan, a battleworn channels their experience into their rage.</p>
+			<div element="ID_UESTRPG_ARCHETYPE_FEATURE_THICK_SKIN" />
+			<div element="ID_UESTRPG_ARCHETYPE_FEATURE_RECKLESS_ABANDON" />
+			<div element="ID_UESTRPG_ARCHETYPE_FEATURE_BATTLE_SCARS" />
+			<div element="ID_UESTRPG_ARCHETYPE_FEATURE_BOILING_POINT" />
+		</description>
+		<sheet display="false">
+			<p>For some barbarians, they are measured through battles won and they wear their scars with pride. The Path of the Battleworn is path paved with patience, pain, and perseverance.</p>
+            <p class="indent">Whether an veteran legion soldier or the dedicated kin of orsimer clan, a battleworn channels their experience into their rage.</p>
+		</sheet>
+		<rules>
+			<grant type="Archetype Feature" id="ID_UESTRPG_ARCHETYPE_FEATURE_THICK_SKIN" level="3" />
+			<grant type="Archetype Feature" id="ID_UESTRPG_ARCHETYPE_FEATURE_RECKLESS_ABANDON" level="6" />
+			<grant type="Archetype Feature" id="ID_UESTRPG_ARCHETYPE_FEATURE_BATTLE_SCARS" level="10" />
+			<grant type="Archetype Feature" id="ID_UESTRPG_ARCHETYPE_FEATURE_BOILING_POINT" level="14" />
+		</rules>
+	</element>
+    
+	<element name="Thick Skin" type="Archetype Feature" source="UESTRPG" id="ID_UESTRPG_ARCHETYPE_FEATURE_THICK_SKIN">
+		<description>
+			<p>Your body is scarred and calloused from years of battle. When you choose this path at 3rd level, your unarmored AC is equal to 12 + your Agility modifier + your Endurance modifier.</p>
+		</description>
+		<sheet>
+			<description>Your body is scarred and calloused from years of battle. Your unarmored AC is {{ac:thick skin}}.</description>
+		</sheet>
+		<rules>
+			<stat name="ac:thick skin" value="12" />
+			<stat name="ac:thick skin" value="dexterity:modifier" />
+			<stat name="ac:thick skin" value="constitution:modifier" />
+
+			<stat name="ac:calculation" value="ac:thick skin" bonus="calculation" equipped="[armor:none]" alt="Thick Skin" />
+		</rules>
+	</element>
+    
+	<element name="Reckless Abandon" type="Archetype Feature" source="UESTRPG" id="ID_UESTRPG_ARCHETYPE_FEATURE_RECKLESS_ABANDON">
+		<description>
+			<p>Beginning at 6th level, when you use Reckless Attack while raging, you also gain temporary hit points equal to your Endurance modifier (minimum of 1). They vanish if any of them are left when your rage ends.</p>
+		</description>
+		<sheet>
+			<description>When you use Reckless Attack while raging, you also gain {{reckless abandon:hp:temp}} temporary hp. They vanish if any of them are left when your rage ends.</description>
+		</sheet>
+		<rules>
+			<stat name="reckless abandon:hp:temp" value="1" bonus="reckless abandon" />
+			<stat name="reckless abandon:hp:temp" value="constitution:modifier" bonus="reckless abandon" />
+		</rules>
+	</element>
+
+    <element name="Battle Scars" type="Racial Trait" source="UESTRPG" id="ID_UESTRPG_ARCHETYPE_FEATURE_BATTLE_SCARS">
+        <description>
+            <p>At 10th level, your scarred body and strong presence is readily noticeable. You have advantage on all Intimidation checks.</p>
+        </description>
+        <sheet>
+            <description>Your scarred body and strong presence is readily noticeable. You have advantage on all Intimidation checks.</description>
+        </sheet>
+    </element>
+
+    <element name="Boiling Point" type="Racial Trait" source="UESTRPG" id="ID_UESTRPG_ARCHETYPE_FEATURE_BOILING_POINT">
+        <description>
+            <p>Starting at 14th level, while raging, you push your attacks beyond their natural limits. When you hit a creature with a melee weapon attack, you can expend one hit die and a d12 to your damage roll.</p>
+        </description>
+        <sheet>
+            <description>While raging, you push your attacks beyond their natural limits. When you hit a creature with a melee weapon attack, you can expend one hit die and add a d12 to your damage roll.</description>
+        </sheet>
+    </element>
+
+<!-- PATH OF THE REAVER -->
+
+	<element name="Path of the Reaver" type="Archetype" source="UESTRPG" id="ID_UESTRPG_ARCHETYPE_PATH_OF_THE_REAVER">
+		<supports>Primal Path</supports>
+		<description>
+			<p>Barbarians that follow the Path of the Reaver are brutal hunters that strike in well orchestrated packs, leaving behind nothing but corpses and destruction.</p>
+            <p class="indent">Despite their primitive behavior, reavers often make up the important front lines of tactical combat. The forsworn of the reach and the aggressive wood orc clans commonly use these maneuvers to intimidate their foes and catch them off guard.</p>
+			<div element="ID_UESTRPG_ARCHETYPE_FEATURE_REAVERS_CHARGE" />
+			<div element="ID_UESTRPG_ARCHETYPE_FEATURE_PATH_OF_THE_BATTLEWORN_RECKLESS_ABANDON" />
+			<div element="ID_UESTRPG_ARCHETYPE_FEATURE_DREAD_WARRIOR" />
+			<div element="ID_UESTRPG_ARCHETYPE_FEATURE_REAVERS_VERDICT" />
+		</description>
+		<sheet display="false"></sheet>
+		<rules>
+			<grant type="Archetype Feature" id="ID_UESTRPG_ARCHETYPE_FEATURE_REAVERS_CHARGE" level="3" />
+			<grant type="Archetype Feature" id="ID_UESTRPG_ARCHETYPE_FEATURE_PACK_TACTICS" level="6" />
+			<grant type="Archetype Feature" id="ID_UESTRPG_ARCHETYPE_FEATURE_DREAD_WARRIOR" level="10" />
+			<grant type="Archetype Feature" id="ID_UESTRPG_ARCHETYPE_FEATURE_REAVERS_VERDICT" level="14" />
+		</rules>
+	</element>
+
+	<element name="Reaver's Charge" type="Archetype Feature" source="UESTRPG" id="ID_UESTRPG_ARCHETYPE_FEATURE_REAVERS_CHARGE">
+		<description>
+			<p>Beginning at 3rd level, when you enter into a rage, your speed doubles for the rest of your turn. You can only use this additional speed to move towards an enemy. Additionally, you can take the Dash action as a bonus action on your subsequent turns while you are raging.</p>
+		</description>
+		<sheet>
+			<description>When you enter into a rage, your speed doubles for the rest of your turn. You can only use this additional speed to move towards an enemy. Additionally, you can take the Dash action as a bonus action on your subsequent turns while you are raging.</description>
+		</sheet>
+	</element>
+
+	<element name="Pack Tactics" type="Archetype Feature" source="UESTRPG" id="ID_UESTRPG_ARCHETYPE_FEATURE_PACK_TACTICS">
+		<description>
+			<p>At 6th level, while raging, you have advantage on attack rolls against a creature if at least one of your allies are within 5 feet of you and the ally isn't unconscious.</p>
+		</description>
+		<sheet>
+			<description>While raging, you have advantage on attack rolls against a creature if at least one of your allies are within 5 feet of you and the ally isn't unconscious.</description>
+		</sheet>
+	</element>
+
+	<element name="Dread Warrior" type="Archetype Feature" source="UESTRPG" id="ID_UESTRPG_ARCHETYPE_FEATURE_DREAD_WARRIOR">
+		<description>
+			<p>Beginning at 10th level, your physique is so intimidating that you inspire dread in your enemies. You can use a bonus action to make yourself appear exceptionally fearful. Every creature within 10 feet of you suffers from one of the following effects of your choice:</p>
+            <ul>
+                <li>Disadvantage on Strength and Agility checks.</li>
+                <li>Disadvantage on Willpower and Personality checks.</li>
+                <li>All intimidation checks by you and your allies have advantage.</li>
+            </ul>
+            <p>This effect lasts up to 1 minute, as though you were concentrating on a spell. Once you use this feature, you cannot use it again until you finish a short or long rest.</p>
+        </description>
+		<sheet action="Bonus Action" usage="1/Short Rest">
+			<description>Every creature within 10 feet of you suffers from one of the following effects of your choice, for up to 1 minute as though you were concentrating on a spell:
+            1) Disadvantage on Strength and Agility checks.
+            2) Disadvantage on Willpower and Personality checks.
+            3) All intimidation checks by you and your allies have advantage.
+            </description>
+		</sheet>
+	</element>
+
+	<element name="Reaver's Verdict" type="Archetype Feature" source="UESTRPG" id="ID_UESTRPG_ARCHETYPE_FEATURE_REAVERS_VERDICT">
+		<description>
+			<p>Beginning at 14th level, while raging, you can attack three times, instead of twice, whenever you take the Attack action on your turn.</p>
+		</description>
+		<sheet>
+			<description>While raging, you can attack three times, instead of twice, whenever you take the Attack action on your turn.</description>
+		</sheet>
+	</element>
+
+<!-- PATH OF THE SAVAGE -->
+
+	<element name="Path of the Savage" type="Archetype" source="UESTRPG" id="ID_UESTRPG_ARCHETYPE_PATH_OF_THE_REAVER">
+		<supports>Primal Path</supports>
+		<description>
+			<p>Barbarians that follow the Path of the Reaver are brutal hunters that strike in well orchestrated packs, leaving behind nothing but corpses and destruction.</p>
+            <p class="indent">Myths and tales of warnings spread throughout nearby towns and villages where these barbarian tribes exist.</p>
+			<div element="ID_UESTRPG_ARCHETYPE_FEATURE_FRENZIED_ARMSMAN" />
+			<div element="ID_UESTRPG_ARCHETYPE_FEATURE_UPPERCUT" />
+			<div element="ID_UESTRPG_ARCHETYPE_FEATURE_HEAVY_LIFTING" />
+			<div element="ID_UESTRPG_ARCHETYPE_FEATURE_RELENTLESS_STORM" />
+		</description>
+		<sheet display="false"></sheet>
+		<rules>
+			<grant type="Archetype Feature" id="ID_UESTRPG_ARCHETYPE_FEATURE_FRENZIED_ARMSMAN" level="3" />
+			<grant type="Archetype Feature" id="ID_UESTRPG_ARCHETYPE_FEATURE_UPPERCUT" level="6" />
+			<grant type="Archetype Feature" id="ID_UESTRPG_ARCHETYPE_FEATURE_HEAVY_LIFTING" level="10" />
+			<grant type="Archetype Feature" id="ID_UESTRPG_ARCHETYPE_FEATURE_RELENTLESS_STORM" level="14" />
+		</rules>
+	</element>
+
+	<element name="Frenzied Armsman" type="Archetype Feature" source="UESTRPG" id="ID_UESTRPG_ARCHETYPE_FEATURE_FRENZIED_ARMSMAN">
+		<description>
+			<p>Starting at 3rd level, while you are raging, you are able to exploit your weapons to become even more devastating. You gain the following benefits when wielding a weapon type listed below:</p>
+			<ul>
+				<li><strong><em>Axes</em></strong>Once on each of your turns, when you hit a creature with an axe weapon, make a second attack roll. If your second roll would also hit the creature, you rend the target, causing them to bleed extensively. Your attack deals an additional 1d6 necrotic damage.</li>
+				<li><strong><em>Blunt</em></strong>Your attacks are exceptionally forceful and can penetrate even the most tempered armors. You gain a +2 bonus to attack rolls made with blunt weapons.</li>
+				<li><strong><em>Long Blades</em></strong>When you attack with a long blade weapon, you gain a +2 bonus to damage rolls with that weapon.</li>
+			</ul>
+		
+		</description>
+		<sheet>
+			<description>While you are raging:
+			1) Once on each of your turns, when you hit a creature with an axe weapon, make a second attack roll. If your second roll would also hit the creature, you rend the target, causing them to bleed extensively. Your attack deals an additional 1d6 necrotic damage.
+			2) You gain a +2 bonus to attack rolls made with blunt weapons.
+			3) When you attack with a long blade weapon, you gain a +2 bonus to damage rolls with that weapon.
+			</description>
+		</sheet>
+	</element>
+
+	<element name="Uppercut" type="Archetype Feature" source="UESTRPG" id="ID_UESTRPG_ARCHETYPE_FEATURE_UPPERCUT">
+		<description>
+			<p>At 6th level, when you take the Attack action on your turn, you can forgo your movement and a possible bonus action to use one of your attacks to make a powerful upward blow.</p>
+			<p class="indent">Make a melee weapon attack. If the attack hits a creature, you deal damage as normal and it must make a Strength saving throw with a DC of 8 + your proficiency bonus + your Strength modifier. On a failed save, the target is knocked back 10 feet and knocked prone. On a successful save, the creature has disadvantage on attacks until the start of your next turn. This ability can only affect large or smaller creatures.</p>
+		</description>
+		<sheet>
+			<description>When you take the Attack action on your turn, you can forgo your movement and a possible bonus action and make a melee weapon attack. If the attack hits a creature, you deal damage as normal and it must make a Strength saving throw with a DC of {{uppercut dc}}. On a failed save, the target is knocked back 10 feet and knocked prone. On a successful save, the creature has disadvantage on attacks until the start of your next turn. This ability can only affect large or smaller creatures.
+			</description>
+		</sheet>
+		<rules>
+			<stat name="uppercut dc" value="8" />
+			<stat name="uppercut dc" value="proficiency" />
+			<stat name="uppercut dc" value="strength:modifier" />
+		</rules>
+	</element>
+
+	<element name="Heavy Lifting" type="Archetype Feature" source="UESTRPG" id="ID_UESTRPG_ARCHETYPE_FEATURE_HEAVY_LIFTING">
+		<description>
+			<p>Beginning at 10th level, while you are raging and not wearing heavy armor, you are able to engage in two-weapon fighting with all weapons except for those with the heavy or two handed properties.</p>
+			<p class="indent">Additionally, weapons with the heavy or two handed properties can be held in one hand.</p>
+		</description>
+		<sheet>
+			<description>While you are raging and not wearing heavy armor, you are able to engage in two-weapon fighting with all weapons except for those with the heavy or two handed properties.
+			Additionally, weapons with the heavy or two handed properties can be held in one hand.
+			</description>
+		</sheet>
+	</element>
+
+	<element name="Relentless Storm" type="Archetype Feature" source="UESTRPG" id="ID_UESTRPG_ARCHETYPE_FEATURE_RELENTLESS_STORM">
+		<description>
+			<p>At 14th level, you can use your action to whirl around, attacking all enemies within range of your melee weapon. Roll a separate attack roll for each creature you attack. While whirling, you can move up to half your movement speed. Any opportunity attack against you has disadvantage.</p>
+		</description>
+		<sheet action="Action">
+			<description>You whirl around, attacking all enemies within range of your melee weapon. Roll a separate attack roll for each creature you attack. While whirling, you can move up to half your movement speed. Any opportunity attack against you has disadvantage.</description>
+		</sheet>
+	</element>
+
+<!-- PATH OF THE WAR CRIER -->
+
+	<element name="Path of the War Crier" type="Archetype" source="UESTRPG" id="ID_UESTRPG_ARCHETYPE_PATH_OF_THE_WAR_CRIER">
+		<supports>Primal Path</supports>
+		<description>
+			<p>The Path of the War Crier is a spiritual journey, as the barbarian learns to channel their life essence through their voice and breath. War Criers are rare in barbarian tribes, but those who have the gift are usually put into positions of power, either as shaman, spiritual leaders, or chieftains.</p>
+			<p class="indent">Most nords have some innate capacity for the power of the voice, believing that their breath holds their vital essence. The other races can learn how to wield such power, but may require greater study, perhaps spending time with powerful Tongues.</p>
+			<div element="ID_UESTRPG_ARCHETYPE_FEATURE_BATTLE_THUUM" />
+			<div element="ID_UESTRPG_ARCHETYPE_FEATURE_DRACONIC_TONGUE" />
+			<div element="ID_UESTRPG_ARCHETYPE_FEATURE_FRENZIED_SHOUTS" />
+		</description>
+		<sheet display="false"></sheet>
+		<rules>
+			<grant type="Archetype Feature" id="ID_UESTRPG_ARCHETYPE_FEATURE_BATTLE_THUUM" level="3" />
+			<grant type="Archetype Feature" id="ID_UESTRPG_ARCHETYPE_FEATURE_DRACONIC_TONGUE" level="6" />
+			<grant type="Archetype Feature" id="ID_UESTRPG_ARCHETYPE_FEATURE_FRENZIED_SHOUTS" level="10" />
+		</rules>
+	</element>
+
+	<element name="Battle Thu'um" type="Archetype Feature" source="UESTRPG" id="ID_UESTRPG_ARCHETYPE_FEATURE_BATTLE_THUUM">
+		<description>
+			<p>When you choose this path at 3rd level, you learn how to harness the power of the dragon tongue to form powerful shouts. A shout requires you to spend shout points each time you use it.</p>
+			<p class="indent"><strong><em>Shouts.</em></strong> You know the Unrelenting Force shout and one other shout of your choice, which are detailed in the “Dragon Shouts” section below. You learn two additional shouts of your choice at 6th, 10th, and 14th level.</p>
+			<p class="indent">Whenever you learn a new shout, you can also replace one shout that you already know with a different shout.</p>
+			<p class="indent"><strong><em>Shouts Points.</em></strong> You have 2 shout points and you regain any expended shout points when you finish a short or long rest.</p>
+			<p class="indent">You gain two additional shout points at 6th level (4), and again at 10th level (6), and 14th level (8).</p>
+      		<p class="indent"><strong><em>Using Words of Power.</em></strong> The Thu'um is a form of magic which uses words from the draconic language to form powerful shouts to cast spells. See chapter 10 for the general rules of spellcasting. To cast one of these spells, you use its casting time and other rules, but you don't need to use any magicka to cast it.</p>
+			<p class="indent">Once you reach 5th level in this class, you can spend additional shout points to increase the level of a Battle Shout spell that you cast, provided that the spell has an enhanced effect at a higher level, as unrelenting force does. The spell's level increases by 1 for each additional shout point you spend.</p>
+			<p class="indent">The maximum number of shout points you can spend to cast a spell in this way (including its base shout cost and any additional shout points you spend to increase its level) is determined by your barbarian level, as shown in the Spells and Shout Points table.</p>
+			<table>
+				<thead>
+					<tr><td>Barbarian Level</td><td>Maximum Shout Points for a Spell</td></tr>
+				</thead>
+				<tr><td>5th-8th</td><td>3</td></tr>
+				<tr><td>9th-12th</td><td>4</td></tr>
+				<tr><td>13th-16th</td><td>5</td></tr>
+				<tr><td>17th-20th</td><td>6</td></tr>
+			</table>
+			Some of your Battle Thum features require your target to make a saving throw to resist the feature's effects. The saving throw DC is calculated as follows:			
+			<center>
+				<p><strong>Battle Thu'um Save DC</strong> = 8 + your proficiency bonus + your Endurance modifier</p>
+			</center>
+		</description>
+		<sheet>
+			<description>You have {{shout points}} shout points and you regain any expended shout points when you finish a short or long rest.</description>
+		</sheet>
+		<spellcasting name="Shouts" ability="Constitution" allowReplace="true">
+			<list>War Crier</list>
+		</spellcasting>
+		<rules>
+			<stat name="shout points" value="2" level="3" />
+			<stat name="shout points" value="2" level="6" />
+			<stat name="shout points" value="2" level="10" />
+			<stat name="shout points" value="2" level="14" />
+
+			<stat name="shouts:spellcasting:slots:1" value="1" level="3" />
+			<stat name="shouts:spellcasting:slots:2" value="1" level="6" />
+			<stat name="shouts:spellcasting:slots:3" value="1" level="10" />
+			<stat name="shouts:spellcasting:slots:4" value="1" level="14" />
+			<stat name="shouts:spellcasting:slots:4" value="20" level="14" />
+
+			<grant type="Spell" id="ID_UESTRPG_SHOUT_UNRELENTING_FORCE" spellcasting="Shouts"/>
+			<select type="Spell" name="Shout (War Crier)" supports="$(spellcasting:list),$(spellcasting:slots)" level="3" number="1" spellcasting="Shouts"/>
+			<select type="Spell" name="Shout (War Crier)" supports="$(spellcasting:list),$(spellcasting:slots)" level="6" number="2" spellcasting="Shouts"/>
+			<select type="Spell" name="Shout (War Crier)" supports="$(spellcasting:list),$(spellcasting:slots)" level="10" number="2" spellcasting="Shouts"/>
+			<select type="Spell" name="Shout (War Crier)" supports="$(spellcasting:list),$(spellcasting:slots)" level="14" number="2" spellcasting="Shouts"/>
+		</rules>
+	</element>
+
+	<element name="Draconic Tongue" type="Archetype Feature" source="UESTRPG" id="ID_UESTRPG_ARCHETYPE_FEATURE_DRACONIC_TONGUE">
+		<description>
+			<p>Starting at 6th level, you gain a mastery with draconic words. You are now proficient in the dovahzul language.</p>
+		</description>
+		<sheet display="false">
+			<description>Starting at 6th level, you gain a mastery with draconic words. You are now proficient in the dovahzul language.</description>
+		</sheet>
+		<rules>
+			<grant type="Language" id="ID_UESTRPG_LANGUAGE_DOVAHZUL" />
+		</rules>
+	</element>
+
+	<element name="Frenzied Shouts" type="Archetype Feature" source="UESTRPG" id="ID_UESTRPG_ARCHETYPE_FEATURE_FRENZIED_SHOUTS">
+		<description>
+			<p>When you reach 10th level, you have balanced your voice with your rage. You can now use the spells granted by your Dragon Shouts feature while raging.</p>
+      		<p class="indent">If you are able to cast other spells, you can’t cast them or concentrate on them while raging.</p>
+		</description>
+		<sheet>
+			<description>You can use the spells granted by your Dragon Shouts feature while raging.</description>
+		</sheet>
+	</element>
+
+</elements>

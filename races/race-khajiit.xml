@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Khajiit</name>
+		<description></description>
+		<author url="https://uestrpg.wixsite.com/home/downloads">Unofficial Elder Scrolls Tabletop RPG</author>
+		<update version="1.4.0">
+			<file name="race-khajiit.xml" url="" />
+		</update>
+	</info>
+
+	<element name="Khajiit" type="Race" source="UESTRPG" id="ID_UESTRPG_RACE_KHAJIIT">
+		<description>
+			<p class="flavor">Hailing from the tropical province of Elsweyr, khajiit are feline humanoids, known for their grace and intellect. Nomadic and inquisitive, the khajiit rarely stay in one place for long.</p>
+			<h4>CHILDREN OF THE MOON</h4>
+			<p>Bound to the lunar lattice, a mysterious force understood by the khajiit, the phases of the two moons at the time of their birth determines the form, or 'breed', a khajiit will assume. All newborns look alike, much smaller than the other races of Tamriel, but the early days of their life begin to give way to their future form. There are rumored to be more than twenty forms of khajiit, but most common are Alfiq, Cathay, Dagi, Ohmes, Pahmar, Senche, Suthay, and Tojay. The humanoid forms are described in further detail in  the subrace section.</p>
+			<p class="indent">Khajiit differ greatly from all other races, most obviously with their catlike form, tail, fur, and digitigrade stance. Although typical of most humanoid khajiit, some sub-species, such as the ohmes, appear more similar to the bosmer than to their own brothers and sisters. Their physical appearance isn't their only physiological differences. Even the digestive systems and metabolisms are different from most other races, allowing them to have a stronger resilience to substances like moon sugar.</p>
+			<p class="indent">Bright textiles and shiny objects are desired by khajiit. They dress in cloth shawls of brilliant colors, known as a budi, which helps defend themselves from the sun. They adorn themselves with sparkling jewelry and trinkets, and are known to wear flowers and herbs in their braided fur. The breeds that do not grow fur typically tattoo themselves with cultural or religious symbols to resemble their cousins.</p>
+			<h4>THE HOLY MOONS</h4>
+			<p>A large part of the khajiit religion is worship of the two moons of Tamriel. This is an obvious path, given how much the moons affect the lives of every khajiit. Another significant part of the khajiit lifestyle is the harvest and ingestion of a powerful and addictive substance called moon sugar. This substance is known  to be crystallized moonlight, which they believe by ingesting, they are absorbing a part of the eternal souls of the moon gods, Jone and Jode.</p>
+			<p class="indent">When moon sugar is ingested, it causes fits of ecstasy and abandon. Paired with the highly addictive nature, it is common for khajiit settlements to be littered with cat-men shivering in the grips of sugar fits.</p>
+			<p class="indent">Nevertheless, moon-sugar is a daily part of khajiit life, and serves as their chief export. Their affection for moon-sugar has developed a sweet tooth, and the khajiit diet is invariably sweet. Candies, cakes, puddings, and sugared meats are staples in khajiit cuisine. This fare is usually laced with powdered moon-sugar, and the other races would be wise to never accept a sweet roll from a cat.</p>
+			<h4>SOCIETAL DUALITY</h4>
+			<p>The societies of khajiit are lead by a unique breed of khajiit known as the Mane, born under the aligned moons. Tradition states that only one mane can be alive at a time and it is believed that each mane is a reincarnation of the previous.</p>
+			<p class="indent">Khajiit civilizations are divided into two specific cultures. The jungles of Elsweyr are civil and are formed around an agrarian aristocracy, whereas the northern wastes and grasslands tend to be nomadic, pride-centric groups that contest for territory.</p>
+			<h4>GUARDIANS AND CHARLATANS</h4>
+			<p>Khajiit, who are commonly targeted for racial discrimination, have had to deal with being kidnapped and sold into slavery. This harsh reality has made them take self defense very seriously. The majority of khajiit use their claws as weapons, and many have formed groups that utilize their natural gifts in various forms of martial arts.</p>
+			<p class="indent">Other khajiit welcome the black market with open paws, taking to a life of piracy, smuggling moon sugar, and the more potent skooma, to the many different lands. Khajiit's natural abilities make them superb thieves and acrobats, as well as fearsome warriors.</p>
+			<h4>KHAJIIT NAMES</h4>
+			<p>Each Khajiit has a single name in their language, Ta'agra, but it is also common for a Khajiit to go by their Tamrielic name, usually given to them by men or mer. These common names are typically descriptive of the their personality or quirks.</p>
+			<p>
+			<span class="feature">Male Names:</span>Akrah, Azbishan, Balag, Dazur, Eilun, Fa'alar, Ghadar, Hilan, Jahirr, Khasar, Lansur, Maniz, Malirzzaka, Nakkhu, Oblan, Pinar, Rakhad, Razur, Sabra, Tabil, Urjen, Vashpar, Yan, Zaban, Zino<br />
+			<span class="feature">Female Names:</span>Abizah, Azum, Bakkhara, Bindu, Darali, Elamusa, Fedura, Hani, Inama, Kala, Kiasha, Manabi, Mura, Nayya, Pinirai, Samati, Sebazi, Shuzura, Tahara, Tohiba, Urbani, Vaifa, Yana, Zara, Zurka<br />
+			<span class="feature">Tamrielic Names:</span>Ashenfur, Black-Paw, Clevereyes, Dawnwalker, Dusty-Claw, Elf-Biter, Firebreath, Four-Toes, Iron-Ear, Kink Tail, Silvertongue, Soft-Fur, Sugar-Claws, Tender-Paws, Wet-Whiskers<br />
+			</p>
+			<h5>KHAJIIT HONORIFICS</h5>
+			<p>Khajiit often, but not always, have either a prefix or a suffix, or sometimes both, as part of their name, usually separated by an apostrophe. The titles are typically meant to represent a part of their personality or traits. Some Khajiit believe having both a prefix and a suffix is a sign of arrogance and pride.</p>
+			<table>
+				<thead>
+					<tr><td class="col-20">d10</td><td class="col-20">Title</td><td>Meaning</td></tr>
+				</thead>
+				<tr><td>1</td><td>Dar</td><td>Thief</td></tr>
+				<tr><td>2</td><td>Do</td><td>Warrior</td></tr>
+				<tr><td>3</td><td>Dra</td><td>Wise</td></tr>
+				<tr><td>4</td><td>Dro</td><td>Grandparent</td></tr>
+				<tr><td>5</td><td>J / Ja / Ji</td><td>Youth</td></tr>
+				<tr><td>6</td><td>Jo / Ko</td><td>Wizard</td></tr>
+				<tr><td>7</td><td>La / Lo</td><td>Promiscuous</td></tr>
+				<tr><td>8</td><td>M / Ma</td><td>Child or Apprentice</td></tr>
+				<tr><td>9</td><td>Ra / Ri</td><td>Leader</td></tr>
+				<tr><td>10</td><td>S</td><td>Adult</td></tr>
+			</table>
+			<h4>KHAJIIT TRAITS</h4>
+			<p>Your Khajiit heritage manifests in a variety of traits you share with other khajiit.</p>
+			<p class="indent"><strong><em>Attribute Score Increase.</em></strong> Your Agility score increases by 2.</p>
+			<p class="indent"><strong><em>Age.</em></strong> Different Khajiit born under different cycles have significantly different life spans. They can range from 150 to 400 years, if not more.</p>
+			<p class="indent"><strong><em>Alignment.</em></strong> Khajiit tend toward chaotic alignments, as they let impulse and fancy guide their decisions. They are rarely evil, except for those driven by greed or other dark impulses.</p>
+			<p class="indent"><strong><em>Speed.</em></strong> Your base walking speed is 35 feet.</p>
+			<p class="indent"><strong><em>Eye of Fear.</em></strong> You know how to use your cat-like eyes to demoralize others. You gain proficiency in the Intimidation skill.</p>
+			<p class="indent"><strong><em>Eye of Night.</em></strong> Your khajiit ancestry grants you superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</p>
+			<p class="indent"><strong><em>Quick Claws.</em></strong> Because of your claws, you have a climbing speed of 20 feet. In addition, your claws are natural weapons, which you can use to make unarmed strikes. If you hit with them, you deal slashing damage equal to 1d4 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike.</p>
+			<p class="indent"><strong><em>Languages.</em></strong> You can speak, read, and write Tamrielic and Ta'agra. Ta'agra script combines unique and fluid motions. Artistic interpretation is praised and varies greatly between authors.</p>
+			<p class="indent"><strong><em>Subrace.</em></strong> There are many subraces of the Khajiit. Many of the subraces are humanoid in shape, but there are others, such as the Alfiq, that more resemble a house cat, or the senche, which are tiger-like battle cats.</p>
+		</description>
+		<sheet display="false" />
+		<setters>
+			<set name="names" type="male">Akrah, Azbishan, Balag, Dazur, Eilun, Fa'alar, Ghadar, Hilan, Jahirr, Khasar, Lansur, Maniz, Malirzzaka, Nakkhu, Oblan, Pinar, Rakhad, Razur, Sabra, Tabil, Urjen, Vashpar, Yan, Zaban, Zino</set>
+			<set name="names" type="female">Abizah, Azum, Bakkhara, Bindu, Darali, Elamusa, Fedura, Hani, Inama, Kala, Kiasha, Manabi, Mura, Nayya, Pinirai, Samati, Sebazi, Shuzura, Tahara, Tohiba, Urbani, Vaifa, Yana, Zara, Zurka</set>
+			<set name="names-format">{{name}}</set>
+			<set name="height" modifier="2d8">5'10"</set>
+			<set name="weight" modifier="1d4">110 lb.</set>
+		</setters>
+		<rules>
+			<stat name="dexterity" value="2" />
+			<stat name="innate speed" value="35" bonus="base" />
+			<stat name="innate speed:climb" value="20" bonus="base" />
+			<grant type="Size" id="ID_SIZE_MEDIUM" />
+			<grant type="Language" id="ID_UESTRPG_LANGUAGE_ALTMERIS" />
+			<grant type="Language" id="ID_UESTRPG_LANGUAGE_TAMRIELIC" />
+			<grant type="Vision" id="ID_VISION_DARKVISION" />
+			<grant type="Background Feature" id="ID_UESTRPG_BACKGROUND_KHAJIIT_QUIRK" />
+			<grant type="Racial Trait" id="ID_UESTRPG_RACIAL_TRAIT_EYE_OF_FEAR" />
+			<grant type="Racial Trait" id="ID_UESTRPG_RACIAL_TRAIT_QUICK_CLAWS" requirements="!ID_UESTRPG_SUB_RACE_OHMES|!ID_UESTRPG_SUB_RACE_OHMES_RAHT"/>
+			<grant type="Racial Trait" id="ID_UESTRPG_RACIAL_TRAIT_KHAJIIT_SUBRACE" />
+			<select type="Archetype" name="Birthsign" supports="Birthsign" />
+		</rules>
+	</element>
+
+	<element name="Khajiit Quirk" type="Background Feature" source="UESTRPG" id="ID_UESTRPG_BACKGROUND_KHAJIIT_QUIRK">
+		<requirements>ID_UESTRPG_RACE_KHAJIIT</requirements>
+		<supports>Background Feature</supports>
+		<description>
+			<!-- <p>A khajiit might have motivations and quirks much different from an elf or a human with a similar background. You can use the following to customize your character in addition to the trait, ideal, bond, and flaw from your background.</p> -->
+		</description>
+		<setters>
+		</setters>
+		<rules>
+			<select name="Khajiit Quirk" type="List" optional="true">
+				<item id="1">You miss your tropical home and complain endlessly about the freezing weather, even in summer.</item>
+				<item id="2">You never wear the same outfit twice, unless you absolutely must.</item>
+				<item id="3">You have a minor phobia of water and hate getting wet.</item>
+				<item id="4">Your tail always betrays your inner thoughts.</item>
+				<item id="5">You purr loudly when you are happy.</item>
+				<item id="6">You keep a small ball of yarn in your hand, which you constantly fidget with.</item>
+				<item id="7">You are always in debt, since you spend your gold on food and drink made from moon sugar.</item>
+				<item id="8">When talking about something you're obsessed with, you speak quickly and never pause and others can't understand you.</item>
+				<item id="9">You are a font of random trivia from the lore and stories you have discovered.</item>
+				<item id="10">You can't help but pocket interesting objects you come across.</item>
+			</select>
+		</rules>
+	</element>
+
+<!-- RACIAL TRAITS -->
+
+    <element name="Eye of Fear" type="Racial Trait" source="UESTRPG" id="ID_UESTRPG_RACIAL_TRAIT_EYE_OF_FEAR">
+        <description>
+            <p>You know how to use your cat-like eyes to demoralize others. You gain proficiency in the Intimidation skill.</p>
+        </description>
+        <sheet>
+            <description>You know how to use your cat-like eyes to demoralize others. You gain proficiency in the Intimidation skill.</description>
+        </sheet>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_INTIMIDATION" />
+		</rules>
+    </element>
+
+	<element name="Quick Claws" type="Racial Trait" source="UESTRPG" id="ID_UESTRPG_RACIAL_TRAIT_QUICK_CLAWS">
+		<description>
+			<p>Because of your claws, you have a climbing speed of 20 feet. In addition, your claws are natural weapons, which you can use to make unarmed strikes. If you hit with them, you deal slashing damage equal to 1d4 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike.</p>
+		</description>
+		<sheet>
+			<description>Your claws are natural weapons, which you can use to make unarmed strikes. If you hit with them, you deal 1d4+{{quick claws:damage}} slashing damage, instead of the bludgeoning damage normal for an unarmed strike.
+			</description>
+		</sheet>
+		<rules>
+			<stat name="quick claws:damage" value="strength:modifier" />
+		</rules>
+	</element>
+
+<!-- SUBRACES -->
+
+	<element name="Khajiit Subrace" type="Racial Trait" source="UESTRPG" id="ID_UESTRPG_RACIAL_TRAIT_KHAJIIT_SUBRACE">
+		<description>
+			<p>There are many subraces of the Khajiit. Many of the subraces are humanoid in shape, but there are others, such as the Alfiq, that more resemble a house cat, or the senche, which are tiger-like battle cats.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Sub Race" name="Khajiit Subrace" supports="Khajiit" />
+		</rules>
+	</element>
+
+<!-- OHMES -->
+
+	<element name="Ohmes" type="Sub Race" source="UESTRPG" id="ID_UESTRPG_SUB_RACE_OHMES">
+		<supports>Khajiit</supports>
+		<description>
+			<p>The Ohmes generally look more similar to the Bosmer, although slightly smaller in stature, than they do to their feline brothers. Many Ohmes will paint or tattoo their faces to resemble their feline heritage. Unlike other Khajiit, they have no fur, no tail, or any other distinguishable Khajiit feature.</p>
+			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Personality score increases by 1.</p>
+			<p class="indent"><strong><em>Size.</em></strong> Ohmes Khajiit are similar in size to the Bosmer, rarely taller than 5 feet tall. Your size is medium.</p>
+			<p class="indent"><strong><em>Ambassador.</em></strong> Your elven-like form makes you a natural ambassador to the other races. You gain proficiency in the Deception and Persuasion skills. If you're already proficient in either skill, your proficiency bonus is doubled for any check you make with that skill.</p>
+			<p class="indent"><strong><em>Ohmes Combat Training.</em></strong> The Ohmes do not have natural claws, like their Khajiit brethren, and do not benefit from the Quick Claws trait. Instead, they are proficient in Hand-to-Hand and Short Blade weapons to make up for their natural handicap.</p>
+		</description>
+		<sheet display="false" />
+		<setters>
+			<set name="height" modifier="2d6">4'4"</set>
+			<set name="weight" modifier="1d4">95 lb.</set>
+		</setters>
+		<rules>
+			<stat name="charisma" value="1" />
+			<grant type="Racial Trait" id="ID_UESTRPG_RACIAL_TRAIT_AMBASSADOR_DECEPTION" />
+			<grant type="Racial Trait" id="ID_UESTRPG_RACIAL_TRAIT_AMBASSADOR_PERSUASION" />
+			<grant type="Racial Trait" id="ID_UESTRPG_RACIAL_TRAIT_AMBASSADOR_PERSUASION_EXPERTISE" />
+			<grant type="Racial Trait" id="ID_UESTRPG_RACIAL_TRAIT_AMBASSADOR_DECEPTION_EXPERTISE" />
+			<grant type="Racial Trait" id="ID_UESTRPG_RACIAL_TRAIT_OHMES_COMBAT_TRAINING" />
+		</rules>
+	</element>
+
+	<element name="Ohmes Raht" type="Sub Race" source="UESTRPG" id="ID_UESTRPG_SUB_RACE_OHMES_RAHT">
+		<supports>Khajiit</supports>
+		<description>
+			<p>Ohmes-raht have slightly larger builds than their ohmes cousins, usually similar in size and appearance of men, other than their short light fur and tails. Also similar to men, the Ohmes-raht walk on their heels as opposed to the balls of their feet like many other species of Khajiit.</p>
+			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Personality score increases by 1.</p>
+			<p class="indent"><strong><em>Size.</em></strong> Ohmes-raht range from 5 to 6 feet tall. Your size is medium.</p>
+			<p class="indent"><strong><em>Ambassador.</em></strong> Your elven-like form makes you a natural ambassador to the other races. You gain proficiency in the Deception and Persuasion skills. If you're already proficient in either skill, your proficiency bonus is doubled for any check you make with that skill.</p>
+			<p class="indent"><strong><em>Ohmes Combat Training.</em></strong> The Ohmes-raht do not have natural claws, like their Khajiit brethren, and do not benefit from the Quick Claws trait. Instead, they are proficient in Hand-to-Hand and Short Blade weapons to make up for their natural handicap.</p>
+		</description>
+		<sheet display="false" />
+		<setters>
+			<set name="height" modifier="4d6">5'7"</set>
+			<set name="weight" modifier="4d4">95 lb.</set>
+		</setters>
+		<rules>
+			<stat name="charisma" value="1" />
+			<grant type="Racial Trait" id="ID_UESTRPG_RACIAL_TRAIT_AMBASSADOR_DECEPTION" />
+			<grant type="Racial Trait" id="ID_UESTRPG_RACIAL_TRAIT_AMBASSADOR_PERSUASION" />
+			<grant type="Racial Trait" id="ID_UESTRPG_RACIAL_TRAIT_AMBASSADOR_PERSUASION_EXPERTISE" />
+			<grant type="Racial Trait" id="ID_UESTRPG_RACIAL_TRAIT_AMBASSADOR_DECEPTION_EXPERTISE" />
+			<grant type="Racial Trait" id="ID_UESTRPG_RACIAL_TRAIT_OHMES_COMBAT_TRAINING" />
+		</rules>
+	</element>
+
+	<element name="Ohmes Combat Training" type="Racial Trait" source="UESTRPG" id="ID_UESTRPG_RACIAL_TRAIT_OHMES_COMBAT_TRAINING">
+		<description>
+			<p>The Ohmes do not have natural claws, like their Khajiit brethren, and do not benefit from the Quick Claws trait. Instead, they are proficient in Hand-to-Hand and Short Blade weapons to make up for their natural handicap.</p>
+		</description>
+		<sheet>
+			<description>The Ohmes do not have natural claws, like their Khajiit brethren, and do not benefit from the Quick Claws trait. Instead, they are proficient in Hand-to-Hand and Short Blade weapons to make up for their natural handicap.</description>
+		</sheet>
+		<rules>
+			<grant type="Proficiency" id="ID_UESTRPG_TRAIT_HAND_TO_HAND_PROFICIENCY" />
+			<grant type="Proficiency" id="ID_UESTRPG_TRAIT_SHORT_BLADE_PROFICIENCY" />
+		</rules>
+	</element>
+
+	<element name="Ambassador" type="Racial Trait" source="UESTRPG" id="ID_UESTRPG_RACIAL_TRAIT_AMBASSADOR_DECEPTION">
+		<requirements>!ID_PROFICIENCY_SKILL_DECEPTION</requirements>
+		<description>
+			<p>Your elven-like form makes you a natural ambassador to the other races. You gain proficiency in the Deception and Persuasion skills. If you're already proficient in either skill, your proficiency bonus is doubled for any check you make with that skill.</p>
+		</description>
+		<sheet display="false">
+			<description>Your elven-like form makes you a natural ambassador to the other races. You gain proficiency in the Deception and Persuasion skills. If you're already proficient in either skill, your proficiency bonus is doubled for any check you make with that skill.</description>
+		</sheet>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_DECEPTION" />
+		</rules>
+	</element>
+
+	<element name="Ambassador" type="Racial Trait" source="UESTRPG" id="ID_UESTRPG_RACIAL_TRAIT_AMBASSADOR_DECEPTION_EXPERTISE">
+		<requirements>ID_PROFICIENCY_SKILL_DECEPTION,!ID_UESTRPG_RACIAL_TRAIT_AMBASSADOR_DECEPTION</requirements>
+		<description>
+			<p>Your elven-like form makes you a natural ambassador to the other races. You gain proficiency in the Deception and Persuasion skills. If you're already proficient in either skill, your proficiency bonus is doubled for any check you make with that skill.</p>
+		</description>
+		<sheet display="false">
+			<description>Your elven-like form makes you a natural ambassador to the other races. You gain proficiency in the Deception and Persuasion skills. If you're already proficient in either skill, your proficiency bonus is doubled for any check you make with that skill.</description>
+		</sheet>
+		<rules>
+			<stat name="deception:proficiency" value="proficiency" bonus="double" />
+		</rules>
+	</element>
+
+	<element name="Ambassador" type="Racial Trait" source="UESTRPG" id="ID_UESTRPG_RACIAL_TRAIT_AMBASSADOR_PERSUASION">
+		<requirements>!ID_PROFICIENCY_SKILL_PERSUASION</requirements>
+		<description>
+			<p>Your elven-like form makes you a natural ambassador to the other races. You gain proficiency in the Deception and Persuasion skills. If you're already proficient in either skill, your proficiency bonus is doubled for any check you make with that skill.</p>
+		</description>
+		<sheet>
+			<description>Your elven-like form makes you a natural ambassador to the other races. You gain proficiency in the Deception and Persuasion skills. If you're already proficient in either skill, your proficiency bonus is doubled for any check you make with that skill.</description>
+		</sheet>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERSUASION" />
+		</rules>
+	</element>
+
+	<element name="Ambassador" type="Racial Trait" source="UESTRPG" id="ID_UESTRPG_RACIAL_TRAIT_AMBASSADOR_PERSUASION_EXPERTISE">
+		<requirements>ID_PROFICIENCY_SKILL_PERSUASION,!ID_UESTRPG_RACIAL_TRAIT_AMBASSADOR_PERSUASION</requirements>
+		<description>
+			<p>Your elven-like form makes you a natural ambassador to the other races. You gain proficiency in the Deception and Persuasion skills. If you're already proficient in either skill, your proficiency bonus is doubled for any check you make with that skill.</p>
+		</description>
+		<sheet>
+			<description>Your elven-like form makes you a natural ambassador to the other races. You gain proficiency in the Deception and Persuasion skills. If you're already proficient in either skill, your proficiency bonus is doubled for any check you make with that skill.</description>
+		</sheet>
+		<rules>
+			<stat name="persuasion:proficiency" value="proficiency" bonus="double" />
+		</rules>
+	</element>
+
+<!-- SUTHAY -->
+
+	<element name="Suthay" type="Sub Race" source="UESTRPG" id="ID_UESTRPG_SUB_RACE_SUTHAY">
+		<supports>Khajiit</supports>
+		<description>
+			<p>While they are similar in height to the Ohmes, that is mostly where the similarities end. The Suthay are much more cat like in appearance with their high set ears and feline facial features, along with a long tail and digitigrade legs.</p>
+			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Endurance score increases by 1.</p>
+			<p class="indent"><strong><em>Size.</em></strong> Suthay Khajiit are similar in size to the Ohmes, rarely taller than 5 feet tall. Suthay-raht range from 5 feet to 6 feet tall. Your size is medium.</p>
+			<p class="indent"><strong><em>Natural Bandit.</em></strong> You are able to use your claws as thieves' tools. You can add your proficiency modifier to any check using your claws in this way, even if you are not proficient in thieves' tools.</p>
+			<p class="indent"><strong><em>Feline Agility.</em></strong> Your reflexes and agility allow you to move with a burst of speed. When you move on your turn in combat, you can double your speed until the end of the turn. Once you use this trait, you can't use it again until you move 0 feet on one of your turns.</p>
+		</description>
+		<sheet display="false" />
+		<setters>
+			<set name="height" modifier="2d6">4'6"</set>
+			<set name="weight" modifier="1d6">100 lb.</set>
+		</setters>
+		<rules>
+			<stat name="constitution" value="1" />
+			<grant type="Racial Trait" id="ID_UESTRPG_RACIAL_TRAIT_NATURAL_BANDIT" />
+			<grant type="Racial Trait" id="ID_UESTRPG_RACIAL_TRAIT_FELINE_AGILITY" />
+		</rules>
+	</element>
+
+	<element name="Suthay Raht" type="Sub Race" source="UESTRPG" id="ID_UESTRPG_SUB_RACE_SUTHAY_RAHT">
+		<supports>Khajiit</supports>
+		<description>
+			<p>Suthay-raht are nearly the same as the Suthay in all their features except their stature closer resembles the height of men. The Suthay-raht are the most common breed of Khajiit outside of Elsweyr.</p>
+			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Endurance score increases by 1.</p>
+			<p class="indent"><strong><em>Size.</em></strong> Suthay-raht range from 5 feet to 6 feet tall. Your size is medium.</p>
+			<p class="indent"><strong><em>Natural Bandit.</em></strong> You are able to use your claws as thieves' tools. You can add your proficiency modifier to any check using your claws in this way, even if you are not proficient in thieves' tools.</p>
+			<p class="indent"><strong><em>Feline Agility.</em></strong> Your reflexes and agility allow you to move with a burst of speed. When you move on your turn in combat, you can double your speed until the end of the turn. Once you use this trait, you can't use it again until you move 0 feet on one of your turns.</p>
+		</description>
+		<sheet display="false" />
+		<setters>
+			<set name="height" modifier="2d6">5'6"</set>
+			<set name="weight" modifier="1d6">100 lb.</set>
+		</setters>
+		<rules>
+			<stat name="constitution" value="1" />
+			<grant type="Racial Trait" id="ID_UESTRPG_RACIAL_TRAIT_NATURAL_BANDIT" />
+			<grant type="Racial Trait" id="ID_UESTRPG_RACIAL_TRAIT_FELINE_AGILITY" />
+		</rules>
+	</element>
+
+	<element name="Natural Bandit" type="Racial Trait" source="UESTRPG" id="ID_UESTRPG_RACIAL_TRAIT_NATURAL_BANDIT">
+		<description>
+			<p>You are able to use your claws as thieves' tools. You can add your proficiency modifier to any check using your claws in this way, even if you are not proficient in thieves' tools.</p>
+		</description>
+		<sheet>
+			<description>You are able to use your claws as thieves' tools. You can add your proficiency modifier ({{natural bandit:modifier}}) to any check using your claws in this way, even if you are not proficient in thieves' tools.</description>
+		</sheet>
+		<rules>
+			<stat name="natural bandit:modifier" value="proficiency" />
+		</rules>
+	</element>
+
+	<element name="Feline Agility" type="Racial Trait" source="UESTRPG" id="ID_UESTRPG_RACIAL_TRAIT_FELINE_AGILITY">
+		<description>
+			<p>Your reflexes and agility allow you to move with a burst of speed. When you move on your turn in combat, you can double your speed until the end of the turn. Once you use this trait, you can't use it again until you move 0 feet on one of your turns.</p>
+		</description>
+		<sheet action="Reaction">
+			<description>Your reflexes and agility allow you to move with a burst of speed. When you move on your turn in combat, you can double your speed until the end of the turn. Once you use this trait, you can't use it again until you move 0 feet on one of your turns.</description>
+		</sheet>
+	</element>
+
+<!-- CATHAY -->
+
+	<element name="Cathay" type="Sub Race" source="UESTRPG" id="ID_UESTRPG_SUB_RACE_CATHAY">
+		<supports>Khajiit</supports>
+		<description>
+			<p>Similar to the Suthay-raht in appearance and bi-pedalism, however they possess greater stature and strength.</p>
+			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Strength score increases by 1.</p>
+			<p class="indent"><strong><em>Size.</em></strong> Cathay Khajiit are similar in size to most men and range from 5 feet to 6 ½ feet. Your size is medium.</p>
+			<p class="indent"><strong><em>Powerful Build.</em></strong> You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.</p>
+			<p class="indent"><strong><em>Savage Attacks.</em></strong> When you score a critical hit with a melee weapon attack, you can roll one of the weapon's damage dice one additional time and add it to the extra damage of the critical hit.</p>
+		</description>
+		<sheet display="false" />
+		<setters>
+			<set name="height" modifier="2d8">4'9"</set>
+			<set name="weight" modifier="1d6">115 lb.</set>
+		</setters>
+		<rules>
+			<stat name="strength" value="1" />
+			<grant type="Racial Trait" id="ID_UESTRPG_RACIAL_TRAIT_POWERFUL_BUILD" />
+			<grant type="Racial Trait" id="ID_UESTRPG_RACIAL_TRAIT_SAVAGE_ATTACKS" />
+		</rules>
+	</element>
+
+	<element name="Cathay Raht" type="Sub Race" source="UESTRPG" id="ID_UESTRPG_SUB_RACE_CATHAY_RAHT">
+		<supports>Khajiit</supports>
+		<description>
+			<p>Cathay-raht are larger and more powerful and are often described as "jaguar-men".</p>
+			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Strength score increases by 1.</p>
+			<p class="indent"><strong><em>Size.</em></strong> Cathay-raht are larger than Cathay. Your size is medium.</p>
+			<p class="indent"><strong><em>Powerful Build.</em></strong> You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.</p>
+			<p class="indent"><strong><em>Savage Attacks.</em></strong> When you score a critical hit with a melee weapon attack, you can roll one of the weapon's damage dice one additional time and add it to the extra damage of the critical hit.</p>
+		</description>
+		<sheet display="false" />
+		<setters>
+			<set name="height" modifier="2d8">5'9"</set>
+			<set name="weight" modifier="3d6">150 lb.</set>
+		</setters>
+		<rules>
+			<stat name="strength" value="1" />
+			<grant type="Racial Trait" id="ID_UESTRPG_RACIAL_TRAIT_POWERFUL_BUILD" />
+			<grant type="Racial Trait" id="ID_UESTRPG_RACIAL_TRAIT_SAVAGE_ATTACKS" />
+		</rules>
+	</element>
+
+	<element name="Powerful Build" type="Racial Trait" source="UESTRPG" id="ID_UESTRPG_RACIAL_TRAIT_POWERFUL_BUILD">
+		<description>
+			<p>You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.</p>
+		</description>
+		<sheet>
+			<description>You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.</description>
+		</sheet>
+	</element>
+
+	<element name="Savage Attacks" type="Racial Trait" source="UESTRPG" id="ID_UESTRPG_RACIAL_TRAIT_SAVAGE_ATTACKS">
+		<description>
+			<p>When you score a critical hit with a melee weapon attack, you can roll one of the weapon's damage dice one additional time and add it to the extra damage of the critical hit.</p>
+		</description>
+		<sheet action="Reaction">
+			<description>When you score a critical hit with a melee weapon attack, you can roll one of the weapon's damage dice one additional time and add it to the extra damage of the critical hit.</description>
+		</sheet>
+	</element>
+
+<!-- DAGI -->
+
+	<element name="Dagi" type="Sub Race" source="UESTRPG" id="ID_UESTRPG_SUB_RACE_DAGI">
+		<supports>Khajiit</supports>
+		<description>
+			<p>Dagi live in the trees of the Tenmar forest. Due to their smaller size and light weight, they are able to dwell in the higher branches which even the Bosmer cannot reach. The Dagi have a natural affinity for magic, and are known spellcasters, a characteristic often taken advantage of in Khajiiti battle-tactics.</p>
+			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Intelligence score increases by 1.</p>
+			<p class="indent"><strong><em>Size.</em></strong> Dagi and Dagi-raht average about 3 to 4 feet tall and weigh around 40 pounds. Your Size is small.</p>
+			<p class="indent"><strong><em>Natural Magic.</em></strong> You know the Thaumaturgy cantrip. When you reach 3rd level, you can cast the Witch Bolt spell as a 2nd level spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the Darkness spell once with this trait and regain the ability to do so when you finish a long rest. Intelligence is your spellcasting ability for these spells.</p>
+		</description>
+		<sheet display="false" />
+		<setters>
+			<set name="height" modifier="2d4">2'11"</set>
+			<set name="weight" modifier="1">35 lb.</set>
+		</setters>
+		<rules>
+			<stat name="intelligence" value="1" />
+			<grant type="Racial Trait" id="ID_UESTRPG_RACIAL_TRAIT_NATURAL_MAGIC" />
+		</rules>
+	</element>
+
+	<element name="Dagi Raht" type="Sub Race" source="UESTRPG" id="ID_UESTRPG_SUB_RACE_DAGI_RAHT">
+		<supports>Khajiit</supports>
+		<description>
+			<p>Dagi live in the trees of the Tenmar forest. Due to their smaller size and light weight, they are able to dwell in the higher branches which even the Bosmer cannot reach. The Dagi have a natural affinity for magic, and are known spellcasters, a characteristic often taken advantage of in Khajiiti battle-tactics.</p>
+			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Intelligence score increases by 1.</p>
+			<p class="indent"><strong><em>Size.</em></strong> Dagi and Dagi-raht average about 3 to 4 feet tall and weigh around 40 pounds. Your Size is small.</p>
+			<p class="indent"><strong><em>Natural Magic.</em></strong> You know the Thaumaturgy cantrip. When you reach 3rd level, you can cast the Witch Bolt spell as a 2nd level spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the Darkness spell once with this trait and regain the ability to do so when you finish a long rest. Intelligence is your spellcasting ability for these spells.</p>
+		</description>
+		<sheet display="false" />
+		<setters>
+			<set name="height" modifier="2d4">2'11"</set>
+			<set name="weight" modifier="1">35 lb.</set>
+		</setters>
+		<rules>
+			<stat name="intelligence" value="1" />
+			<grant type="Racial Trait" id="ID_UESTRPG_RACIAL_TRAIT_NATURAL_MAGIC" />
+		</rules>
+	</element>
+
+	<element name="Natural Magic" type="Racial Trait" source="UESTRPG" id="ID_UESTRPG_RACIAL_TRAIT_NATURAL_MAGIC">
+		<description>
+			<p>You know the Thaumaturgy cantrip. When you reach 3rd level, you can cast the Witch Bolt spell as a 2nd level spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the Darkness spell once with this trait and regain the ability to do so when you finish a long rest. Intelligence is your spellcasting ability for these spells.</p>
+		</description>
+		<sheet action="Action" usage="1/Long Rest">
+			<description>At 3rd level, you can cast the Witch Bolt spell as a 2nd level spell without expending magicka points. Intelligence is your spellcasting ability.</description>
+			<description level="5">You can cast the Witch Bolt spell as a 2nd level spell, and the Darkness spell without expending magicka points. Intelligence is your spellcasting ability.</description>
+		</sheet>
+		<spellcasting name="Dagi" ability="Intelligence" prepare="false">
+			<list>Dagi</list>
+		</spellcasting>
+		<rules>
+			<grant type="spell" id="ID_PHB_SPELL_THAUMATURGY" level="1" spellcasting="Dagi"/>
+			<grant type="spell" id="ID_PHB_SPELL_WITCH_BOLT" level="3" spellcasting="Dagi"/>
+			<grant type="spell" id="ID_PHB_SPELL_DARKNESS" level="5" spellcasting="Dagi"/>
+		</rules>
+	</element>
+
+
+</elements>

@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Argonian</name>
+		<description></description>
+		<author url="https://uestrpg.wixsite.com/home/downloads">Unofficial Elder Scrolls Tabletop RPG</author>
+		<update version="1.4.0">
+			<file name="race-argonian.xml" url="" />
+		</update>
+	</info>
+
+	<element name="Argonian" type="Race" source="UESTRPG" id="ID_UESTRPG_RACE_ARGONIAN">
+		<description>
+			<p class="flavor">Argonians, also known as People of the Root, or Saxhleel in their native tongue of Jel, are the reptilian natives of the swampland known as the Black Marsh. The other races of Tamriel sometimes refer to them as 'lizards' or the 'Lizard Folk', which can be considered derogative.  Argonians possess the most alien personalities in all of  Tamriel, perceived by other races as to have no personality nor emotions.</p>
+			<p class="indent">Outside of argonia, little is known of their homeland or native culture, and their alien physiology and customs are not well understood by scholars. They have been perhaps the most misunderstood of all the intelligent races.</p>
+			<p class="indent">Despite their alien outlook, some argonians make an effort to understand and, in their own manner, befriend people of other races. Such argonians make faithful and skilled allies.</p>
+			<h4>ALIEN ANCESTRY</h4>
+			<p>The argonian's reptilian nature comes through not only in their appearance, but also in how they think and act. The other races mistake them to be cold and calculating, but that is mostly because their physiology lacks the ability to express emotions in a noticeable way to non-argonians. They are, however, capable of displaying aggression and fear in an obvious manner by narrowing their eyes or showing their teeth.</p>
+			<p class="indent">Although their physical appearance is reptilian, they are much more amphibious in reality. They have small gills behind their ears, instinctively swim in a the same style as an eel, and are capable of growing feathers. Their females have mammalian breasts, although they lay eggs. Even their genders are confusing to humans and elves. It is rumored that an argonian can change it's sex in a time of need.</p>
+			<p class="indent">They owe their strange lifestyles to their connection to the Hist, a sentient tree that is believed to be one of the original lifeforms of Tamriel. Most argonians are born with a connection to the hist, able to feel their presence in their minds at all time. It is said that an argonian that is connected to the Hist have unique souls that set them apart from men and mer. Argonians born without this connection are looked at as disadvantaged by other argonians.</p>
+			<h4>CAUTIOUS AND LOYAL</h4>
+			<p>Because they are hard to understand, humans and elves treat argonians as cold-blooded in nature. Although this is physically true, argonians create deep and long lasting bonds with their own people and allies. Part of this misunderstanding is in part attributed to their emotionless demeanor, which makes them nearly impossible to get to know. They are also notoriously slow to trust outsiders.</p>
+			<p class="indent">At their core, argonians are fiercely loyal allies, making the difficulty of learning their ways and getting to know their tribes well worth the effort. Allied argonians will fight to the death to protect anyone they deem to be family or friend.</p>
+			<p class="indent">A remarkable trait of the argonians is their ability as a culture to forgive and forget quickly. The many tribes of the Black Marsh believe that hating each other in to hate themselves, as they are all People of the Root. They believe that it is better to forget and move on, not dwelling on the past or the future, and simply focus on the present.</p>
+			<h4>DISTRUSTFUL AND ISOLATIONIST</h4>
+			<p>History has not always been kind to the argonian people. The ancient Chimer of Morrowind first utilized the Lizard Folk as slaves centuries before their Dunmer ancestors would do the same. Imperial forces have made several attempts to break through the thick swamps and jungles of the Black Marsh and had set up bases around the coastlines, essentially annexing their culture from the rest of Tamriel.</p>
+			<p class="indent">Over time, the argonians fought back, largely through the use of guerrilla warfare, defending their borders across countless centuries. In recent years, they have broke free from their slavers and have claimed independence from the Empire.</p>
+			<h4>ARGONIAN SPEECH</h4>
+			<p>Argonians can master Common, but their mindset results in a speech pattern distinct from other humanoids.</p>
+			<p class="indent">Argonians rarely use inflection in their speech, which can make their meaning difficult to interpret.</p>
+			<p class="indent">Names confuse them, unless they are descriptive. They tend to apply their own naming conventions to other creatures using Common words.</p>
+			<p class="indent">Argonians use active verbs to describe the world. An argonian in cold weather might say, “This wind brings cold” rather than “I feel cold.” Argonians tend to define things in terms of actions, rather than effects.</p>
+			<h4>ARGONIAN NAMES</h4>
+			<p>Argonians take their names either from Jel, their native tongue, or from the common human language. They use simple descriptive names, usually based on an individual's notable deeds, actions, or appearance. For example, an argonian traveler may be called Nhakik, which translates as “wander”, or an argonian who is a notable swimmer may be called Swims-with-haste, in Tamrielic. Both their Jel names and their common names are frequently hyphenated, but not always.</p>
+			<p>
+			<span class="feature">Male Adult Names: </span>Ah-Ra, Asheeus, Bar-Neeus, Chanka, Deeh, Geel, Jee-Tah, Motuu, Nexith, Oosh, Pad-Ei, Resari, Skeehei, Tanaka, Teeka, Uta-Ra, Vara-Zeen, Wanum-Neeus, Xal-Geh, Yelus<br />
+			<span class="feature">Female Adult Names: </span>Am-Eepa, Asska, Beek-Ja, Churasu, Dakee, Deel, Ei-Ei, Geeh, Heek-Sa, Jukka, Kal-Mei, Leetu, Meerana, Nam-Ja, Pekai-Vilax, Reesa, Sisar, Tulut, Wih-Jat, Xula<br />
+			<span class="feature">Tamrielic Names (gender neutral): </span>Black-Scale, Cuts-with-Words, Deepswimmer, Dusty-Claws, Eyes-like-Night, Follows-the-Sun, Juggles-Scorpions, Keen-Eyes, Purple Plumes, Sings-to-Lions, Walks-in-Ash<br />
+			</p>
+			<h4>ARGONIAN TRAITS</h4>
+			<p>Argonians share certain racial traits as a result of their reptilian decent.</p>
+			<p class="indent"><strong><em>Attribute Score Increase.</em></strong> Your Agility score increases by 2, and your Intelligence score increases by 1.</p>
+			<p class="indent"><strong><em>Age.</em></strong> An argonians life is usually met with hardship and because of this, their lifespan is typically shorter than it should be. On average they live to 75 years, but living to 200 isn't unattainable.</p>
+			<p class="indent"><strong><em>Alignment.</em></strong> Most argonians are neutral good. They often see themselves as protectors and guardians.</p>
+			<p class="indent"><strong><em>Size.</em></strong> Argonians are about the same size as humans, averaging around 6 feet tall, but their frills and feathers make them appear larger. Your size is medium.</p>
+			<p class="indent"><strong><em>Speed.</em></strong> Your base walking speed is 30 feet. As an  Argonian, you are a naturally gifted swimmer which grants you a swimming speed of 40 feet.</p>
+			<p class="indent"><strong><em>Appearance.</em></strong> Argonians have a wide variety of cranial features such as fins, feathers, ridges, spines, spikes, or horns. Females have been known to pierce their cranial features.</p>
+			<p class="indent"><strong><em>Argonian Combat Proficiency.</em></strong> You have proficiency with Short Blades and Spears.</p>
+			<p class="indent"><strong><em>Argonian Resilience.</em></strong> Your Argonian bloodline grants you advantage against saving throws to resist disease.</p>
+			<p class="indent"><strong><em>Bite.</em></strong> Argonians have very sharp reptilian teeth lining their mouths which  you can use to make unarmed strikes. If you hit with this attack, you deal piercing damage equal to 1d6 + your Strength modifier.</p>
+			<p class="indent"><strong><em>Histskin.</em></strong> You can invoke the power of the Hist to quickly recover your injuries. When your current hit points are less than half your hit point maximum, you can use an action to immediately expend any number of your Hit Dice and regain hit points equal to the result. Once you use this trait, you must complete a long rest before you are able to use it again.</p>
+			<p class="indent"><strong><em>Protective Scales.</em></strong> Your thick hide provides a natural armor. When you are unarmored, your AC is equal to 12 + your Agility modifier. You still gain this benefit when using a shield.</p>
+			<p class="indent"><strong><em>Water-breathing.</em></strong> Argonians are able to breathe underwater indefinitely.</p>
+			<p class="indent"><strong><em>Tool Profeciency.</em></strong> You gain proficiency with artisan's tools (alchemist's supplies).</p>
+			<p class="indent"><strong><em>Languages.</em></strong> You can speak, read, and write Tamrielic and Jel.</p>
+		</description>
+		<sheet display="false" />
+		<setters>
+			<set name="names" type="male">Ah-Ra, Asheeus, Bar-Neeus, Chanka, Deeh, Geel, Jee-Tah, Motuu, Nexith, Oosh, Pad-Ei, Resari, Skeehei, Tanaka, Teeka, Uta-Ra, Vara-Zeen, Wanum-Neeus, Xal-Geh, Yelus</set>
+			<set name="names" type="female">Am-Eepa, Asska, Beek-Ja, Churasu, Dakee, Deel, Ei-Ei, Geeh, Heek-Sa, Jukka, Kal-Mei, Leetu, Meerana, Nam-Ja, Pekai-Vilax, Reesa, Sisar, Tulut, Wih-Jat, Xula</set>
+			<set name="names" type="unisex">Black-Scale, Cuts-with-Words, Deepswimmer, Dusty-Claws, Eyes-like-Night, Follows-the-Sun, Juggles-Scorpions, Keen-Eyes, Purple Plumes, Sings-to-Lions, Walks-in-Ash</set>
+			<set name="names-format">{{name}}</set>
+			<set name="height" modifier="2d10">4'10"</set>
+			<set name="weight" modifier="2d6">120 lb.</set>
+		</setters>
+		<rules>
+			<stat name="intelligence" value="1" />
+			<stat name="dexterity" value="2" />
+			<stat name="innate speed" value="30" bonus="base" />
+			<stat name="innate speed:swim" value="40" bonus="base" />
+			<grant type="Size" id="ID_SIZE_MEDIUM" />
+			<grant type="Language" id="ID_UESTRPG_LANGUAGE_JEL" />
+			<grant type="Language" id="ID_UESTRPG_LANGUAGE_TAMRIELIC" />
+			<grant type="Background Feature" id="ID_UESTRPG_BACKGROUND_ARGONIAN_QUIRK" />
+			<grant type="Racial Trait" id="ID_UESTRPG_RACIAL_TRAIT_ARGONIAN_COMBAT_PROFICIENCY" />
+			<grant type="Racial Trait" id="ID_UESTRPG_RACIAL_TRAIT_ARGONIAN_RESILIENCE" requirements="!ID_UESTRPG_FEAT_SAXHLEEL_RESILIENCE"/>
+			<grant type="Racial Trait" id="ID_UESTRPG_RACIAL_TRAIT_BITE" />
+			<grant type="Racial Trait" id="ID_UESTRPG_RACIAL_TRAIT_HISTSKIN" />
+			<grant type="Racial Trait" id="ID_UESTRPG_RACIAL_TRAIT_PROTECTIVE_SCALES" requirements="!ID_UESTRPG_FEAT_SAXHLEEL_RESILIENCE" />
+			<grant type="Racial Trait" id="ID_UESTRPG_RACIAL_TRAIT_WATER_BREATHING" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_ALCHEMISTS_SUPPLIES" />
+			<select type="Archetype" name="Birthsign" supports="Birthsign" />
+		</rules>
+	</element>
+
+	<element name="Argonian Quirk" type="Background Feature" source="UESTRPG" id="ID_UESTRPG_BACKGROUND_ARGONIAN_QUIRK">
+		<requirements>ID_UESTRPG_RACE_ARGONIAN</requirements>
+		<supports>Background Feature</supports>
+		<description>
+			<!-- <p>You can use the Argonian Quirks to determine a personality quirk for an argonian character or to inspire a unique mannerism.</p> -->
+		</description>
+		<setters>
+		</setters>
+		<rules>
+			<select name="Argonian Quirk" type="List" optional="true">
+				<item id="1">You hate waste and see no reason not to scavenge fallen enemies. Fingers are tasty and portable!</item>
+				<item id="2">You sleep best while mostly submerged in water.</item>
+				<item id="3">Money is meaningless to you.</item>
+				<item id="4">You love to sunbathe. If you aren't in the tropics, you wear socks filled with warm rocks on your tail.</item>
+				<item id="5">You have learned how to laugh. You use this talent in response to all emotional situations, to better fit in with your comrades.</item>
+				<item id="6">You still don't understand how metaphors work. That doesn't stop you from using them at every opportunity.</item>
+				<item id="7">You appreciate the soft humanoids who realize they need chain mail and swords to match the gifts you were born with.</item>
+				<item id="8">You enjoy eating your food while it's still wriggling.</item>
+			</select>
+		</rules>
+	</element>
+
+<!-- RACIAL TRAITS -->
+
+    <element name="Argonian Combat Proficiency" type="Racial Trait" source="UESTRPG" id="ID_UESTRPG_RACIAL_TRAIT_ARGONIAN_COMBAT_PROFICIENCY">
+        <description>
+            <p>You have proficiency with Short Blades (Daggers, Rapiers, Scimitars and Shortswords) and Spears</p>
+        </description>
+        <sheet display="false">
+            <description>You have proficiency with Short Blades (Daggers, Rapiers, Scimitars and Shortswords) and Spears.</description>
+        </sheet>
+		<rules>
+			<grant type="Proficiency" id="ID_UESTRPG_TRAIT_SHORT_BLADE_PROFICIENCY" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SPEAR" />
+		</rules>
+    </element>
+
+    <element name="Argonian Resilience" type="Racial Trait" source="UESTRPG" id="ID_UESTRPG_RACIAL_TRAIT_ARGONIAN_RESILIENCE">
+        <description>
+            <p>Your Argonian bloodline grants you advantage against saving throws to resist disease.</p>
+        </description>
+        <sheet>
+            <description>You have advantage on saving throws to resist disease.</description>
+        </sheet>
+    </element>
+
+	<element name="Bite" type="Racial Trait" source="UESTRPG" id="ID_UESTRPG_RACIAL_TRAIT_BITE">
+		<description>
+			<p>Argonians have very sharp reptilian teeth lining their mouths which you can use to make unarmed strikes. If you hit with this attack, you deal piercing damage equal to 1d6 + your Strength modifier.</p>
+		</description>
+		<sheet>
+			<description>You can bite as an unarmed attack, that deals 1d6+{{argonian bite:damage}} piercing damage on hit.
+			</description>
+		</sheet>
+		<rules>
+			<stat name="argonian bite:damage" value="strength:modifier" />
+		</rules>
+	</element>
+
+	<element name="Histskin" type="Racial Trait" source="UESTRPG" id="ID_UESTRPG_RACIAL_TRAIT_HISTSKIN">
+		<description>
+			<p>You can invoke the power of the Hist to quickly recover your injuries. When your current hit points are less than half your hit point maximum, you can use an action to immediately expend any number of your Hit Dice and regain hit points equal to the result. Once you use this trait, you must complete a long rest before you are able to use it again.</p>
+		</description>
+		<sheet action="Action" usage="1/Long Rest">
+			<description>When your current hit points are less than half your hit point maximum, you can use an action to immediately expend any number of your Hit Dice and regain hit points equal to the result.
+			</description>
+		</sheet>
+	</element>
+
+	<element name="Protective Scales" type="Racial Trait" source="UESTRPG" id="ID_UESTRPG_RACIAL_TRAIT_PROTECTIVE_SCALES">
+		<description>
+			<p>Your thick hide provides a natural armor. When you are unarmored, your AC is equal to 12 + your Agility modifier. You still gain this benefit when using a shield.</p>
+		</description>
+		<sheet>
+			<description>When unarmored, your AC is equal to {{ac:argonian protective scales}}. You still gain this benefit when using a shield.</description>
+		</sheet>
+		<rules>
+			<stat name="ac:argonian protective scales" value="12" />
+			<stat name="ac:argonian protective scales" value="dexterity:modifier" />
+			<stat name="ac:calculation" value="ac:argonian protective scales" bonus="calculation" equipped="[armor:none]" alt="Protective Scales" />
+		</rules>
+	</element>
+
+	<element name="Water-Breathing" type="Racial Trait" source="UESTRPG" id="ID_UESTRPG_RACIAL_TRAIT_WATER_BREATHING">
+		<description>
+			<p>Argonians are able to breathe underwater indefinitely.</p>
+		</description>
+		<sheet>
+			<description>You can breathe underwater.
+			</description>
+		</sheet>
+	</element>
+
+</elements>

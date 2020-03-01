@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Breton</name>
+		<description></description>
+		<author url="https://uestrpg.wixsite.com/home/downloads">Unofficial Elder Scrolls Tabletop RPG</author>
+		<update version="1.4.0">
+			<file name="race-breton.xml" url="" />
+		</update>
+	</info>
+
+	<element name="Breton" type="Race" source="UESTRPG" id="ID_UESTRPG_RACE_BRETON">
+		<description>
+			<p class="flavor">The manmer, or half elves, of High Rock are known as Bretons. They are the descendants of Aldmeri rulers and Nedic slaves, who eventually came to rule over the feudal society.</p>
+			<h4>COUPLED LINEAGE</h4>
+			<p>Bretons are sometimes referred to as the mongrel race of Tamriel, being neither elven, nor truly human. Sometimes, although usually only in a derogative manner, the Bretons are called Manmeri, literally 'man-elf', due to their history of crossbreeding.</p>
+			<p class="indent">Their physical appearance is similar to their Nedic ancestors, giving them pale skin tones comparable to their Nord and Imperial cousins, along with the same range of hair color. Similar to the high elves, they maintain a slender form. This elven bloodline ensures that they are never quite as muscular as the other human races. A keen observer can also notice subtle elven lineaments, especially from their eyebrows,  slightly pointed ears, and high cheekbones. Some bretons even seem to adopt their elven arrogance, but paired with their human emotions, it usually comes off more graceful.</p>
+			<h4>CURIOUS AND INQUISITIVE</h4>
+			<p>Although their Aldmeri ancestry is diluted, which shows in their physical appearance, they remain as capable mages with a strong resistance to magic. They are intellectual purists, known for their aptitude in abstract thinking, and are naturally drawn towards careers that favor logic and ordered complexity.</p>
+			<p class="indent">Bretons are known to be skilled in many fields. Their friendly spirits and humorous demeanor lend themselves to writing, acting, and artistry. Their love of commerce leads them into banking, manufacturing, and trading, while their desire for order makes them well suited for the military and sailing.</p>
+			<h4>A STRUGGLE FOR SOVEREIGNTY</h4>
+			<p>Breton society is divided into the the many different regions of High Rock. The feudal kingdoms compete for power and enforce the strict hierarchy that splits its people from peasants and the elite. Despite this obvious rivalry, the bretons are united in their culture, accents, customs and language. Their villages are quaint, and although the architecture may change between the districts, they are usually functional in style and free of ornamentation.</p>
+			<p class="indent">Bretons compete with the orsimer, with their great city of orsinium and the many small orcish strongholds, as well as the barbaric reachmen.</p>
+			<h4>BORN FOR ADVENTURE</h4>
+			<p>Performing quests and services is a common way for bretons to rise in the ranks of their society, which has created a unique form of enthusiasm. The younger bretons are raised with a desire to find fortune and glory all over Tamriel.</p>
+			<h4>EXCELLENT AMBASSADORS</h4>
+			<p>Many Bretons learn at an early age to get along with everyone, defusing hostility and finding common ground. As a race, they have elven grace without elven aloofness and human energy without human boorishness. They often make excellent ambassadors and go-betweens.</p>
+			<h4>BRETON NAMES</h4>
+			<p>Bretons have both given names and family names.</p>
+			<p>
+			<span class="feature">Male Names:</span>Andre, Barnard, Blaise, Brandon, Clinton, Colin, Davide, Delacourt, Emmanual, Francois, Gregory, Hannibal, Jean, Louis, Marc, Mathieu, Philip, Roland, Samuel, Timothy, Vincent<br />
+			<span class="feature">Female Names:</span>Adeline, Alexia, Aren, Belle, Carena, Ciara, Dessire, Elain, Freyda, Gabrielle, Grace, Hester, Lexi, Maelle, Michelle, Nessa, Olivia, Pyn, Rianne, Saly, Sara, Taern, Veronica, Ysabeth, Zeli<br />
+			<span class="feature">Family Names:</span>Ashton, Beaufort, Celata, Dufont, Edette, Franc, Galien, LaRouche, Merchad, Panoit, Ronise, Serene, Talbot, Varin, Zurric<br />
+			</p>
+			<h4>BRETON TRAITS</h4>
+			<p>Your Breton character has certain characteristics in common with other Bretons.</p>
+			<p class="indent"><strong><em>Attribute Score Increase.</em></strong> Your Intelligence score increases by 2, and your Personality score increases by 1.</p>
+			<p class="indent"><strong><em>Age.</em></strong> Your elven lineage allows you to live slightly longer than your human counterparts. Your average lifespan is 150 years.</p>
+			<p class="indent"><strong><em>Alignment.</em></strong> Bretons tend towards neutral good. Their feudal governments lend them a mix of freedoms and laws, depending on their station in life.</p>
+			<p class="indent"><strong><em>Size.</em></strong> Bretons take after their elven bloodlines and are typically more slender than your average human. They range from 5 to 6 feet tall. Your size is medium.</p>
+			<p class="indent"><strong><em>Speed.</em></strong> Your base walking speed is 25 feet.</p>
+			<p class="indent"><strong><em>Breton Ancestry.</em></strong> You gain proficiency in Willpower saving throws and the Arcana skill. You also know one cantrip of your choice from the mage spell list. Intelligence is your spellcasting attribute for it.</p>
+			<p class="indent"><strong><em>Conjure Familiar.</em></strong> You know the spell Find Familiar and can cast it once with this trait. You regain the ability to cast it again when you finish a long rest.</p>
+			<p class="indent"><strong><em>Dragon Skin.</em></strong> Your skin thickens to become that of a dragon's when harmed. When you are hit by an attack or targeted by the Magic Missile spell, you can use your reaction to cast the Shield spell.</p>
+			<p class="indent">Once you use this trait, you must finish a short or long rest before you can use it again.</p>
+			<p class="indent"><strong><em>Magic Resistance.</em></strong> You have a natural ability to ward off the hazardous effects of magic. Whenever you are affected by a spell that deals damage, the total damage is reduced by an amount equal to your proficiency modifier.</p>
+			<p class="indent"><strong><em>Tool Profeciency.</em></strong> You have proficiency with artisan's tools (alchemist supplies).</p>
+			<p class="indent"><strong><em>Languages.</em></strong> You can speak, read, and write Tamrielic and one other standard language of your choice.</p>
+		</description>
+		<sheet display="false" />
+		<setters>
+			<set name="names" type="male">Andre, Barnard, Blaise, Brandon, Clinton, Colin, Davide, Delacourt, Emmanual, Francois, Gregory, Hannibal, Jean, Louis, Marc, Mathieu, Philip, Roland, Samuel, Timothy, Vincent</set>
+			<set name="names" type="female">Adeline, Alexia, Aren, Belle, Carena, Ciara, Dessire, Elain, Freyda, Gabrielle, Grace, Hester, Lexi, Maelle, Michelle, Nessa, Olivia, Pyn, Rianne, Saly, Sara, Taern, Veronica, Ysabeth, Zeli</set>
+			<set name="names" type="male">Ashton, Beaufort, Celata, Dufont, Edette, Franc, Galien, LaRouche, Merchad, Panoit, Ronise, Serene, Talbot, Varin, Zurric</set>
+			<set name="names-format">{{name}} {{family}}</set>
+			<set name="height" modifier="2d8">4'8"</set>
+			<set name="weight" modifier="2d4">90 lb.</set>
+		</setters>
+		<rules>
+			<stat name="intelligence" value="2" />
+			<stat name="charisma" value="1" />
+			<stat name="innate speed" value="25" bonus="base" />
+			<grant type="Size" id="ID_SIZE_MEDIUM" />
+			<grant type="Language" id="ID_UESTRPG_LANGUAGE_TAMRIELIC" />
+			<grant type="Racial Trait" id="ID_UESTRPG_RACIAL_TRAIT_BRETON_ANCESTRY" />
+			<grant type="Racial Trait" id="ID_UESTRPG_RACIAL_TRAIT_CONJURE_FAMILIAR" />
+			<grant type="Racial Trait" id="ID_UESTRPG_RACIAL_TRAIT_DRAGON_SKIN" />
+			<grant type="Racial Trait" id="ID_UESTRPG_RACIAL_TRAIT_MAGIC_RESISTANCE" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_ALCHEMISTS_SUPPLIES" />
+			<select type="Language" name="Language (Breton)" number="1" supports="Standard" />
+			<select type="Archetype" name="Birthsign" supports="Birthsign" />
+		</rules>
+	</element>
+
+<!-- RACIAL TRAITS -->
+
+    <element name="Breton Ancestry" type="Racial Trait" source="UESTRPG" id="ID_UESTRPG_RACIAL_TRAIT_BRETON_ANCESTRY">
+        <description>
+            <p>You gain proficiency in Willpower saving throws and the Arcana skill. You also know one cantrip of your choice from the mage spell list. Intelligence is your spellcasting attribute for it.</p>
+		</description>
+        <sheet>
+            <description>You gain proficiency in Willpower saving throws and the Arcana skill.</description>
+        </sheet>
+		<spellcasting name="Breton" ability="Intelligence" prepare="false">
+			<list>Breton</list>
+		</spellcasting>
+		<rules>
+            <grant type="Proficiency" name="Wisdom Saving Throw Proficiency (Breton Ancestry)" id="ID_PROFICIENCY_SAVINGTHROW_WISDOM" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_ARCANA" />
+			<select type="Spell" name="Cantrip (Breton Ancestry)" supports="$(spellcasting:list), 0, Mage" level="1" number="1" spellcasting="Breton" />
+		</rules>
+    </element>
+
+    <element name="Conjure Familiar" type="Racial Trait" source="UESTRPG" id="ID_UESTRPG_RACIAL_TRAIT_CONJURE_FAMILIAR">
+		<description>
+			<p>You know the spell Find Familiar and can cast it once with this trait. You regain the ability to cast it again when you finish a long rest.</p>
+		</description>
+		<sheet action="Action" usage="1/Long Rest">
+			<description>You can cast Find Familiar without expending magicka points.
+			</description>
+		</sheet>
+		<rules>
+			<grant type="spell" id="ID_PHB_SPELL_FIND_FAMILIAR"/>
+		</rules>
+	</element>
+
+    <element name="Dragon Skin" type="Racial Trait" source="UESTRPG" id="ID_UESTRPG_RACIAL_TRAIT_DRAGON_SKIN">
+		<description>
+			<p>Your skin thickens to become that of a dragon's when harmed. When you are hit by an attack or targeted by the Magic Missile spell, you can use your reaction to cast the Shield spell. Once you use this trait, you must finish a short or long rest before you can use it again.</p>
+		</description>
+		<sheet action="Reaction" usage="1/Short Rest">
+			<description>When you are hit by an attack or targeted by the Magic Missile spell, you can use your reaction to cast the Shield spell.
+			</description>
+		</sheet>
+		<rules>
+			<grant type="spell" id="ID_PHB_SPELL_SHIELD"/>
+		</rules>
+	</element>
+
+    <element name="Magic Resistance" type="Racial Trait" source="UESTRPG" id="ID_UESTRPG_RACIAL_TRAIT_MAGIC_RESISTANCE">
+		<description>
+			<p>You have a natural ability to ward off the hazardous effects of magic. Whenever you are affected by a spell that deals damage, the total damage is reduced by an amount equal to your proficiency modifier.</p>
+		</description>
+		<sheet>
+			<description>Whenever you are affected by a spell that deals damage, the total damage is reduced by {{breton:magic resistance}}.
+			</description>
+		</sheet>
+		<rules>
+			<stat name="breton:magic resistance" value="proficiency" />
+		</rules>
+	</element>
+
+</elements>

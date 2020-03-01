@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Languages</name>
+		<update version="0.0.1">
+			<file name="languages.xml" url="" />
+		</update>
+	</info>
+	<!-- NOTES Assign proper setters to tamrielic and other standard languages -->
+
+
+	<!-- standard -->
+	<element name="Altmeris" type="Language" source="UESTRPG" id="ID_UESTRPG_LANGUAGE_ALTMERIS">
+		<supports>Standard</supports>
+		<description>
+			<p>Typically spoken by Altmer.</p>
+		</description>
+		<setters>
+			<set name="standard">true</set>
+			<set name="speakers">Altmer</set>
+			<set name="script">Aldmeri</set>
+		</setters>
+	</element>
+	<element name="Bosmeri" type="Language" source="UESTRPG" id="ID_UESTRPG_LANGUAGE_BOSMERI">
+		<supports>Standard</supports>
+		<description>
+			<p>Typically spoken by Bosmer.</p>
+		</description>
+		<setters>
+			<set name="standard">true</set>
+			<set name="speakers">Bosmer</set>
+			<set name="script">Aldmeri</set>
+		</setters>
+	</element>
+	<element name="Dunmeri" type="Language" source="UESTRPG" id="ID_UESTRPG_LANGUAGE_DUNMERI">
+		<supports>Standard</supports>
+		<description>
+			<p>Typically spoken by Dunmer.</p>
+		</description>
+		<setters>
+			<set name="standard">true</set>
+			<set name="speakers">Dunmer</set>
+			<set name="script">Daedric</set>
+		</setters>
+	</element>
+	<element name="Jel" type="Language" source="UESTRPG" id="ID_UESTRPG_LANGUAGE_JEL">
+		<supports>Standard</supports>
+		<description>
+			<p>Typically spoken by Argonians.</p>
+		</description>
+		<setters>
+			<set name="standard">true</set>
+			<set name="speakers">Argonians</set>
+			<set name="script">Jel</set>
+		</setters>
+	</element>
+	<element name="Nordic" type="Language" source="UESTRPG" id="ID_UESTRPG_LANGUAGE_NORDIC">
+		<supports>Standard</supports>
+		<description>
+			<p>Typically spoken by Nords.</p>
+		</description>
+		<setters>
+			<set name="standard">true</set>
+			<set name="speakers">Nords</set>
+			<set name="script">Standard</set>
+		</setters>
+	</element>
+	<element name="Orcish" type="Language" source="UESTRPG" id="ID_UESTRPG_LANGUAGE_ORCISH">
+		<supports>Standard</supports>
+		<description>
+			<p>Typically spoken by Orcs.</p>
+		</description>
+		<setters>
+			<set name="standard">true</set>
+			<set name="speakers">Orcs</set>
+			<set name="script">Orcish</set>
+		</setters>
+	</element>
+	<element name="Ta'agra" type="Language" source="UESTRPG" id="ID_UESTRPG_LANGUAGE_TAAGRA">
+		<supports>Standard</supports>
+		<description>
+			<p>Typically spoken by Khajiit.</p>
+		</description>
+		<setters>
+			<set name="standard">true</set>
+			<set name="speakers">Khajiit</set>
+			<set name="script">Ta'agra</set>
+		</setters>
+	</element>
+	<element name="Tamrielic" type="Language" source="UESTRPG" id="ID_UESTRPG_LANGUAGE_TAMRIELIC">
+		<supports>Standard</supports>
+		<description>
+			<p>Typically spoken by Man and Mer.</p>
+		</description>
+		<setters>
+			<set name="standard">true</set>
+			<set name="speakers">Man, Mer</set>
+            <!-- need proper setters-->
+			<set name="script">Aldmeri</set>
+		</setters>
+	</element>
+	<element name="Yoku" type="Language" source="UESTRPG" id="ID_UESTRPG_LANGUAGE_YOKU">
+		<supports>Standard</supports>
+		<description>
+			<p>Typically spoken by Redguards.</p>
+		</description>
+		<setters>
+			<set name="standard">true</set>
+			<set name="speakers">Redguards</set>
+			<set name="script">Yokudan</set>
+		</setters>
+	</element>
+
+
+
+
+	<!-- rare -->
+	<element name="Akaviri" type="Language" source="UESTRPG" id="ID_UESTRPG_LANGUAGE_AKAVIRI">
+		<supports>Rare</supports>
+		<description>
+			<p>Typically spoken by Akavir.</p>
+		</description>
+		<setters>
+			<set name="rare">true</set>
+			<set name="speakers">Akavir</set>
+			<set name="script">Akaviri</set>
+		</setters>
+	</element>
+	<element name="Aldmeris" type="Language" source="UESTRPG" id="ID_UESTRPG_LANGUAGE_ALDMERIS">
+		<supports>Rare</supports>
+		<description>
+			<p>Typically spoken by Aldmer, the ancient elves.</p>
+		</description>
+		<setters>
+			<set name="rare">true</set>
+			<set name="speakers">Aldmer</set>
+			<set name="script">Aldmteri</set>
+		</setters>
+	</element>
+	<element name="Aleidoon" type="Language" source="UESTRPG" id="ID_UESTRPG_LANGUAGE_AYLEIDOON">
+		<supports>Rare</supports>
+		<description>
+			<p>Typically spoken by Ayleid.</p>
+		</description>
+		<setters>
+			<set name="rare">true</set>
+			<set name="speakers">Ayleid</set>
+			<set name="script">Aldmeri</set>
+		</setters>
+	</element>
+	<element name="Chimeris" type="Language" source="UESTRPG" id="ID_UESTRPG_LANGUAGE_CHIMERIS">
+		<supports>Rare</supports>
+		<description>
+			<p>Typically spoken by Old Dunmer.</p>
+		</description>
+		<setters>
+			<set name="rare">true</set>
+			<set name="speakers">Old Dunmer</set>
+			<set name="script">Aldmeri</set>
+		</setters>
+	</element>
+	<element name="Daedric" type="Language" source="UESTRPG" id="ID_UESTRPG_LANGUAGE_DAEDRIC">
+		<supports>Rare</supports>
+		<description>
+			<p>Typically spoken by Daedra.</p>
+		</description>
+		<setters>
+			<set name="rare">true</set>
+			<set name="speakers">Daedra</set>
+			<set name="script">Daedric</set>
+		</setters>
+	</element>
+	<element name="Dovahzul" type="Language" source="UESTRPG" id="ID_UESTRPG_LANGUAGE_DOVAHZUL">
+		<supports>Rare</supports>
+		<description>
+			<p>Typically spoken by Dragons, Tongues</p>
+		</description>
+		<setters>
+			<set name="rare">true</set>
+			<set name="speakers">Dragons</set>
+			<set name="script">Dragonish</set>
+		</setters>
+	</element>
+	<element name="Dwemeris" type="Language" source="UESTRPG" id="ID_UESTRPG_LANGUAGE_DWEMERIS">
+		<supports>Rare</supports>
+		<description>
+			<p>Typically spoken by Dwemer.</p>
+		</description>
+		<setters>
+			<set name="rare">true</set>
+			<set name="speakers">Dwemer</set>
+			<set name="script">Aldmeri</set>
+		</setters>
+	</element>
+	<element name="Falmeris" type="Language" source="UESTRPG" id="ID_UESTRPG_LANGUAGE_FALMERIS">
+		<supports>Rare</supports>
+		<description>
+			<p>Typically spoken by Falmer.</p>
+		</description>
+		<setters>
+			<set name="rare">true</set>
+			<set name="speakers">Falmer</set>
+			<set name="script">Aldmeri</set>
+		</setters>
+	</element>
+	<element name="Hist" type="Language" source="UESTRPG" id="ID_UESTRPG_LANGUAGE_HIST">
+		<supports>Rare</supports>
+		<description>
+			<p>Typically spoken by Hist.</p>
+		</description>
+		<setters>
+			<set name="rare">true</set>
+			<set name="speakers">Hist</set>
+		</setters>
+	</element>
+	<element name="Nedic" type="Language" source="UESTRPG" id="ID_UESTRPG_LANGUAGE_NEDIC">
+		<supports>Rare</supports>
+		<description>
+			<p>Language of the Old Nords.</p>
+		</description>
+		<setters>
+			<set name="rare">true</set>
+			<set name="speakers">Old Nords</set>
+			<set name="script">Nedic</set>
+		</setters>
+	</element>
+	<element name="Bretic" type="Language" source="UESTRPG" id="ID_UESTRPG_LANGUAGE_BRETIC">
+		<supports>Rare</supports>
+		<description>
+			<p>Language of the Ancient Bretons</p>
+		</description>
+		<setters>
+			<set name="rare">true</set>
+			<set name="speakers">Ancient Bretons</set>
+			<set name="script">Bretic</set>
+		</setters>
+	</element>
+	<element name="Pyandonean" type="Language" source="UESTRPG" id="ID_UESTRPG_LANGUAGE_PYANDONEAN">
+		<supports>Rare</supports>
+		<description>
+			<p>Typically spoken by Maormer.</p>
+		</description>
+		<setters>
+			<set name="rare">true</set>
+			<set name="speakers">Maormer</set>
+			<set name="script">Pyandonean</set>
+		</setters>
+	</element>
+	<element name="Sload" type="Language" source="UESTRPG" id="ID_UESTRPG_LANGUAGE_SLOAD">
+		<supports>Rare</supports>
+		<description>
+			<p>Typically spoken by Sload.</p>
+		</description>
+		<setters>
+			<set name="rare">true</set>
+			<set name="speakers">Sload</set>
+			<set name="script">Sload</set>
+		</setters>
+	</element>
+	<element name="Tsaesci" type="Language" source="UESTRPG" id="ID_UESTRPG_LANGUAGE_TSAESCI">
+		<supports>Rare</supports>
+		<description>
+			<p>Typically spoken by Tsaesci.</p>
+		</description>
+		<setters>
+			<set name="rare">true</set>
+			<set name="speakers">Tsaesci</set>
+			<set name="script">Akaviri</set>
+		</setters>
+	</element>
+    <!-- NOT ADDED:
+    Dugutach
+    Ehlnofex
+    Kothir
+    Colovian
+    Nibenian-->
+
+
+
+	<!-- Beast Languages:
+    Centurian
+    Faerie
+    Giantish
+    Goblin
+    Harpy
+    Impish
+    Nymph
+    Spriggan
+    -->
+</elements>

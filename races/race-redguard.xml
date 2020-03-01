@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Redguard</name>
+		<description></description>
+		<author url="https://uestrpg.wixsite.com/home/downloads">Unofficial Elder Scrolls Tabletop RPG</author>
+		<update version="1.4.0">
+			<file name="race-template.xml" url="" />
+		</update>
+	</info>
+
+	<element name="Redugard" type="Race" source="UESTRPG" id="ID_UESTRPG_RACE_REDGUARD">
+		<description>
+			<p class="flavor">Standing broad-shouldered and tall, with dark skin and wiry hair, they are seemingly born with a sword in their hand. I spoke with a few of them and found them formal, obsessed with personal honor, and quite aloof. The redguards were people from another continent, and it seemed they'd brought as much of Yokuda to Tamriel as they could manage.</p>
+			<p class="indent">-Flaccus Terentius, The Improved Emperor's Guide to Tamriel</p>
+			<h4>PARAGONS OF WAR</h4>
+			<p>The most naturally talented warriors in Tamriel, the dark-skinned, wiry-haired Redguards of Hammerfell seem born to battle, though their pride and fierce independence of spirit makes them more suitable as scouts or skirmishers, or as free-ranging heroes and adventurers, than as rank-and-file soldiers. In addition to their cultural affinities for many weapon and armor styles, Redguards are also physically blessed with hardy constitutions and quickness of foot.</p>
+			<p class="indent">Custom and dress differ by district; the Redguards of Elinhir are Colovian in fashion and taste, while some in Rihad go naked in the streets. In demeanor, they are haughty and easily provoked, and, obsessed with personal honor.</p>
+			<p class="indent">There is no standing army in Hammerfell, only paid militias of the oft-contested border-states and along its coastline. Ancient tradition has predisposed the Redguards to knightly order, though, customarily in the service of royal families. Initiates of these orders must prove themselves in dangerous, even deadly, tests of skill.</p>
+			<h4>THE LOST CONTINENT</h4>
+			<p>More than three thousand years ago, the continent of Yokuda suffered a cataclysm that sunk most of it into the sea, driving its people towards Tamriel. A large group of the Yokudans, called the Ra Gada, forged forward in a bloody wave, quickly slaughtering the beastfolk and Nedic villagers, paving safe travel for the Yokudans that stayed behind. The fierce Ra Gada became, phonetically, the Redguards, a name that has since spread to designate the Tamrielic-Yokudan race in general.</p>
+			<p class="indent">They ultimately displaced the Nedic peoples, as their agriculture and society quickly adapted to Hammerfell's harsh environment. They took much from Nedic customs, religion, and language for themselves and their contact with the surrounding Bretons and Colovians hastened their assimilation into Tamrielic culture.</p>
+			<h4>REGUARD NAMES</h4>
+			<p>Redguards have only their given name. Through marriage, they sometimes will take the family name.</p>
+			<p>
+			<span class="feature">Male Names:</span>Amir, Azzada, Baurus, Cyrus, Daron, Ennis, Falion, Garry, Hillod, Ian, Jawana, Kayd, Lesley, Nazir, Neville, Pyke, Roderick, Shamar, Talib, Wayn<br />
+			<span class="feature">Female Names:</span>Anora, Braith, Caminda, Dahlia, Eriana, Gwen, Hussonia, Iman, Jamie, Kerah, Kiara, Lette, Minerva, Niyya, Oleta, Rona, Shelley, Tavia, Umana, Zaria<br />
+			</p>
+			<h4>REGUARD TRAITS</h4>
+			<p>Your Redguard character has certain characteristics in common with other Redguards.</p>
+			<p class="indent"><strong><em>Attribute Score Increase.</em></strong> Your Agility, Endurance, and Strength scores increase by 1.</p>
+			<p class="indent"><strong><em>Age.</em></strong> Redguards age as the rest of the the human races, rarely living over a century.</p>
+			<p class="indent"><strong><em>Alignment.</em></strong> Redguards mostly follow the good alignments. Many of the people of Hammerfell strictly follow their laws, while nearly an equal amount disregard them entirely.</p>
+			<p class="indent"><strong><em>Size.</em></strong> Redguards are strong and tall, often over 6 feet tall. Your size is Medium.</p>
+			<p class="indent"><strong><em>Speed.</em></strong> Your base walking speed is 30 feet.</p>
+			<p class="indent"><strong><em>Adrenaline Rush.</em></strong> When you use this trait, your combat awareness increases for the next minute. You gain a +10 bonus to your initiative, your speed is increased by 10 feet, and you can add a d4 to all of your attack and damage rolls. Additionally, at the start of combat, when you roll initiative, you can use your reaction to immediately use this trait. You can't use this trait again until you finish a long rest.</p>
+			<p class="indent"><strong><em>Redguard Combat Training.</em></strong> You are proficient in Long Blade and Short Blade.</p>
+			<p class="indent"><strong><em>Yokudan Lineage.</em></strong> Thanks to your Yokudan heritage, you have advantage on saving throws against being diseased.</p>
+			<p class="indent"><strong><em>Skill Profeciency.</em></strong> You gain proficiency in the Athletics skill.</p>
+			<p class="indent"><strong><em>Languages.</em></strong> You can speak, read, and write Tamrielic and Yoku. Yoku is a direct language which is incredibly reliant on context. Similar to Redguards themselves, their language is straightforward and doesn't concern itself with unnecessary things.</p>
+		</description>
+		<sheet display="false" />
+		<setters>
+			<set name="names" type="male">Amir, Azzada, Baurus, Cyrus, Daron, Ennis, Falion, Garry, Hillod, Ian, Jawana, Kayd, Lesley, Nazir, Neville, Pyke, Roderick, Shamar, Talib, Wayn</set>
+			<set name="names" type="female">Anora, Braith, Caminda, Dahlia, Eriana, Gwen, Hussonia, Iman, Jamie, Kerah, Kiara, Lette, Minerva, Niyya, Oleta, Rona, Shelley, Tavia, Umana, Zaria</set>
+			<set name="names-format">{{name}} </set>
+			<set name="height" modifier="2d8">5'10"</set>
+			<set name="weight" modifier="1d4">110 lb.</set>
+		</setters>
+		<rules>
+			<stat name="intelligence" value="2" />
+			<stat name="wisdom" value="1" />
+			<stat name="innate speed" value="30" bonus="base" />
+			<grant type="Size" id="ID_SIZE_MEDIUM" />
+			<grant type="Language" id="ID_UESTRPG_LANGUAGE_YOKU" />
+			<grant type="Language" id="ID_UESTRPG_LANGUAGE_TAMRIELIC" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_ATHLETICS" />
+			<grant type="Racial Trait" id="ID_UESTRPG_RACIAL_TRAIT_ADRENALINE_RUSH" />
+			<grant type="Racial Trait" id="ID_UESTRPG_RACIAL_TRAIT_REDGUARD_COMBAT_TRAINING" />
+			<grant type="Racial Trait" id="ID_UESTRPG_RACIAL_TRAIT_YOKUDAN_LINEAGE" />
+			<select type="Archetype" name="Birthsign" supports="Birthsign" />
+		</rules>
+	</element>
+
+<!-- RACIAL TRAITS -->
+
+	<element name="Adrenaline Rush" type="Racial Trait" source="UESTRPG" id="ID_UESTRPG_RACIAL_TRAIT_ADRENALINE_RUSH">
+		<description>
+			<p>When you use this trait, your combat awareness increases for the next minute. You gain a +10 bonus to your initiative, your speed is increased by 10 feet, and you can add a d4 to all of your attack and damage rolls. Additionally, at the start of combat, when you roll initiative, you can use your reaction to immediately use this trait. You can't use this trait again until you finish a long rest.</p>
+		</description>
+		<sheet action="Action/Reaction" usage="1/Long Rest">
+			<description>When you use this trait, your combat awareness increases for the next minute. You gain a +10 bonus to your initiative, your speed is increased by 10 feet, and you can add a d4 to all of your attack and damage rolls. Additionally, at the start of combat, when you roll initiative, you can use your reaction to immediately use this trait.</description>
+		</sheet>
+	</element>
+
+	<element name="Reguard Combat Training" type="Racial Trait" source="UESTRPG" id="ID_UESTRPG_RACIAL_TRAIT_REDGUARD_COMBAT_TRAINING">
+		<description>
+			<p>You are proficient in Long Blade and Short Blade.</p>
+		</description>
+		<sheet>
+			<description>You are proficient in Long Blades and Short Blades.</description>
+		</sheet>
+		<rules>
+			<grant type="Proficiency" id="ID_UESTRPG_TRAIT_LONG_BLADE_PROFICIENCY" />
+			<grant type="Proficiency	" id="ID_UESTRPG_TRAIT_SHORT_BLADE_PROFICIENCY" />
+		</rules>
+	</element>
+
+	<element name="Yokudan Lineage" type="Racial Trait" source="UESTRPG" id="ID_UESTRPG_RACIAL_TRAIT_YOKUDAN_LINEAGE">
+		<description>
+			<p>Thanks to your Yokudan heritage, you have advantage on saving throws against being diseased.</p>
+		</description>
+		<sheet>
+			<description>Thanks to your Yokudan heritage, you have advantage on saving throws against being diseased.</description>
+		</sheet>
+	</element>
+
+</elements>

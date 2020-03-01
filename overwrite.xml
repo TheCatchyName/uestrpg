@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Overwrite</name>
+		<description></description>
+		<author url="https://uestrpg.wixsite.com/home/downloads">Unofficial Elder Scrolls Tabletop RPG</author>
+		<update version="0.0.1">
+			<file name="overwrite.xml" url="" />
+		</update>
+	</info>
+
+	<element name="Enable WOTC" type="Option" source="UESTRPG" id="ID_UESTRPG_OPTION_ENABLE_WOTC_CONTENT">
+		<description>
+			<p>Enables all WOTC Content (not recommended!)</p>
+		</description>
+		<sheet>
+			<description>Enables all WOTC Content (not recommended!)</description>
+		</sheet>
+	</element>
+
+	<element name="Enable WOTC Feats" type="Option" source="UESTRPG" id="ID_UESTRPG_OPTION_ENABLE_WOTC_FEATS">
+		<description>
+			<p>Enables WOTC Feats</p>
+		</description>
+		<sheet>
+			<description>Enables WOTC Feats</description>
+		</sheet>
+	</element>
+
+</elements>

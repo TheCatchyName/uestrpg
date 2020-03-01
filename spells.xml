@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+  	<info>
+		<name>Spells</name>
+		<description>Spells from the Player’s Handbook.</description>
+		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/rpg_playershandbook">Wizards of the Coast</author>
+		<update version="0.4">
+		<file name="spells.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/core/players-handbook/spells.xml" />
+		</update>
+	</info>
+
+	<element name="Magicka" type="Feat" source="UESTRPG" id="ID_UESTRPG_MAGICKA">
+		<requirements>[magicka:1]</requirements>
+		<description>
+			<p>Magicka replaces Spell Slots in DND</p>
+		</description>
+		<sheet>
+			<description>You have {{magicka}} total magicka, which replenishes at the end of a long rest. Current magicka:_____
+			</description>
+		</sheet>
+	</element>
+
+	<element name="Test Cantrip (Mage)" type="Spell" source="UESTRPG" id="ID_UESTRPG_SPELL_TEST_CANTRIP">
+		<supports>Mage</supports>
+		<description>
+		<p>Test cantrip description</p>
+		</description>
+		<setters>
+		<set name="keywords">acid</set>
+		<set name="level">0</set>
+		<set name="school">Conjuration</set>
+		<set name="time">1 action</set>
+		<set name="duration">Instantaneous</set>
+		<set name="range">60 feet</set>
+		<set name="hasVerbalComponent">true</set>
+		<set name="hasSomaticComponent">true</set>
+		<set name="hasMaterialComponent">false</set>
+		<set name="materialComponent" />
+		<set name="isConcentration">false</set>
+		<set name="isRitual">false</set>
+		</setters>
+  	</element>
+
+	<element name="Test Spell 2 level 2" type="Spell" source="UESTRPG" id="ID_UESTRPG_SPELL_TEST_SPELL_2">
+		<supports>Mage</supports>
+		<description>
+		<p>Test spell description</p>
+		</description>
+		<setters>
+		<set name="keywords">acid</set>
+		<set name="level">2</set>
+		<set name="school">Conjuration</set>
+		<set name="time">1 action</set>
+		<set name="duration">Instantaneous</set>
+		<set name="range">60 feet</set>
+		<set name="hasVerbalComponent">true</set>
+		<set name="hasSomaticComponent">true</set>
+		<set name="hasMaterialComponent">false</set>
+		<set name="materialComponent" />
+		<set name="isConcentration">false</set>
+		<set name="isRitual">false</set>
+		</setters>
+  	</element>
+
+	<element name="Test Spell 1 level 1" type="Spell" source="UESTRPG" id="ID_UESTRPG_SPELL_TEST_SPELL_1">
+		<supports>Mage</supports>
+		<description>
+		<p>Test spell description</p>
+		</description>
+		<setters>
+		<set name="keywords">acid</set>
+		<set name="level">1</set>
+		<set name="school">Conjuration</set>
+		<set name="time">1 action</set>
+		<set name="duration">Instantaneous</set>
+		<set name="range">60 feet</set>
+		<set name="hasVerbalComponent">true</set>
+		<set name="hasSomaticComponent">true</set>
+		<set name="hasMaterialComponent">false</set>
+		<set name="materialComponent" />
+		<set name="isConcentration">false</set>
+		<set name="isRitual">false</set>
+		</setters>
+  	</element>
+
+<!-- SHOUTS -->
+
+<!-- 1st Level -->
+
+	<element name="Clear Skies" type="Spell" source="UESTRPG" id="ID_UESTRPG_SHOUT_CLEAR_SKIES">
+		<supports>War Crier</supports>
+		<description>
+			<p><em>Lok Vah Koor</em> | 1 Shout Point</p>
+			<p>Your voice clears out all thick clouds, overcast sky, poisonous fog, or impeding haze, that is within 1 mile of you.</p>
+		</description>
+		<setters>
+			<set name="keywords"></set>
+			<set name="level">1</set>
+			<set name="school">Shout</set>
+			<set name="time">1 action</set>
+			<set name="range">1 mile</set>
+			<set name="duration">Instantaneous</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">false</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent" />
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+
+	<element name="Blinding Winds" type="Spell" source="UESTRPG" id="ID_UESTRPG_SHOUT_BLINDING_WINDS">
+		<supports>War Crier</supports>
+		<description>
+			<p><em>Ven Fus Vokun</em> | 1 Shout Point</p>
+			<p>Your voice creates a powerful wind storm in a 60-foot radius, centered on you. The wind blows in all directions, causing dust and refuse to heavily obscure the area.</p>
+			<p>Additionally, the area is considered difficult terrain, and any projectile that is within or enters the area, has disadvantage on hitting its target.</p>
+      		<p>The winds lasts up to 1 minute, as though ou were concentrating on a spell. You can use a bonus action on your turn to disperse the winds.</p>	
+		</description>
+		<setters>
+			<set name="keywords"></set>
+			<set name="level">1</set>
+			<set name="school">Shout</set>
+			<set name="time">1 action</set>
+			<set name="range">Self (60-foot radius)</set>
+			<set name="duration">1 minute</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">false</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent" />
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+
+	<element name="Unrelenting Force" type="Spell" source="UESTRPG" id="ID_UESTRPG_SHOUT_UNRELENTING_FORCE">
+		<supports>War Crier</supports>
+		<description>
+			<p><em>Fus Ro Dah</em> | 1 Shout Point</p>
+			<p>Your voice sweeps out as a wave of thunderous force. Each creature in a 15-foot cube originating from you must make a Endurance saving throw. On a failed save, a creature takes 2d8 thunder damage and is pushed 10 feet away from you. On a successful save, the creature takes half as much damage and isn’t pushed. In addition, unsecured objects that are completely within the area of effect are automatically pushed 10 feet away from you by the shout's effect, and the shout emits a thunderous boom audible out to 300 feet.</p>
+			<p class="indent"><b><i>At Higher Levels.</i></b> The damage increases by 1d8 for each additional shout point you spend.</p>
+		</description>
+		<setters>
+			<set name="keywords">thunder</set>
+			<set name="level">1</set>
+			<set name="school">Shout</set>
+			<set name="time">1 action</set>
+			<set name="duration">Instantaneous</set>
+			<set name="range">Self (15-foot cube)</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">false</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent" />
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+
+	<element name="Whirlwind Sprint" type="Spell" source="UESTRPG" id="ID_UESTRPG_SHOUT_WHIRLWIND_SPRINT">
+		<supports>War Crier</supports>
+		<description>
+			<p><em>Wuld Nah Kest</em> | 1 Shout Point</p>
+			<p>You can use a bonus action and spend 1 shout point to double your speed for one turn. While you are under these effects, any opportunity attacks against you are made with disadvantage.</p>
+		</description>
+		<setters>
+			<set name="keywords"></set>
+			<set name="level">1</set>
+			<set name="school">Shout</set>
+			<set name="time">1 bonus action</set>
+			<set name="duration">Instantaneous</set>
+			<set name="range">Self</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">false</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent" />
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+
+<!-- 2nd level -->
+
+	<element name="Animal Allegiance" type="Spell" source="UESTRPG" id="ID_UESTRPG_SHOUT_ANIMAL_ALLEGIANCE">
+		<supports>War Crier</supports>
+		<description>
+			<p><em>Raan Mir Tah</em> | 1 Shout Point</p>
+			<p>This shout lets you convince a beast that you mean it no harm. Choose a beast that you can see within range. It must see and hear you. If the beast’s Intelligence is 4 or higher, the spell fails. Otherwise, the beast must succeed on a Wisdom saving throw or be charmed by you for the shout's duration. If you or one of your companions harms the target, the effect ends.</p>
+			<p class="indent"><b><i>At Higher Levels.</i></b> You can affect one additional beast for each additional shout point.</p>
+    	</description>
+		<setters>
+			<set name="keywords"></set>
+			<set name="level">2</set>
+			<set name="school">Shout</set>
+			<set name="time">1 action</set>
+			<set name="duration">24 hours</set>
+			<set name="range">30 feet</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">false</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent" />
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+
+	<element name="Aura Whisper" type="Spell" source="UESTRPG" id="ID_UESTRPG_SHOUT_AURA_WHISPER">
+		<supports>War Crier</supports>
+		<description>
+			<p><em>Lass Yah Nir</em> | 1 Shout Point</p>
+			<p>You can spend 1 shout point to whisper a detection spell that allows you you sense the presence of life within 30 feet of you. The spell lasts up to 10 minutes, as though you are concentrating on it.</p>
+      		<p class="indent">If you sense life in this way, you can use your action to see a faint aura around any visible creature in the area that bears life.</p>
+      		<p class="indent">The spell can penetrate most barriers, but it is blocked by 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt.</p>
+    	</description>
+		<setters>
+			<set name="keywords"></set>
+			<set name="level">2</set>
+			<set name="school">Shout</set>
+			<set name="time">1 action</set>
+			<set name="duration">10 minutes</set>
+			<set name="range">30 feet</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">false</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent" />
+			<set name="isConcentration">true</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+
+	<element name="Disarm" type="Spell" source="UESTRPG" id="ID_UESTRPG_SHOUT_DISARM">
+		<supports>War Crier</supports>
+		<description>
+			<p><em>Zun Haal Viik</em> | 2 Shout Points</p>
+			<p>You can use 2 shout points to use your voice to focus vibrations on a weapon currently being wielded by a creature within 30 feet. The creature must make a Strength saving throw. On a failed save, the creature drops their weapon. On a successful save, the creature has disadvantage on any attacks made with that weapon until the start of your next turn.</p>
+			<p class="indent">If a creature tries to pick up a dropped weapon, they must use half their speed and make a Strength saving throw. On a failed save, the creature is incapable of picking up the weapon. On a successful save, the creature is able to pick up the weapon and the effect ends.</p>
+    	</description>
+		<setters>
+			<set name="keywords"></set>
+			<set name="level">2</set>
+			<set name="school">Shout</set>
+			<set name="time">1 action</set>
+			<set name="duration">Instantaneous</set>
+			<set name="range">30 feet</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">false</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent" />
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+
+	<element name="Gale Winds" type="Spell" source="UESTRPG" id="ID_UESTRPG_SHOUT_GALE_WINDS">
+		<supports>War Crier</supports>
+		<description>
+			<p><em>Ven Mul Riik</em> | 1 Shout Point</p>
+			<p>Your voice causes a line of strong wind 60 feet long and 10 feet wide to blast from you in a direction you choose for the shout’s duration. Each creature that starts its turn in the line must succeed on a Strength saving throw or be pushed 15 feet away from you in a direction following the line.</p>
+			<p class="indent">Any creature in the line must spend 2 feet of movement for every 1 foot it moves when moving closer to you.</p>
+			<p class="indent">The gust disperses gas or vapor, and it extinguishes candles, torches, and similar unprotected flames in the area. It causes protected flames, such as those of lanterns, to dance wildly and has a 50 percent chance to extinguish them.</p>
+			<p class="indent">As a bonus action on each of your turns before the effect ends, you can change the direction in which the line blasts from you.</p>
+		</description>
+		<setters>
+			<set name="keywords"></set>
+			<set name="level">2</set>
+			<set name="school">Shout</set>
+			<set name="time">1 action</set>
+			<set name="duration">Concentration, up to 1 minute</set>
+			<set name="range">Self (60-foot line)</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">false</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent" />
+			<set name="isConcentration">true</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+
+	<element name="Marked for Death" type="Spell" source="UESTRPG" id="ID_UESTRPG_SHOUT_MARKED_FOR_DEATH">
+		<supports>War Crier</supports>
+		<description>
+			<p><em>Krii Lun Aus</em> | 1 Shout Point</p>
+			<p>You shout at a creature you can see within range and mark it as your quarry. Until the effect ends, you deal an extra 1d6 damage to the target whenever you hit it with a weapon attack, and you have advantage on any Willpower (Perception) or Willpower (Survival) check you make to find it. If the target drops to 0 hit points before the effect ends, you can use a bonus action on a subsequent turn of yours to mark a new creature.</p>
+      		<p class="indent"><b><i>At Higher Levels.</i></b> If you use 1 additional shout point, you can maintain the mark for up to 8 hours. If you use 2 additional shout points, you can maintain the mark for up to 24 hours.</p>
+    	</description>
+		<setters>
+			<set name="keywords"></set>
+			<set name="level">2</set>
+			<set name="school">Shout</set>
+			<set name="time">1 bonus action</set>
+			<set name="duration">Concentration, up to 1 hour</set>
+			<set name="range">90 feet</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">false</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent" />
+			<set name="isConcentration">true</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+
+<!-- 3rd level shouts -->
+
+	<element name="Battle Fury" type="Spell" source="UESTRPG" id="ID_UESTRPG_SHOUT_BATTLE_FURY">
+		<supports>War Crier</supports>
+		<description>
+			<p><em>Mid Vur Shaan</em> | 3 Shout Points</p>
+			<p>Your shout invigorates you. Your speed is doubled, you gain +2 bonus to AC, you have advantage on Dexterity saving throws, and you gain an additional action on each turn. That action can be used only to take the Attack (one weapon attack only), Dash, Disengage, Hide, or Use an Object action. When the effect ends, you target can’t move or take actions until after your next turn, as a wave of lethargy sweeps over you.</p>
+    	</description>
+		<setters>
+			<set name="keywords"></set>
+			<set name="level">3</set>
+			<set name="school">Shout</set>
+			<set name="time">1 action</set>
+			<set name="duration">Concentration, up to 1 minute</set>
+			<set name="range">30 feet</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">false</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent" />
+			<set name="isConcentration">true</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+
+	<element name="Call of Valor" type="Spell" source="UESTRPG" id="ID_UESTRPG_SHOUT_CALL_OF_VALOR">
+		<supports>War Crier</supports>
+		<description>
+			<p><em>Hun Kaal Zoor</em> | 1 Shout Point</p>
+			<p>A willing creature you touch is imbued with bravery. Until the effect ends, the creature is immune to being frightened and gains temporary hit points equal to your spellcasting ability modifier at the start of each of its turns. When the effect ends, the target loses any remaining temporary hit points from this shout.</p>
+			<p class="indent"><b><i>At Higher Levels.</i></b> You can target one additional creature for each additional shout point spent.</p>
+		</description>
+		<setters>
+			<set name="keywords"></set>
+			<set name="level">3</set>
+			<set name="school">Shout</set>
+			<set name="time">1 action</set>
+			<set name="duration">Concentration, up to 1 minute</set>
+			<set name="range">Touch</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">false</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent" />
+			<set name="isConcentration">true</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+
+	<element name="Cyclone" type="Spell" source="UESTRPG" id="ID_UESTRPG_SHOUT_CYCLONE">
+		<supports>War Crier</supports>
+		<description>
+			<p><em>Ven Gar Nos</em> | 2 Shout Points</p>
+			<p>Choose an unoccupied 5-foot cube of air that you can see within range. You shout creates a dust devil that appears in the cube and lasts for the shout's duration.</p>
+            <p class="indent">Any creature that ends its turn within 5 feet of the dust devil must make a Strength saving throw. On a failed save, the creature takes 1d8 bludgeoning damage and is pushed 10 feet away. On a successful save, the creature takes half as much damage and isn't pushed.</p>
+            <p class="indent">As a bonus action, you can move the dust devil up to 30 feet in any direction. If the dust devil moves over sand, dust, loose dirt, or small gravel, it sucks up the material and forms a 10-foot-radius cloud of debris around itself that lasts until the start of your next turn. The cloud heavily obscures its area.</p>
+            <p class="indent"><b><i>At Higher Levels. </i></b>The damage increases by 1d8 for each additional sohut point used.</p>	
+		</description>
+		<setters>
+			<set name="keywords"></set>
+			<set name="level">3</set>
+			<set name="school">Shout</set>
+            <set name="time">1 action</set>
+            <set name="duration">Concentration, up to 1 minute</set>
+            <set name="range">60 feet</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">false</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent" />
+			<set name="isConcentration">true</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+
+	<element name="Ice Form" type="Spell" source="UESTRPG" id="ID_UESTRPG_SHOUT_ICE_FORM">
+		<supports>War Crier</supports>
+		<description>
+			<p><em>Iiz Slen Nus</em> | 2 Shout Points</p>
+			<p>You shout in an attempt to freeze a target that you can see that is within 60 feet of you.</p>
+			<p class="indent">The target must make a Strength saving throw to resist the spell. On a failed save, the target takes 4d8 cold damage and they are encased in a shell of frost. The encased creature is immobilized and can't speak, hear, move, or make any actions. The creature takes this damage again on each subsequent turn while the effect persists.</p>
+			<p class="indent">The creature restrained by this spell must make another Strength saving throw at the start of each of their turns to try and break free. If it successfully saves against the shout three times, the effect ends. If it fails its save three times, the frost hardens and the creature is subjected to the petrified condition for the duration. The successes and failures don’t need to be consecutive; keep track of both until the target collects three of a kind.</p>
+			<p class="indent">On a successful save, the creature takes half of much damage and isn't immobilized. </p>
+			<p class="indent">While the effect is active, the frost shell has an AC of 5 and has 60 hit points. When the frost shell reaches 0 hit points, the shell breaks, ending the effect. A dispel magic spell can also reverse the effects.</p>
+		</description>
+		<setters>
+			<set name="keywords"></set>
+			<set name="level">3</set>
+			<set name="school">Shout</set>
+			<set name="time">1 action</set>
+			<set name="duration">Instantaneous</set>
+			<set name="range">60 feet</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">false</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent" />
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+
+<!-- 4th level shouts -->
+
+	<element name="Breath" type="Spell" source="UESTRPG" id="ID_UESTRPG_SHOUT_BREATH">
+		<supports>War Crier</supports>
+		<description>
+			<p><em>Yol Toor Shul/Fo Krah Diin/Reik Qo Suleyk/Vii Sah Fol</em> | 3 Shout Points</p>
+			<p>You can spend 3 shout points to exhale an element of your choice. Choose either fire, cold, lightning, or poison. Each creature in a 60-foot cone must make an Endurance saving throw. A creature takes 6d8 elemental damage on a failed save, and half as much on a successful one.</p>
+		</description>
+		<setters>
+			<set name="keywords"></set>
+			<set name="level">4</set>
+			<set name="school">Shout</set>
+			<set name="time">1 action</set>
+			<set name="duration">Instantaneous</set>
+			<set name="range">Self (60 foot cone)</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">false</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent" />
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+
+	<element name="Dismay" type="Spell" source="UESTRPG" id="ID_UESTRPG_SHOUT_DISMAY">
+		<supports>War Crier</supports>
+		<description>
+			<p><em>Faas Ru Maar</em> | 3 Shout Points</p>
+			<p>Your shout inspires a creature’s worst fears. Each creature in a 30-foot cone must succeed on a Wllpower saving throw or drop whatever it is holding and become frightened for the duration.</p>
+			<p class="indent">While frightened by this shout, a creature must take the Dash action and move away from you by the safest available route on each of its turns, unless there is nowhere to move. If the creature ends its turn in a location where it doesn’t have line of sight to you, the creature can make a Willpower saving throw. On a successful save, the effect ends for that creature.</p>
+		</description>
+		<setters>
+			<set name="keywords"></set>
+			<set name="level">4</set>
+			<set name="school">Shout</set>
+			<set name="time">1 action</set>
+			<set name="duration">Concentration, up to 1 minute</set>
+			<set name="range">Self (30-foot cone)</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">false</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent" />
+			<set name="isConcentration">true</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+
+	<element name="Dragon Aspect" type="Spell" source="UESTRPG" id="ID_UESTRPG_SHOUT_DRAGON_ASPECT">
+		<supports>War Crier</supports>
+		<description>
+			<p><em>Mul Qah Diiv</em> | 6 Shout Points</p>
+			<p>You shout and take on the aspect of a dragon for 1 minute. While in this form, your AC can't be less than 20. Additionally, each of your melee weapon attack and damage rolls increase by +2.</p>
+		</description>
+		<setters>
+			<set name="keywords"></set>
+			<set name="level">4</set>
+			<set name="school">Shout</set>
+			<set name="time">1 action</set>
+			<set name="duration">1 minute</set>
+			<set name="range">Self</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">false</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent" />
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+
+	<element name="Storm Call" type="Spell" source="UESTRPG" id="ID_UESTRPG_SHOUT_STORM_CALL">
+		<supports>War Crier</supports>
+		<description>
+			<p><em>Strun Bah Qo</em> | 3 Shout Points</p>
+			<p>Your shout riles up a storm, as clouds appears in the shape of a cylinder that is 10 feet tall with a 60-foot radius, centered on a point you can see 100 feet directly above you. The shout fails if you can’t see a point in the air where the storm cloud could appear (for example, if you are in a room that can’t accommodate the cloud). When you use this shout, choose a point you can see within range. A bolt of lightning flashes down from the cloud to that point. Each creature within 5 feet of that point must make an Agility saving throw. A creature takes 3d10 lightning damage on a failed save, or half as much damage on a successful one. On each of your turns until the effect ends, you can use your action to call down lightning in this way again, targeting the same point or a different one. If you are outdoors in stormy conditions when you cast this spell, the spell gives you control over the existing storm instead of creating a new one. Under such conditions, the spell’s damage increases by 1d10.</p>
+			<p class="indent"><b><i>At Higher Levels.</i></b> The damage increases by 1d10 for each additional shout point spent.</p>
+		</description>
+		<setters>
+			<set name="keywords"></set>
+			<set name="level">4</set>
+			<set name="school">Shout</set>
+			<set name="time">1 action</set>
+			<set name="duration">Concentration, up to 10 minutes</set>
+			<set name="range">120 feet</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">false</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent">3 shout points </set>
+			<set name="isConcentration">true</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+
+</elements>
